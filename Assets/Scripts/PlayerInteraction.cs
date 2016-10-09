@@ -23,7 +23,7 @@ public class PlayerInteraction : MonoBehaviour {
 		if (Input.GetButton ("Fire1")) {
 			float maxPos = 110;
 
-			Vector3 newPos = transform.position + mainCam.transform.forward;
+			Vector3 newPos = transform.position + mainCam.transform.forward * Time.deltaTime * 10;
 			newPos.y = getTerrain().SampleHeight (transform.position) + initialHeight;
 			newPos.x = Mathf.Min (newPos.x, maxPos);
 			newPos.x = Mathf.Max (newPos.x, -maxPos);

@@ -5,6 +5,9 @@ using System.Collections;
 public class Gazable : MonoBehaviour {
 
 	public ParticleSystem fairyLights;
+	public GameObject explosionPrefab;
+	public float gazedCount = 0;
+	private bool isExploded = false;
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +17,19 @@ public class Gazable : MonoBehaviour {
 			fairyLights = particlePrefab.GetComponent<ParticleSystem> ();
 			Debug.Log ("fairyLights: " + fairyLights);
 		}
+	}
+
+	public void Explode () {
+		if (isExploded)
+			return;
+
+		AudioSource audio = gameObject.GetComponent<AudioSource> ();
+		AudioSource.PlayClipAtPoint (audio.clip, gameObject.transform.position);
+		audio.Play ();
+		
+		GameObject explosion = Instantiate (explosionPrefab,
+			transform.position, transform.rotation) as GameObject;
+		isExploded = true;
 	}
 
 	// Update is called once per frame

@@ -26,9 +26,20 @@ public class RayScript : MonoBehaviour
 			Debug.Log ("On Gazable");
 			cachedObj = hitInfo.collider.gameObject;
 			Gazable gazableScript =	cachedObj.GetComponent<Gazable> ();
-			Debug.Log ("fairyLights: " + gazableScript.fairyLights);
 			if (!gazableScript.fairyLights.isPlaying)
-				gazableScript.fairyLights.Play ();		
+				gazableScript.fairyLights.Play ();
+			gazableScript.gazedCount += Time.deltaTime * 50;
+			Debug.Log ("gazedCount: " + gazableScript.gazedCount);
+
+			if (gazableScript.gazedCount > 60) {
+				gazableScript.Explode ();
+				gazableScript.fairyLights.Stop ();
+			} 
+
+			if (gazableScript.gazedCount > 110) {
+				Destroy (cachedObj);
+				cachedObj = null;
+			}
 		} else if (cachedObj != null) {
 			Gazable gazableScript =	cachedObj.GetComponent<Gazable> ();
 			gazableScript.fairyLights.Stop ();

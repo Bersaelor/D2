@@ -1,3 +1,6 @@
+![GearVR Screenshot](/vr_screenshot.jpg?raw=true)
+
+
 # D2
 
 #RealityVirtuallyHack 2016 at MIT labs
@@ -8,6 +11,6 @@ The main scene is the scene under â€˜Assets/NatureStarterKit2/Scene/Demo.unityâ€
 
 
 
-Also there is Android wear app (for Android watch) for measurinng heart rate. path: ./android_app
+There is also and Android wear app (for Android watch) to measure your heart rate. path: ./android_app
 
-The idea was to capture heart rate and send it to Realtime Google Analytics account to analyse game performance and heart rate relation.
+The idea was to capture the heart rate and send it to the Realtime Google Analytics account to analyse the game interaction and heart rate relation.

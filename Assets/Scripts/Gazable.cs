@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[ExecuteInEditMode]
 public class Gazable : MonoBehaviour {
 
 	public ParticleSystem fairyLights;
@@ -18,5 +19,10 @@ public class Gazable : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.Rotate(0.0f, 0.0f, 35.0f * Time.deltaTime);
+	}
+
+	void OnDrawGizmos(){
+		Gizmos.color = Color.green;
+		Gizmos.DrawWireSphere (transform.position, 20*0.04f); 
 	}
 }

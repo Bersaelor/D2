@@ -10,6 +10,6 @@ public class Gazable : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		transform.Rotate(15.0f * Time.deltaTime, 35.0f * Time.deltaTime, 0.0f);
 	}
 }

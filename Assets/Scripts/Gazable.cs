@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Gazable : MonoBehaviour {
 
+	public ParticleSystem attachedParticles;
+
 	// Use this for initialization
 	void Start () {
 	

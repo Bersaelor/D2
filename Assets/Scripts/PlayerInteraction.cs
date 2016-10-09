@@ -29,7 +29,6 @@ public class PlayerInteraction : MonoBehaviour {
 			newPos.x = Mathf.Max (newPos.x, -maxPos);
 			newPos.z = Mathf.Min (newPos.z, maxPos);
 			newPos.z = Mathf.Max (newPos.z, -maxPos);
-			Debug.Log ("newPos" + newPos);
 
 			transform.position = newPos;
 		}

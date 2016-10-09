@@ -14,20 +14,21 @@ public class RayScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		cachedObj = null;
-
 		RaycastHit hitInfo;
 		if (Physics.Raycast (Camera.main.transform.position, Camera.main.transform.forward, out hitInfo )) {
 			if (hitInfo.collider.gameObject.CompareTag ("Gazable")) {
 				//canRotate = true;
-				Debug.Log("On Gazable");
+				Debug.Log ("On Gazable");
 				cachedObj = hitInfo.collider.gameObject;
+				Gazable gazableScript =	cachedObj.GetComponent<Gazable> ();
+				Debug.Log ("fairyLights: " + gazableScript.fairyLights);
+				gazableScript.fairyLights.Play ();		
+			} else if (cachedObj != null) {
+				Gazable gazableScript =	cachedObj.GetComponent<Gazable> ();
+				gazableScript.fairyLights.Stop ();
+				cachedObj = null;
 			}
 		}
-
-		if (cachedObj != null) {
-			cachedObj.transform.Rotate(15.0f * Time.deltaTime, 15.0f * Time.deltaTime, 15.0f * Time.deltaTime);
-		}
-	
+				
 	}
 }

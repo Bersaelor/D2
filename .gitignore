@@ -22,6 +22,8 @@ ExportedObj/
 # IOS libraries
 libiPhone-lib.a
 iOS_app/Data/
+Assets/Plugins/iOS/libgvrunity.a
+iOS_app/Libraries/Plugins/iOS/libgvrunity.a
 
 # Unity3D generated meta files
 *.pidb.meta

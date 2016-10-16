@@ -28,8 +28,12 @@ extern "C"  double Math_Ceiling_m3914511415 (Il2CppObject * __this /* static, un
 extern "C"  double Math_Floor_m1625025992 (Il2CppObject * __this /* static, unused */, double ___d0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Math::Log(System.Double,System.Double)
 extern "C"  double Math_Log_m2309558476 (Il2CppObject * __this /* static, unused */, double ___a0, double ___newBase1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single System.Math::Max(System.Single,System.Single)
+extern "C"  float Math_Max_m172798965 (Il2CppObject * __this /* static, unused */, float ___val10, float ___val21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Math::Max(System.Int32,System.Int32)
 extern "C"  int32_t Math_Max_m1309380475 (Il2CppObject * __this /* static, unused */, int32_t ___val10, int32_t ___val21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single System.Math::Min(System.Single,System.Single)
+extern "C"  float Math_Min_m2866037191 (Il2CppObject * __this /* static, unused */, float ___val10, float ___val21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Math::Min(System.Int32,System.Int32)
 extern "C"  int32_t Math_Min_m811624909 (Il2CppObject * __this /* static, unused */, int32_t ___val10, int32_t ___val21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Math::Round(System.Decimal)
@@ -44,6 +48,8 @@ extern "C"  double Math_Cos_m1877789613 (Il2CppObject * __this /* static, unused
 extern "C"  double Math_Tan_m2893633107 (Il2CppObject * __this /* static, unused */, double ___a0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Math::Acos(System.Double)
 extern "C"  double Math_Acos_m971391944 (Il2CppObject * __this /* static, unused */, double ___d0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Double System.Math::Asin(System.Double)
+extern "C"  double Math_Asin_m925883479 (Il2CppObject * __this /* static, unused */, double ___d0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Math::Atan(System.Double)
 extern "C"  double Math_Atan_m1987235438 (Il2CppObject * __this /* static, unused */, double ___d0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Math::Atan2(System.Double,System.Double)

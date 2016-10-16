@@ -26,6 +26,8 @@ struct String_t;
 extern "C"  void TextReader__ctor_m3562505977 (TextReader_t2148718976 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextReader::.cctor()
 extern "C"  void TextReader__cctor_m2581406676 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.IO.TextReader::Close()
+extern "C"  void TextReader_Close_m978398223 (TextReader_t2148718976 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextReader::Dispose()
 extern "C"  void TextReader_Dispose_m377592054 (TextReader_t2148718976 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.TextReader::Dispose(System.Boolean)

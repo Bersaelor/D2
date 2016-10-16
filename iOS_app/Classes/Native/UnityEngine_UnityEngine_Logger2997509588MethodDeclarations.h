@@ -56,6 +56,8 @@ extern "C"  String_t* Logger_GetString_m3033796341 (Il2CppObject * __this /* sta
 extern "C"  void Logger_Log_m3875808634 (Logger_t2997509588 * __this, int32_t ___logType0, Il2CppObject * ___message1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Logger::Log(UnityEngine.LogType,System.Object,UnityEngine.Object)
 extern "C"  void Logger_Log_m3185878806 (Logger_t2997509588 * __this, int32_t ___logType0, Il2CppObject * ___message1, Object_t3071478659 * ___context2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Logger::LogFormat(UnityEngine.LogType,System.String,System.Object[])
+extern "C"  void Logger_LogFormat_m514906717 (Logger_t2997509588 * __this, int32_t ___logType0, String_t* ___format1, ObjectU5BU5D_t1108656482* ___args2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Logger::LogFormat(UnityEngine.LogType,UnityEngine.Object,System.String,System.Object[])
 extern "C"  void Logger_LogFormat_m4050017187 (Logger_t2997509588 * __this, int32_t ___logType0, Object_t3071478659 * ___context1, String_t* ___format2, ObjectU5BU5D_t1108656482* ___args3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Logger::LogException(System.Exception,UnityEngine.Object)

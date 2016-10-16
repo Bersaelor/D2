@@ -34,12 +34,20 @@ extern "C"  void GL_Begin_m3089952800 (Il2CppObject * __this /* static, unused *
 extern "C"  void GL_End_m2013837889 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GL::LoadOrtho()
 extern "C"  void GL_LoadOrtho_m1297524312 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::LoadPixelMatrixArgs(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void GL_LoadPixelMatrixArgs_m1248760214 (Il2CppObject * __this /* static, unused */, float ___left0, float ___right1, float ___bottom2, float ___top3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::LoadPixelMatrix(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void GL_LoadPixelMatrix_m3692194035 (Il2CppObject * __this /* static, unused */, float ___left0, float ___right1, float ___bottom2, float ___top3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GL::LoadProjectionMatrix(UnityEngine.Matrix4x4)
 extern "C"  void GL_LoadProjectionMatrix_m1743857864 (Il2CppObject * __this /* static, unused */, Matrix4x4_t1651859333  ___mat0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GL::INTERNAL_CALL_LoadProjectionMatrix(UnityEngine.Matrix4x4&)
 extern "C"  void GL_INTERNAL_CALL_LoadProjectionMatrix_m747189251 (Il2CppObject * __this /* static, unused */, Matrix4x4_t1651859333 * ___mat0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GL::LoadIdentity()
 extern "C"  void GL_LoadIdentity_m1417984576 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::MultMatrix(UnityEngine.Matrix4x4)
+extern "C"  void GL_MultMatrix_m1618741133 (Il2CppObject * __this /* static, unused */, Matrix4x4_t1651859333  ___mat0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::INTERNAL_CALL_MultMatrix(UnityEngine.Matrix4x4&)
+extern "C"  void GL_INTERNAL_CALL_MultMatrix_m1564496030 (Il2CppObject * __this /* static, unused */, Matrix4x4_t1651859333 * ___mat0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GL::PushMatrix()
 extern "C"  void GL_PushMatrix_m626765559 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GL::PopMatrix()

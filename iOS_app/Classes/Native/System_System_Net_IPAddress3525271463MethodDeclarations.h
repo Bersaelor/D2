@@ -18,6 +18,8 @@ struct IPAddress_t3525271463;
 struct UInt16U5BU5D_t801649474;
 // System.String
 struct String_t;
+// System.Byte[]
+struct ByteU5BU5D_t4260760469;
 // System.Object
 struct Il2CppObject;
 
@@ -51,6 +53,8 @@ extern "C"  IPAddress_t3525271463 * IPAddress_ParseIPV6_m3394559565 (Il2CppObjec
 extern "C"  int64_t IPAddress_get_InternalIPv4Address_m2101711253 (IPAddress_t3525271463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Net.IPAddress::get_ScopeId()
 extern "C"  int64_t IPAddress_get_ScopeId_m2224014450 (IPAddress_t3525271463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte[] System.Net.IPAddress::GetAddressBytes()
+extern "C"  ByteU5BU5D_t4260760469* IPAddress_GetAddressBytes_m3834299456 (IPAddress_t3525271463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.AddressFamily System.Net.IPAddress::get_AddressFamily()
 extern "C"  int32_t IPAddress_get_AddressFamily_m2364322247 (IPAddress_t3525271463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.IPAddress::IsLoopback(System.Net.IPAddress)

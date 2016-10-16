@@ -26,10 +26,10 @@ struct ComputeBuffer_t37359565;
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Shader3191267369.h"
 #include "UnityEngine_UnityEngine_Material3870600107.h"
-#include "mscorlib_System_String7231557.h"
 #include "UnityEngine_UnityEngine_Color4194546905.h"
-#include "UnityEngine_UnityEngine_Vector44282066567.h"
 #include "UnityEngine_UnityEngine_Texture2526458961.h"
+#include "mscorlib_System_String7231557.h"
+#include "UnityEngine_UnityEngine_Vector44282066567.h"
 #include "UnityEngine_UnityEngine_Matrix4x41651859333.h"
 #include "UnityEngine_UnityEngine_ComputeBuffer37359565.h"
 
@@ -41,8 +41,12 @@ extern "C"  void Material__ctor_m2546967560 (Material_t3870600107 * __this, Mate
 extern "C"  Shader_t3191267369 * Material_get_shader_m2881845503 (Material_t3870600107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::set_shader(UnityEngine.Shader)
 extern "C"  void Material_set_shader_m3742529604 (Material_t3870600107 * __this, Shader_t3191267369 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::set_color(UnityEngine.Color)
+extern "C"  void Material_set_color_m3296857020 (Material_t3870600107 * __this, Color_t4194546905  ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture UnityEngine.Material::get_mainTexture()
 extern "C"  Texture_t2526458961 * Material_get_mainTexture_m1012267054 (Material_t3870600107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::set_mainTexture(UnityEngine.Texture)
+extern "C"  void Material_set_mainTexture_m3116438437 (Material_t3870600107 * __this, Texture_t2526458961 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetColor(System.String,UnityEngine.Color)
 extern "C"  void Material_SetColor_m1918430019 (Material_t3870600107 * __this, String_t* ___propertyName0, Color_t4194546905  ___color1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetColor(System.Int32,UnityEngine.Color)

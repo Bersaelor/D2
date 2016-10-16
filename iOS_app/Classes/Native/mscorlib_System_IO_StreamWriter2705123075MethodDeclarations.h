@@ -38,6 +38,8 @@ extern "C"  void StreamWriter__cctor_m1403486551 (Il2CppObject * __this /* stati
 extern "C"  void StreamWriter_Initialize_m9216430 (StreamWriter_t2705123075 * __this, Encoding_t2012439129 * ___encoding0, int32_t ___bufferSize1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.StreamWriter::set_AutoFlush(System.Boolean)
 extern "C"  void StreamWriter_set_AutoFlush_m4100472995 (StreamWriter_t2705123075 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.Encoding System.IO.StreamWriter::get_Encoding()
+extern "C"  Encoding_t2012439129 * StreamWriter_get_Encoding_m1908023392 (StreamWriter_t2705123075 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.StreamWriter::Dispose(System.Boolean)
 extern "C"  void StreamWriter_Dispose_m1732965386 (StreamWriter_t2705123075 * __this, bool ___disposing0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.StreamWriter::Flush()

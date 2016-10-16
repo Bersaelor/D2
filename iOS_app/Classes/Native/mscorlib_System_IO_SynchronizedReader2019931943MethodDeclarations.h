@@ -26,6 +26,8 @@ struct CharU5BU5D_t3324145743;
 
 // System.Void System.IO.SynchronizedReader::.ctor(System.IO.TextReader)
 extern "C"  void SynchronizedReader__ctor_m2400239097 (SynchronizedReader_t2019931943 * __this, TextReader_t2148718976 * ___reader0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.IO.SynchronizedReader::Close()
+extern "C"  void SynchronizedReader_Close_m3680574280 (SynchronizedReader_t2019931943 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.SynchronizedReader::Peek()
 extern "C"  int32_t SynchronizedReader_Peek_m2840653193 (SynchronizedReader_t2019931943 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.SynchronizedReader::ReadLine()

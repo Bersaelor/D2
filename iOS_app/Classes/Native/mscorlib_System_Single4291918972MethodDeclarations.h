@@ -83,6 +83,8 @@ extern "C"  float Single_Parse_m4064562812 (Il2CppObject * __this /* static, unu
 extern "C"  String_t* Single_ToString_m5736032 (float* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Single::ToString(System.IFormatProvider)
 extern "C"  String_t* Single_ToString_m1436803918 (float* __this, Il2CppObject * ___provider0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Single::ToString(System.String)
+extern "C"  String_t* Single_ToString_m639595682 (float* __this, String_t* ___format0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Single::ToString(System.String,System.IFormatProvider)
 extern "C"  String_t* Single_ToString_m3798733330 (float* __this, String_t* ___format0, Il2CppObject * ___provider1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TypeCode System.Single::GetTypeCode()

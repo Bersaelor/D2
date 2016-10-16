@@ -61,6 +61,10 @@ struct AsyncOperation_t3699081103;
 struct Type_t;
 // System.Type[]
 struct TypeU5BU5D_t3339007067;
+// UnityEngine.Audio.AudioMixer
+struct AudioMixer_t3457120871;
+// UnityEngine.Audio.AudioMixerGroup[]
+struct AudioMixerGroupU5BU5D_t2816729655;
 // UnityEngine.AudioClip
 struct AudioClip_t794140988;
 // System.Single[]
@@ -73,6 +77,8 @@ struct PCMSetPositionCallback_t4244274966;
 struct AudioConfigurationChangeHandler_t1377657005;
 // UnityEngine.AudioSource
 struct AudioSource_t1740077639;
+// UnityEngine.Audio.AudioMixerGroup
+struct AudioMixerGroup_t3743235458;
 // UnityEngine.Behaviour
 struct Behaviour_t200106419;
 // UnityEngine.BitStream
@@ -159,10 +165,10 @@ struct StateChanged_t2578300556;
 struct CustomYieldInstruction_t2666549910;
 // UnityEngine.ILogger
 struct ILogger_t629411471;
-// System.Exception
-struct Exception_t3991598821;
 // System.Object[]
 struct ObjectU5BU5D_t1108656482;
+// System.Exception
+struct Exception_t3991598821;
 // UnityEngine.DebugLogHandler
 struct DebugLogHandler_t2406589519;
 // UnityEngine.DisallowMultipleComponent
@@ -207,8 +213,6 @@ struct IEnumerable_1_t3371745655;
 struct CustomAnimationPlayable_t503624423;
 // UnityEngine.Experimental.Director.Playable[]
 struct PlayableU5BU5D_t910723999;
-// UnityEngine.Experimental.Director.ScriptPlayable
-struct ScriptPlayable_t1378537957;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
@@ -292,14 +296,23 @@ struct ScriptPlayable_t1378537957;
 #include "mscorlib_System_Reflection_MemberInfo3995515898.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen4231331326MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen4231331326.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixer3457120871.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixer3457120871MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixerGroup3743235458.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixerGroup3743235458MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioClip794140988.h"
 #include "UnityEngine_UnityEngine_AudioClip794140988MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioClip_PCMReaderCallback83861602MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioClip_PCMReaderCallback83861602.h"
 #include "UnityEngine_UnityEngine_AudioClip_PCMSetPositionCa4244274966MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioClip_PCMSetPositionCa4244274966.h"
+#include "UnityEngine_UnityEngine_AudioConfiguration4109410948.h"
+#include "UnityEngine_UnityEngine_AudioConfiguration4109410948MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioRolloffMode1562508899.h"
+#include "UnityEngine_UnityEngine_AudioRolloffMode1562508899MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioSettings3774206607.h"
 #include "UnityEngine_UnityEngine_AudioSettings3774206607MethodDeclarations.h"
+#include "mscorlib_System_Double3868226565.h"
 #include "UnityEngine_UnityEngine_AudioSettings_AudioConfigu1377657005MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioSettings_AudioConfigu1377657005.h"
 #include "UnityEngine_UnityEngine_AudioSource1740077639.h"
@@ -311,6 +324,8 @@ struct ScriptPlayable_t1378537957;
 #include "UnityEngine_UnityEngine_GameObject3674682005.h"
 #include "UnityEngine_UnityEngine_Transform1659122786.h"
 #include "UnityEngine_UnityEngine_Component3501516275.h"
+#include "UnityEngine_UnityEngine_AudioSpeakerMode2367651856.h"
+#include "UnityEngine_UnityEngine_AudioSpeakerMode2367651856MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AudioType794660134.h"
 #include "UnityEngine_UnityEngine_AudioType794660134MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Behaviour200106419.h"
@@ -329,6 +344,7 @@ struct ScriptPlayable_t1378537957;
 #include "UnityEngine_UnityEngine_UnityString3369712284MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Camera2727095145.h"
 #include "UnityEngine_UnityEngine_Camera2727095145MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color4194546905.h"
 #include "UnityEngine_UnityEngine_Rect4241904616.h"
 #include "UnityEngine_UnityEngine_RenderTexture1963041563.h"
 #include "UnityEngine_UnityEngine_Matrix4x41651859333.h"
@@ -353,7 +369,6 @@ struct ScriptPlayable_t1378537957;
 #include "UnityEngine_UnityEngine_Vector24282066565.h"
 #include "UnityEngine_UnityEngine_CanvasRenderer3950887807.h"
 #include "UnityEngine_UnityEngine_CanvasRenderer3950887807MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Color4194546905.h"
 #include "UnityEngine_UnityEngine_Texture2526458961.h"
 #include "mscorlib_System_Math2862914300MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Mesh4241756145.h"
@@ -371,6 +386,7 @@ struct ScriptPlayable_t1378537957;
 #include "UnityEngine_UnityEngine_Collider2939674232.h"
 #include "UnityEngine_UnityEngine_Collider2939674232MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Rigidbody3346577219.h"
+#include "UnityEngine_UnityEngine_RaycastHit4003175726.h"
 #include "UnityEngine_UnityEngine_Collider2D1552025098.h"
 #include "UnityEngine_UnityEngine_Collider2D1552025098MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Rigidbody2D1743771669.h"
@@ -516,7 +532,6 @@ struct ScriptPlayable_t1378537957;
 #include "UnityEngine_UnityEngine_Experimental_Director_Scri1378537957MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Fram3749225885.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Play1315979427.h"
-#include "mscorlib_System_Double3868226565.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Dire2782999289.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Dire2782999289MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Experimental_Director_Fram3749225885MethodDeclarations.h"
@@ -526,13 +541,6 @@ struct ScriptPlayable_t1378537957;
 #include "mscorlib_System_Collections_Generic_List_1_gen1439018250.h"
 #include "mscorlib_System_IndexOutOfRangeException3456360697MethodDeclarations.h"
 #include "mscorlib_System_IndexOutOfRangeException3456360697.h"
-#include "UnityEngine_UnityEngine_Experimental_Director_Play1328382603.h"
-#include "UnityEngine_UnityEngine_Experimental_Director_Play1315979427MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Experimental_Director_Scri1378537957.h"
-#include "UnityEngine_UnityEngine_FilterMode1625068031.h"
-#include "UnityEngine_UnityEngine_FilterMode1625068031MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_FogMode3255732919.h"
-#include "UnityEngine_UnityEngine_FogMode3255732919MethodDeclarations.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -1850,6 +1858,15 @@ extern "C" void AnimatorTransitionInfo_t2817229998_marshal_com_back(const Animat
 extern "C" void AnimatorTransitionInfo_t2817229998_marshal_com_cleanup(AnimatorTransitionInfo_t2817229998_marshaled_com& marshaled)
 {
 }
+// System.Void UnityEngine.Application::Quit()
+extern "C"  void Application_Quit_m1187862186 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (*Application_Quit_m1187862186_ftn) ();
+	static Application_Quit_m1187862186_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_Quit_m1187862186_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::Quit()");
+	_il2cpp_icall_func();
+}
 // System.Boolean UnityEngine.Application::get_isPlaying()
 extern "C"  bool Application_get_isPlaying_m987993960 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
 {
@@ -1876,6 +1893,24 @@ extern "C"  int32_t Application_get_platform_m2918632856 (Il2CppObject * __this 
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Application_get_platform_m2918632856_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_platform()");
 	return _il2cpp_icall_func();
+}
+// System.String UnityEngine.Application::get_unityVersion()
+extern "C"  String_t* Application_get_unityVersion_m3443350436 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef String_t* (*Application_get_unityVersion_m3443350436_ftn) ();
+	static Application_get_unityVersion_m3443350436_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_get_unityVersion_m3443350436_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_unityVersion()");
+	return _il2cpp_icall_func();
+}
+// System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
+extern "C"  void Application_set_targetFrameRate_m498658007 (Il2CppObject * __this /* static, unused */, int32_t ___value0, const MethodInfo* method)
+{
+	typedef void (*Application_set_targetFrameRate_m498658007_ftn) (int32_t);
+	static Application_set_targetFrameRate_m498658007_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_set_targetFrameRate_m498658007_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::set_targetFrameRate(System.Int32)");
+	_il2cpp_icall_func(___value0);
 }
 // System.Void UnityEngine.Application::CallLogCallback(System.String,System.String,UnityEngine.LogType,System.Boolean)
 extern Il2CppClass* Application_t2856536070_il2cpp_TypeInfo_var;
@@ -2706,6 +2741,15 @@ IL_0041:
 		return (bool)0;
 	}
 }
+// UnityEngine.Audio.AudioMixerGroup[] UnityEngine.Audio.AudioMixer::FindMatchingGroups(System.String)
+extern "C"  AudioMixerGroupU5BU5D_t2816729655* AudioMixer_FindMatchingGroups_m1380372930 (AudioMixer_t3457120871 * __this, String_t* ___subPath0, const MethodInfo* method)
+{
+	typedef AudioMixerGroupU5BU5D_t2816729655* (*AudioMixer_FindMatchingGroups_m1380372930_ftn) (AudioMixer_t3457120871 *, String_t*);
+	static AudioMixer_FindMatchingGroups_m1380372930_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioMixer_FindMatchingGroups_m1380372930_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Audio.AudioMixer::FindMatchingGroups(System.String)");
+	return _il2cpp_icall_func(__this, ___subPath0);
+}
 // System.Single UnityEngine.AudioClip::get_length()
 extern "C"  float AudioClip_get_length_m1976537364 (AudioClip_t794140988 * __this, const MethodInfo* method)
 {
@@ -2872,6 +2916,97 @@ extern "C"  void PCMSetPositionCallback_EndInvoke_m239431428 (PCMSetPositionCall
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
+// Conversion methods for marshalling of: UnityEngine.AudioConfiguration
+extern "C" void AudioConfiguration_t4109410948_marshal_pinvoke(const AudioConfiguration_t4109410948& unmarshaled, AudioConfiguration_t4109410948_marshaled_pinvoke& marshaled)
+{
+	marshaled.___speakerMode_0 = unmarshaled.get_speakerMode_0();
+	marshaled.___dspBufferSize_1 = unmarshaled.get_dspBufferSize_1();
+	marshaled.___sampleRate_2 = unmarshaled.get_sampleRate_2();
+	marshaled.___numRealVoices_3 = unmarshaled.get_numRealVoices_3();
+	marshaled.___numVirtualVoices_4 = unmarshaled.get_numVirtualVoices_4();
+}
+extern "C" void AudioConfiguration_t4109410948_marshal_pinvoke_back(const AudioConfiguration_t4109410948_marshaled_pinvoke& marshaled, AudioConfiguration_t4109410948& unmarshaled)
+{
+	int32_t unmarshaled_speakerMode_temp_0 = 0;
+	unmarshaled_speakerMode_temp_0 = marshaled.___speakerMode_0;
+	unmarshaled.set_speakerMode_0(unmarshaled_speakerMode_temp_0);
+	int32_t unmarshaled_dspBufferSize_temp_1 = 0;
+	unmarshaled_dspBufferSize_temp_1 = marshaled.___dspBufferSize_1;
+	unmarshaled.set_dspBufferSize_1(unmarshaled_dspBufferSize_temp_1);
+	int32_t unmarshaled_sampleRate_temp_2 = 0;
+	unmarshaled_sampleRate_temp_2 = marshaled.___sampleRate_2;
+	unmarshaled.set_sampleRate_2(unmarshaled_sampleRate_temp_2);
+	int32_t unmarshaled_numRealVoices_temp_3 = 0;
+	unmarshaled_numRealVoices_temp_3 = marshaled.___numRealVoices_3;
+	unmarshaled.set_numRealVoices_3(unmarshaled_numRealVoices_temp_3);
+	int32_t unmarshaled_numVirtualVoices_temp_4 = 0;
+	unmarshaled_numVirtualVoices_temp_4 = marshaled.___numVirtualVoices_4;
+	unmarshaled.set_numVirtualVoices_4(unmarshaled_numVirtualVoices_temp_4);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.AudioConfiguration
+extern "C" void AudioConfiguration_t4109410948_marshal_pinvoke_cleanup(AudioConfiguration_t4109410948_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.AudioConfiguration
+extern "C" void AudioConfiguration_t4109410948_marshal_com(const AudioConfiguration_t4109410948& unmarshaled, AudioConfiguration_t4109410948_marshaled_com& marshaled)
+{
+	marshaled.___speakerMode_0 = unmarshaled.get_speakerMode_0();
+	marshaled.___dspBufferSize_1 = unmarshaled.get_dspBufferSize_1();
+	marshaled.___sampleRate_2 = unmarshaled.get_sampleRate_2();
+	marshaled.___numRealVoices_3 = unmarshaled.get_numRealVoices_3();
+	marshaled.___numVirtualVoices_4 = unmarshaled.get_numVirtualVoices_4();
+}
+extern "C" void AudioConfiguration_t4109410948_marshal_com_back(const AudioConfiguration_t4109410948_marshaled_com& marshaled, AudioConfiguration_t4109410948& unmarshaled)
+{
+	int32_t unmarshaled_speakerMode_temp_0 = 0;
+	unmarshaled_speakerMode_temp_0 = marshaled.___speakerMode_0;
+	unmarshaled.set_speakerMode_0(unmarshaled_speakerMode_temp_0);
+	int32_t unmarshaled_dspBufferSize_temp_1 = 0;
+	unmarshaled_dspBufferSize_temp_1 = marshaled.___dspBufferSize_1;
+	unmarshaled.set_dspBufferSize_1(unmarshaled_dspBufferSize_temp_1);
+	int32_t unmarshaled_sampleRate_temp_2 = 0;
+	unmarshaled_sampleRate_temp_2 = marshaled.___sampleRate_2;
+	unmarshaled.set_sampleRate_2(unmarshaled_sampleRate_temp_2);
+	int32_t unmarshaled_numRealVoices_temp_3 = 0;
+	unmarshaled_numRealVoices_temp_3 = marshaled.___numRealVoices_3;
+	unmarshaled.set_numRealVoices_3(unmarshaled_numRealVoices_temp_3);
+	int32_t unmarshaled_numVirtualVoices_temp_4 = 0;
+	unmarshaled_numVirtualVoices_temp_4 = marshaled.___numVirtualVoices_4;
+	unmarshaled.set_numVirtualVoices_4(unmarshaled_numVirtualVoices_temp_4);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.AudioConfiguration
+extern "C" void AudioConfiguration_t4109410948_marshal_com_cleanup(AudioConfiguration_t4109410948_marshaled_com& marshaled)
+{
+}
+// System.Double UnityEngine.AudioSettings::get_dspTime()
+extern "C"  double AudioSettings_get_dspTime_m4286496774 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef double (*AudioSettings_get_dspTime_m4286496774_ftn) ();
+	static AudioSettings_get_dspTime_m4286496774_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSettings_get_dspTime_m4286496774_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSettings::get_dspTime()");
+	return _il2cpp_icall_func();
+}
+// UnityEngine.AudioConfiguration UnityEngine.AudioSettings::GetConfiguration()
+extern "C"  AudioConfiguration_t4109410948  AudioSettings_GetConfiguration_m1435999052 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	AudioConfiguration_t4109410948  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		AudioSettings_INTERNAL_CALL_GetConfiguration_m2757117248(NULL /*static, unused*/, (&V_0), /*hidden argument*/NULL);
+		AudioConfiguration_t4109410948  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.AudioSettings::INTERNAL_CALL_GetConfiguration(UnityEngine.AudioConfiguration&)
+extern "C"  void AudioSettings_INTERNAL_CALL_GetConfiguration_m2757117248 (Il2CppObject * __this /* static, unused */, AudioConfiguration_t4109410948 * ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSettings_INTERNAL_CALL_GetConfiguration_m2757117248_ftn) (AudioConfiguration_t4109410948 *);
+	static AudioSettings_INTERNAL_CALL_GetConfiguration_m2757117248_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSettings_INTERNAL_CALL_GetConfiguration_m2757117248_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSettings::INTERNAL_CALL_GetConfiguration(UnityEngine.AudioConfiguration&)");
+	_il2cpp_icall_func(___value0);
+}
 // System.Void UnityEngine.AudioSettings::InvokeOnAudioConfigurationChanged(System.Boolean)
 extern Il2CppClass* AudioSettings_t3774206607_il2cpp_TypeInfo_var;
 extern const uint32_t AudioSettings_InvokeOnAudioConfigurationChanged_m1851666322_MetadataUsageId;
@@ -2967,6 +3102,51 @@ extern "C"  void AudioSource_set_volume_m1410546616 (AudioSource_t1740077639 * _
 	_il2cpp_icall_func = (AudioSource_set_volume_m1410546616_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_volume(System.Single)");
 	_il2cpp_icall_func(__this, ___value0);
 }
+// System.Void UnityEngine.AudioSource::set_pitch(System.Single)
+extern "C"  void AudioSource_set_pitch_m1518407234 (AudioSource_t1740077639 * __this, float ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_pitch_m1518407234_ftn) (AudioSource_t1740077639 *, float);
+	static AudioSource_set_pitch_m1518407234_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_pitch_m1518407234_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_pitch(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Single UnityEngine.AudioSource::get_time()
+extern "C"  float AudioSource_get_time_m4113938886 (AudioSource_t1740077639 * __this, const MethodInfo* method)
+{
+	typedef float (*AudioSource_get_time_m4113938886_ftn) (AudioSource_t1740077639 *);
+	static AudioSource_get_time_m4113938886_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_time_m4113938886_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_time()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.AudioSource::set_time(System.Single)
+extern "C"  void AudioSource_set_time_m264562085 (AudioSource_t1740077639 * __this, float ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_time_m264562085_ftn) (AudioSource_t1740077639 *, float);
+	static AudioSource_set_time_m264562085_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_time_m264562085_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_time(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Int32 UnityEngine.AudioSource::get_timeSamples()
+extern "C"  int32_t AudioSource_get_timeSamples_m1590595257 (AudioSource_t1740077639 * __this, const MethodInfo* method)
+{
+	typedef int32_t (*AudioSource_get_timeSamples_m1590595257_ftn) (AudioSource_t1740077639 *);
+	static AudioSource_get_timeSamples_m1590595257_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_timeSamples_m1590595257_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_timeSamples()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.AudioSource::set_timeSamples(System.Int32)
+extern "C"  void AudioSource_set_timeSamples_m3782237206 (AudioSource_t1740077639 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_timeSamples_m3782237206_ftn) (AudioSource_t1740077639 *, int32_t);
+	static AudioSource_set_timeSamples_m3782237206_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_timeSamples_m3782237206_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_timeSamples(System.Int32)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // UnityEngine.AudioClip UnityEngine.AudioSource::get_clip()
 extern "C"  AudioClip_t794140988 * AudioSource_get_clip_m2410835857 (AudioSource_t1740077639 * __this, const MethodInfo* method)
 {
@@ -2983,6 +3163,15 @@ extern "C"  void AudioSource_set_clip_m19502010 (AudioSource_t1740077639 * __thi
 	static AudioSource_set_clip_m19502010_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (AudioSource_set_clip_m19502010_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_outputAudioMixerGroup(UnityEngine.Audio.AudioMixerGroup)
+extern "C"  void AudioSource_set_outputAudioMixerGroup_m1793738433 (AudioSource_t1740077639 * __this, AudioMixerGroup_t3743235458 * ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_outputAudioMixerGroup_m1793738433_ftn) (AudioSource_t1740077639 *, AudioMixerGroup_t3743235458 *);
+	static AudioSource_set_outputAudioMixerGroup_m1793738433_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_outputAudioMixerGroup_m1793738433_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_outputAudioMixerGroup(UnityEngine.Audio.AudioMixerGroup)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.AudioSource::Play(System.UInt64)
@@ -3004,6 +3193,76 @@ extern "C"  void AudioSource_Play_m1360558992 (AudioSource_t1740077639 * __this,
 		AudioSource_Play_m3374467819(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
+}
+// System.Void UnityEngine.AudioSource::PlayDelayed(System.Single)
+extern "C"  void AudioSource_PlayDelayed_m2357889495 (AudioSource_t1740077639 * __this, float ___delay0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_PlayDelayed_m2357889495_ftn) (AudioSource_t1740077639 *, float);
+	static AudioSource_PlayDelayed_m2357889495_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_PlayDelayed_m2357889495_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::PlayDelayed(System.Single)");
+	_il2cpp_icall_func(__this, ___delay0);
+}
+// System.Void UnityEngine.AudioSource::PlayScheduled(System.Double)
+extern "C"  void AudioSource_PlayScheduled_m2227094787 (AudioSource_t1740077639 * __this, double ___time0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_PlayScheduled_m2227094787_ftn) (AudioSource_t1740077639 *, double);
+	static AudioSource_PlayScheduled_m2227094787_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_PlayScheduled_m2227094787_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::PlayScheduled(System.Double)");
+	_il2cpp_icall_func(__this, ___time0);
+}
+// System.Void UnityEngine.AudioSource::Stop()
+extern "C"  void AudioSource_Stop_m1454243038 (AudioSource_t1740077639 * __this, const MethodInfo* method)
+{
+	typedef void (*AudioSource_Stop_m1454243038_ftn) (AudioSource_t1740077639 *);
+	static AudioSource_Stop_m1454243038_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_Stop_m1454243038_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::Stop()");
+	_il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.AudioSource::Pause()
+extern "C"  void AudioSource_Pause_m3226052732 (AudioSource_t1740077639 * __this, const MethodInfo* method)
+{
+	{
+		AudioSource_INTERNAL_CALL_Pause_m3343215099(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AudioSource::INTERNAL_CALL_Pause(UnityEngine.AudioSource)
+extern "C"  void AudioSource_INTERNAL_CALL_Pause_m3343215099 (Il2CppObject * __this /* static, unused */, AudioSource_t1740077639 * ___self0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_INTERNAL_CALL_Pause_m3343215099_ftn) (AudioSource_t1740077639 *);
+	static AudioSource_INTERNAL_CALL_Pause_m3343215099_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_INTERNAL_CALL_Pause_m3343215099_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::INTERNAL_CALL_Pause(UnityEngine.AudioSource)");
+	_il2cpp_icall_func(___self0);
+}
+// System.Void UnityEngine.AudioSource::UnPause()
+extern "C"  void AudioSource_UnPause_m1028494947 (AudioSource_t1740077639 * __this, const MethodInfo* method)
+{
+	{
+		AudioSource_INTERNAL_CALL_UnPause_m258094196(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.AudioSource::INTERNAL_CALL_UnPause(UnityEngine.AudioSource)
+extern "C"  void AudioSource_INTERNAL_CALL_UnPause_m258094196 (Il2CppObject * __this /* static, unused */, AudioSource_t1740077639 * ___self0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_INTERNAL_CALL_UnPause_m258094196_ftn) (AudioSource_t1740077639 *);
+	static AudioSource_INTERNAL_CALL_UnPause_m258094196_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_INTERNAL_CALL_UnPause_m258094196_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::INTERNAL_CALL_UnPause(UnityEngine.AudioSource)");
+	_il2cpp_icall_func(___self0);
+}
+// System.Boolean UnityEngine.AudioSource::get_isPlaying()
+extern "C"  bool AudioSource_get_isPlaying_m4213444423 (AudioSource_t1740077639 * __this, const MethodInfo* method)
+{
+	typedef bool (*AudioSource_get_isPlaying_m4213444423_ftn) (AudioSource_t1740077639 *);
+	static AudioSource_get_isPlaying_m4213444423_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_isPlaying_m4213444423_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_isPlaying()");
+	return _il2cpp_icall_func(__this);
 }
 // System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip,System.Single)
 extern "C"  void AudioSource_PlayOneShot_m823779350 (AudioSource_t1740077639 * __this, AudioClip_t794140988 * ___clip0, float ___volumeScale1, const MethodInfo* method)
@@ -3130,6 +3389,24 @@ IL_0071:
 		return;
 	}
 }
+// System.Void UnityEngine.AudioSource::set_loop(System.Boolean)
+extern "C"  void AudioSource_set_loop_m3617666708 (AudioSource_t1740077639 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_loop_m3617666708_ftn) (AudioSource_t1740077639 *, bool);
+	static AudioSource_set_loop_m3617666708_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_loop_m3617666708_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_loop(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_playOnAwake(System.Boolean)
+extern "C"  void AudioSource_set_playOnAwake_m1884534674 (AudioSource_t1740077639 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_playOnAwake_m1884534674_ftn) (AudioSource_t1740077639 *, bool);
+	static AudioSource_set_playOnAwake_m1884534674_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_playOnAwake_m1884534674_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_playOnAwake(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Void UnityEngine.AudioSource::set_spatialBlend(System.Single)
 extern "C"  void AudioSource_set_spatialBlend_m2546548421 (AudioSource_t1740077639 * __this, float ___value0, const MethodInfo* method)
 {
@@ -3138,6 +3415,79 @@ extern "C"  void AudioSource_set_spatialBlend_m2546548421 (AudioSource_t17400776
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (AudioSource_set_spatialBlend_m2546548421_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_spatialBlend(System.Single)");
 	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_spatialize(System.Boolean)
+extern "C"  void AudioSource_set_spatialize_m2549021632 (AudioSource_t1740077639 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_spatialize_m2549021632_ftn) (AudioSource_t1740077639 *, bool);
+	static AudioSource_set_spatialize_m2549021632_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_spatialize_m2549021632_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_spatialize(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_bypassReverbZones(System.Boolean)
+extern "C"  void AudioSource_set_bypassReverbZones_m554383373 (AudioSource_t1740077639 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_bypassReverbZones_m554383373_ftn) (AudioSource_t1740077639 *, bool);
+	static AudioSource_set_bypassReverbZones_m554383373_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_bypassReverbZones_m554383373_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_bypassReverbZones(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_dopplerLevel(System.Single)
+extern "C"  void AudioSource_set_dopplerLevel_m4264527772 (AudioSource_t1740077639 * __this, float ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_dopplerLevel_m4264527772_ftn) (AudioSource_t1740077639 *, float);
+	static AudioSource_set_dopplerLevel_m4264527772_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_dopplerLevel_m4264527772_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_dopplerLevel(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_priority(System.Int32)
+extern "C"  void AudioSource_set_priority_m3031232686 (AudioSource_t1740077639 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_priority_m3031232686_ftn) (AudioSource_t1740077639 *, int32_t);
+	static AudioSource_set_priority_m3031232686_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_priority_m3031232686_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_priority(System.Int32)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::set_mute(System.Boolean)
+extern "C"  void AudioSource_set_mute_m4040046601 (AudioSource_t1740077639 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_mute_m4040046601_ftn) (AudioSource_t1740077639 *, bool);
+	static AudioSource_set_mute_m4040046601_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_mute_m4040046601_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_mute(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.AudioSource::GetOutputDataHelper(System.Single[],System.Int32)
+extern "C"  void AudioSource_GetOutputDataHelper_m1525923523 (AudioSource_t1740077639 * __this, SingleU5BU5D_t2316563989* ___samples0, int32_t ___channel1, const MethodInfo* method)
+{
+	typedef void (*AudioSource_GetOutputDataHelper_m1525923523_ftn) (AudioSource_t1740077639 *, SingleU5BU5D_t2316563989*, int32_t);
+	static AudioSource_GetOutputDataHelper_m1525923523_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_GetOutputDataHelper_m1525923523_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::GetOutputDataHelper(System.Single[],System.Int32)");
+	_il2cpp_icall_func(__this, ___samples0, ___channel1);
+}
+// System.Void UnityEngine.AudioSource::GetOutputData(System.Single[],System.Int32)
+extern "C"  void AudioSource_GetOutputData_m2583313397 (AudioSource_t1740077639 * __this, SingleU5BU5D_t2316563989* ___samples0, int32_t ___channel1, const MethodInfo* method)
+{
+	{
+		SingleU5BU5D_t2316563989* L_0 = ___samples0;
+		int32_t L_1 = ___channel1;
+		AudioSource_GetOutputDataHelper_m1525923523(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean UnityEngine.AudioSource::SetSpatializerFloat(System.Int32,System.Single)
+extern "C"  bool AudioSource_SetSpatializerFloat_m3192603774 (AudioSource_t1740077639 * __this, int32_t ___index0, float ___value1, const MethodInfo* method)
+{
+	typedef bool (*AudioSource_SetSpatializerFloat_m3192603774_ftn) (AudioSource_t1740077639 *, int32_t, float);
+	static AudioSource_SetSpatializerFloat_m3192603774_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_SetSpatializerFloat_m3192603774_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::SetSpatializerFloat(System.Int32,System.Single)");
+	return _il2cpp_icall_func(__this, ___index0, ___value1);
 }
 // System.Void UnityEngine.Behaviour::.ctor()
 extern "C"  void Behaviour__ctor_m1624944828 (Behaviour_t200106419 * __this, const MethodInfo* method)
@@ -3767,6 +4117,37 @@ extern "C"  void Bounds_Encapsulate_m2204751131_AdjustorThunk (Il2CppObject * __
 	Bounds_t2711641849 * _thisAdjusted = reinterpret_cast<Bounds_t2711641849 *>(__this + 1);
 	Bounds_Encapsulate_m2204751131(_thisAdjusted, ___bounds0, method);
 }
+// System.Boolean UnityEngine.Bounds::Internal_Contains(UnityEngine.Bounds,UnityEngine.Vector3)
+extern "C"  bool Bounds_Internal_Contains_m346296312 (Il2CppObject * __this /* static, unused */, Bounds_t2711641849  ___m0, Vector3_t4282066566  ___point1, const MethodInfo* method)
+{
+	{
+		bool L_0 = Bounds_INTERNAL_CALL_Internal_Contains_m1487742483(NULL /*static, unused*/, (&___m0), (&___point1), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Boolean UnityEngine.Bounds::INTERNAL_CALL_Internal_Contains(UnityEngine.Bounds&,UnityEngine.Vector3&)
+extern "C"  bool Bounds_INTERNAL_CALL_Internal_Contains_m1487742483 (Il2CppObject * __this /* static, unused */, Bounds_t2711641849 * ___m0, Vector3_t4282066566 * ___point1, const MethodInfo* method)
+{
+	typedef bool (*Bounds_INTERNAL_CALL_Internal_Contains_m1487742483_ftn) (Bounds_t2711641849 *, Vector3_t4282066566 *);
+	static Bounds_INTERNAL_CALL_Internal_Contains_m1487742483_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Bounds_INTERNAL_CALL_Internal_Contains_m1487742483_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Bounds::INTERNAL_CALL_Internal_Contains(UnityEngine.Bounds&,UnityEngine.Vector3&)");
+	return _il2cpp_icall_func(___m0, ___point1);
+}
+// System.Boolean UnityEngine.Bounds::Contains(UnityEngine.Vector3)
+extern "C"  bool Bounds_Contains_m4280531336 (Bounds_t2711641849 * __this, Vector3_t4282066566  ___point0, const MethodInfo* method)
+{
+	{
+		Vector3_t4282066566  L_0 = ___point0;
+		bool L_1 = Bounds_Internal_Contains_m346296312(NULL /*static, unused*/, (*(Bounds_t2711641849 *)__this), L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+extern "C"  bool Bounds_Contains_m4280531336_AdjustorThunk (Il2CppObject * __this, Vector3_t4282066566  ___point0, const MethodInfo* method)
+{
+	Bounds_t2711641849 * _thisAdjusted = reinterpret_cast<Bounds_t2711641849 *>(__this + 1);
+	return Bounds_Contains_m4280531336(_thisAdjusted, ___point0, method);
+}
 // System.String UnityEngine.Bounds::ToString()
 extern Il2CppClass* ObjectU5BU5D_t1108656482_il2cpp_TypeInfo_var;
 extern Il2CppClass* Vector3_t4282066566_il2cpp_TypeInfo_var;
@@ -3938,6 +4319,24 @@ extern "C"  bool Camera_get_hdr_m1509362829 (Camera_t2727095145 * __this, const 
 	_il2cpp_icall_func = (Camera_get_hdr_m1509362829_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_hdr()");
 	return _il2cpp_icall_func(__this);
 }
+// System.Void UnityEngine.Camera::set_orthographicSize(System.Single)
+extern "C"  void Camera_set_orthographicSize_m3910539041 (Camera_t2727095145 * __this, float ___value0, const MethodInfo* method)
+{
+	typedef void (*Camera_set_orthographicSize_m3910539041_ftn) (Camera_t2727095145 *, float);
+	static Camera_set_orthographicSize_m3910539041_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_set_orthographicSize_m3910539041_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::set_orthographicSize(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.Camera::set_orthographic(System.Boolean)
+extern "C"  void Camera_set_orthographic_m3849949344 (Camera_t2727095145 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*Camera_set_orthographic_m3849949344_ftn) (Camera_t2727095145 *, bool);
+	static Camera_set_orthographic_m3849949344_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_set_orthographic_m3849949344_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::set_orthographic(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Single UnityEngine.Camera::get_depth()
 extern "C"  float Camera_get_depth_m3642810036 (Camera_t2727095145 * __this, const MethodInfo* method)
 {
@@ -3946,6 +4345,15 @@ extern "C"  float Camera_get_depth_m3642810036 (Camera_t2727095145 * __this, con
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Camera_get_depth_m3642810036_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_depth()");
 	return _il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.Camera::set_depth(System.Single)
+extern "C"  void Camera_set_depth_m3099709663 (Camera_t2727095145 * __this, float ___value0, const MethodInfo* method)
+{
+	typedef void (*Camera_set_depth_m3099709663_ftn) (Camera_t2727095145 *, float);
+	static Camera_set_depth_m3099709663_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_set_depth_m3099709663_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::set_depth(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Single UnityEngine.Camera::get_aspect()
 extern "C"  float Camera_get_aspect_m4145685929 (Camera_t2727095145 * __this, const MethodInfo* method)
@@ -3982,6 +4390,60 @@ extern "C"  int32_t Camera_get_eventMask_m3669132771 (Camera_t2727095145 * __thi
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Camera_get_eventMask_m3669132771_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_eventMask()");
 	return _il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.Camera::set_backgroundColor(UnityEngine.Color)
+extern "C"  void Camera_set_backgroundColor_m501006344 (Camera_t2727095145 * __this, Color_t4194546905  ___value0, const MethodInfo* method)
+{
+	{
+		Camera_INTERNAL_set_backgroundColor_m2139927960(__this, (&___value0), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Camera::INTERNAL_set_backgroundColor(UnityEngine.Color&)
+extern "C"  void Camera_INTERNAL_set_backgroundColor_m2139927960 (Camera_t2727095145 * __this, Color_t4194546905 * ___value0, const MethodInfo* method)
+{
+	typedef void (*Camera_INTERNAL_set_backgroundColor_m2139927960_ftn) (Camera_t2727095145 *, Color_t4194546905 *);
+	static Camera_INTERNAL_set_backgroundColor_m2139927960_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_INTERNAL_set_backgroundColor_m2139927960_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::INTERNAL_set_backgroundColor(UnityEngine.Color&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// UnityEngine.Rect UnityEngine.Camera::get_rect()
+extern "C"  Rect_t4241904616  Camera_get_rect_m3083266205 (Camera_t2727095145 * __this, const MethodInfo* method)
+{
+	Rect_t4241904616  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Camera_INTERNAL_get_rect_m1804455538(__this, (&V_0), /*hidden argument*/NULL);
+		Rect_t4241904616  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Camera::set_rect(UnityEngine.Rect)
+extern "C"  void Camera_set_rect_m1907189602 (Camera_t2727095145 * __this, Rect_t4241904616  ___value0, const MethodInfo* method)
+{
+	{
+		Camera_INTERNAL_set_rect_m458921854(__this, (&___value0), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Camera::INTERNAL_get_rect(UnityEngine.Rect&)
+extern "C"  void Camera_INTERNAL_get_rect_m1804455538 (Camera_t2727095145 * __this, Rect_t4241904616 * ___value0, const MethodInfo* method)
+{
+	typedef void (*Camera_INTERNAL_get_rect_m1804455538_ftn) (Camera_t2727095145 *, Rect_t4241904616 *);
+	static Camera_INTERNAL_get_rect_m1804455538_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_INTERNAL_get_rect_m1804455538_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::INTERNAL_get_rect(UnityEngine.Rect&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.Camera::INTERNAL_set_rect(UnityEngine.Rect&)
+extern "C"  void Camera_INTERNAL_set_rect_m458921854 (Camera_t2727095145 * __this, Rect_t4241904616 * ___value0, const MethodInfo* method)
+{
+	typedef void (*Camera_INTERNAL_set_rect_m458921854_ftn) (Camera_t2727095145 *, Rect_t4241904616 *);
+	static Camera_INTERNAL_set_rect_m458921854_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_INTERNAL_set_rect_m458921854_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::INTERNAL_set_rect(UnityEngine.Rect&)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 // UnityEngine.Rect UnityEngine.Camera::get_pixelRect()
 extern "C"  Rect_t4241904616  Camera_get_pixelRect_m936851539 (Camera_t2727095145 * __this, const MethodInfo* method)
@@ -4021,6 +4483,26 @@ extern "C"  void Camera_set_targetTexture_m671169649 (Camera_t2727095145 * __thi
 	_il2cpp_icall_func = (Camera_set_targetTexture_m671169649_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::set_targetTexture(UnityEngine.RenderTexture)");
 	_il2cpp_icall_func(__this, ___value0);
 }
+// UnityEngine.Matrix4x4 UnityEngine.Camera::get_cameraToWorldMatrix()
+extern "C"  Matrix4x4_t1651859333  Camera_get_cameraToWorldMatrix_m3418561493 (Camera_t2727095145 * __this, const MethodInfo* method)
+{
+	Matrix4x4_t1651859333  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Camera_INTERNAL_get_cameraToWorldMatrix_m650983478(__this, (&V_0), /*hidden argument*/NULL);
+		Matrix4x4_t1651859333  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Camera::INTERNAL_get_cameraToWorldMatrix(UnityEngine.Matrix4x4&)
+extern "C"  void Camera_INTERNAL_get_cameraToWorldMatrix_m650983478 (Camera_t2727095145 * __this, Matrix4x4_t1651859333 * ___value0, const MethodInfo* method)
+{
+	typedef void (*Camera_INTERNAL_get_cameraToWorldMatrix_m650983478_ftn) (Camera_t2727095145 *, Matrix4x4_t1651859333 *);
+	static Camera_INTERNAL_get_cameraToWorldMatrix_m650983478_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_INTERNAL_get_cameraToWorldMatrix_m650983478_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::INTERNAL_get_cameraToWorldMatrix(UnityEngine.Matrix4x4&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // UnityEngine.Matrix4x4 UnityEngine.Camera::get_worldToCameraMatrix()
 extern "C"  Matrix4x4_t1651859333  Camera_get_worldToCameraMatrix_m1346206741 (Camera_t2727095145 * __this, const MethodInfo* method)
 {
@@ -4052,6 +4534,14 @@ extern "C"  Matrix4x4_t1651859333  Camera_get_projectionMatrix_m3070982480 (Came
 		return L_0;
 	}
 }
+// System.Void UnityEngine.Camera::set_projectionMatrix(UnityEngine.Matrix4x4)
+extern "C"  void Camera_set_projectionMatrix_m2541009521 (Camera_t2727095145 * __this, Matrix4x4_t1651859333  ___value0, const MethodInfo* method)
+{
+	{
+		Camera_INTERNAL_set_projectionMatrix_m1272775463(__this, (&___value0), /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.Camera::INTERNAL_get_projectionMatrix(UnityEngine.Matrix4x4&)
 extern "C"  void Camera_INTERNAL_get_projectionMatrix_m684200627 (Camera_t2727095145 * __this, Matrix4x4_t1651859333 * ___value0, const MethodInfo* method)
 {
@@ -4059,6 +4549,15 @@ extern "C"  void Camera_INTERNAL_get_projectionMatrix_m684200627 (Camera_t272709
 	static Camera_INTERNAL_get_projectionMatrix_m684200627_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Camera_INTERNAL_get_projectionMatrix_m684200627_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::INTERNAL_get_projectionMatrix(UnityEngine.Matrix4x4&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.Camera::INTERNAL_set_projectionMatrix(UnityEngine.Matrix4x4&)
+extern "C"  void Camera_INTERNAL_set_projectionMatrix_m1272775463 (Camera_t2727095145 * __this, Matrix4x4_t1651859333 * ___value0, const MethodInfo* method)
+{
+	typedef void (*Camera_INTERNAL_set_projectionMatrix_m1272775463_ftn) (Camera_t2727095145 *, Matrix4x4_t1651859333 *);
+	static Camera_INTERNAL_set_projectionMatrix_m1272775463_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_INTERNAL_set_projectionMatrix_m1272775463_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::INTERNAL_set_projectionMatrix(UnityEngine.Matrix4x4&)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 // UnityEngine.CameraClearFlags UnityEngine.Camera::get_clearFlags()
@@ -4146,6 +4645,24 @@ extern "C"  Camera_t2727095145 * Camera_get_main_m671815697 (Il2CppObject * __th
 	static Camera_get_main_m671815697_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Camera_get_main_m671815697_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_main()");
+	return _il2cpp_icall_func();
+}
+// UnityEngine.Camera UnityEngine.Camera::get_current()
+extern "C"  Camera_t2727095145 * Camera_get_current_m475592003 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef Camera_t2727095145 * (*Camera_get_current_m475592003_ftn) ();
+	static Camera_get_current_m475592003_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_get_current_m475592003_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_current()");
+	return _il2cpp_icall_func();
+}
+// UnityEngine.Camera[] UnityEngine.Camera::get_allCameras()
+extern "C"  CameraU5BU5D_t2716570836* Camera_get_allCameras_m1599932035 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef CameraU5BU5D_t2716570836* (*Camera_get_allCameras_m1599932035_ftn) ();
+	static Camera_get_allCameras_m1599932035_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_get_allCameras_m1599932035_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_allCameras()");
 	return _il2cpp_icall_func();
 }
 // System.Int32 UnityEngine.Camera::get_allCamerasCount()
@@ -4264,6 +4781,15 @@ extern "C"  void Camera_RenderWithShader_m1338167485 (Camera_t2727095145 * __thi
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Camera_RenderWithShader_m1338167485_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::RenderWithShader(UnityEngine.Shader,System.String)");
 	_il2cpp_icall_func(__this, ___shader0, ___replacementTag1);
+}
+// System.Void UnityEngine.Camera::set_useOcclusionCulling(System.Boolean)
+extern "C"  void Camera_set_useOcclusionCulling_m1338974346 (Camera_t2727095145 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*Camera_set_useOcclusionCulling_m1338974346_ftn) (Camera_t2727095145 *, bool);
+	static Camera_set_useOcclusionCulling_m1338974346_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_set_useOcclusionCulling_m1338974346_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::set_useOcclusionCulling(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Void UnityEngine.Camera::CopyFrom(UnityEngine.Camera)
 extern "C"  void Camera_CopyFrom_m2180612415 (Camera_t2727095145 * __this, Camera_t2727095145 * ___other0, const MethodInfo* method)
@@ -5141,6 +5667,37 @@ extern "C"  bool Collider_get_isTrigger_m3877528150 (Collider_t2939674232 * __th
 	_il2cpp_icall_func = (Collider_get_isTrigger_m3877528150_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Collider::get_isTrigger()");
 	return _il2cpp_icall_func(__this);
 }
+// System.Boolean UnityEngine.Collider::Internal_Raycast(UnityEngine.Collider,UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single)
+extern "C"  bool Collider_Internal_Raycast_m2952058962 (Il2CppObject * __this /* static, unused */, Collider_t2939674232 * ___col0, Ray_t3134616544  ___ray1, RaycastHit_t4003175726 * ___hitInfo2, float ___maxDistance3, const MethodInfo* method)
+{
+	{
+		Collider_t2939674232 * L_0 = ___col0;
+		RaycastHit_t4003175726 * L_1 = ___hitInfo2;
+		float L_2 = ___maxDistance3;
+		bool L_3 = Collider_INTERNAL_CALL_Internal_Raycast_m2856018931(NULL /*static, unused*/, L_0, (&___ray1), L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Boolean UnityEngine.Collider::INTERNAL_CALL_Internal_Raycast(UnityEngine.Collider,UnityEngine.Ray&,UnityEngine.RaycastHit&,System.Single)
+extern "C"  bool Collider_INTERNAL_CALL_Internal_Raycast_m2856018931 (Il2CppObject * __this /* static, unused */, Collider_t2939674232 * ___col0, Ray_t3134616544 * ___ray1, RaycastHit_t4003175726 * ___hitInfo2, float ___maxDistance3, const MethodInfo* method)
+{
+	typedef bool (*Collider_INTERNAL_CALL_Internal_Raycast_m2856018931_ftn) (Collider_t2939674232 *, Ray_t3134616544 *, RaycastHit_t4003175726 *, float);
+	static Collider_INTERNAL_CALL_Internal_Raycast_m2856018931_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Collider_INTERNAL_CALL_Internal_Raycast_m2856018931_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Collider::INTERNAL_CALL_Internal_Raycast(UnityEngine.Collider,UnityEngine.Ray&,UnityEngine.RaycastHit&,System.Single)");
+	return _il2cpp_icall_func(___col0, ___ray1, ___hitInfo2, ___maxDistance3);
+}
+// System.Boolean UnityEngine.Collider::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single)
+extern "C"  bool Collider_Raycast_m3774073393 (Collider_t2939674232 * __this, Ray_t3134616544  ___ray0, RaycastHit_t4003175726 * ___hitInfo1, float ___maxDistance2, const MethodInfo* method)
+{
+	{
+		Ray_t3134616544  L_0 = ___ray0;
+		RaycastHit_t4003175726 * L_1 = ___hitInfo1;
+		float L_2 = ___maxDistance2;
+		bool L_3 = Collider_Internal_Raycast_m2952058962(NULL /*static, unused*/, __this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
 // UnityEngine.Rigidbody2D UnityEngine.Collider2D::get_attachedRigidbody()
 extern "C"  Rigidbody2D_t1743771669 * Collider2D_get_attachedRigidbody_m2908627162 (Collider2D_t1552025098 * __this, const MethodInfo* method)
 {
@@ -5812,6 +6369,16 @@ extern "C"  Color_t4194546905  Color_get_yellow_m599454500 (Il2CppObject * __thi
 		Color_t4194546905  L_0;
 		memset(&L_0, 0, sizeof(L_0));
 		Color__ctor_m2252924356(&L_0, (1.0f), (0.921568632f), (0.0156862754f), (1.0f), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// UnityEngine.Color UnityEngine.Color::get_magenta()
+extern "C"  Color_t4194546905  Color_get_magenta_m2892617371 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		Color_t4194546905  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Color__ctor_m2252924356(&L_0, (1.0f), (0.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
 		return L_0;
 	}
 }
@@ -7455,6 +8022,28 @@ extern "C"  void Debug_Log_m1731103628 (Il2CppObject * __this /* static, unused 
 		return;
 	}
 }
+// System.Void UnityEngine.Debug::LogFormat(System.String,System.Object[])
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* ILogger_t629411471_il2cpp_TypeInfo_var;
+extern const uint32_t Debug_LogFormat_m4265115055_MetadataUsageId;
+extern "C"  void Debug_LogFormat_m4265115055 (Il2CppObject * __this /* static, unused */, String_t* ___format0, ObjectU5BU5D_t1108656482* ___args1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Debug_LogFormat_m4265115055_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = Debug_get_logger_m275693158(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___format0;
+		ObjectU5BU5D_t1108656482* L_2 = ___args1;
+		NullCheck(L_0);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t1108656482* >::Invoke(2 /* System.Void UnityEngine.ILogger::LogFormat(UnityEngine.LogType,System.String,System.Object[]) */, ILogger_t629411471_il2cpp_TypeInfo_var, L_0, 3, L_1, L_2);
+		return;
+	}
+}
 // System.Void UnityEngine.Debug::LogError(System.Object)
 extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
 extern Il2CppClass* ILogger_t629411471_il2cpp_TypeInfo_var;
@@ -7495,6 +8084,28 @@ extern "C"  void Debug_LogError_m214246398 (Il2CppObject * __this /* static, unu
 		Object_t3071478659 * L_2 = ___context1;
 		NullCheck(L_0);
 		InterfaceActionInvoker3< int32_t, Il2CppObject *, Object_t3071478659 * >::Invoke(1 /* System.Void UnityEngine.ILogger::Log(UnityEngine.LogType,System.Object,UnityEngine.Object) */, ILogger_t629411471_il2cpp_TypeInfo_var, L_0, 0, L_1, L_2);
+		return;
+	}
+}
+// System.Void UnityEngine.Debug::LogErrorFormat(System.String,System.Object[])
+extern Il2CppClass* Debug_t4195163081_il2cpp_TypeInfo_var;
+extern Il2CppClass* ILogger_t629411471_il2cpp_TypeInfo_var;
+extern const uint32_t Debug_LogErrorFormat_m1558793013_MetadataUsageId;
+extern "C"  void Debug_LogErrorFormat_m1558793013 (Il2CppObject * __this /* static, unused */, String_t* ___format0, ObjectU5BU5D_t1108656482* ___args1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Debug_LogErrorFormat_m1558793013_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t4195163081_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = Debug_get_logger_m275693158(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___format0;
+		ObjectU5BU5D_t1108656482* L_2 = ___args1;
+		NullCheck(L_0);
+		InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t1108656482* >::Invoke(2 /* System.Void UnityEngine.ILogger::LogFormat(UnityEngine.LogType,System.String,System.Object[]) */, ILogger_t629411471_il2cpp_TypeInfo_var, L_0, 0, L_1, L_2);
 		return;
 	}
 }
@@ -12481,230 +13092,6 @@ extern "C" void Playable_t70832698_marshal_com_back(const Playable_t70832698_mar
 // Conversion method for clean up from marshalling of: UnityEngine.Experimental.Director.Playable
 extern "C" void Playable_t70832698_marshal_com_cleanup(Playable_t70832698_marshaled_com& marshaled)
 {
-}
-// System.Object UnityEngine.Experimental.Director.Playables::CastToInternal(System.Type,System.IntPtr,System.Int32)
-extern "C"  Il2CppObject * Playables_CastToInternal_m3521890406 (Il2CppObject * __this /* static, unused */, Type_t * ___castType0, IntPtr_t ___handle1, int32_t ___version2, const MethodInfo* method)
-{
-	typedef Il2CppObject * (*Playables_CastToInternal_m3521890406_ftn) (Type_t *, IntPtr_t, int32_t);
-	static Playables_CastToInternal_m3521890406_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Playables_CastToInternal_m3521890406_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Experimental.Director.Playables::CastToInternal(System.Type,System.IntPtr,System.Int32)");
-	return _il2cpp_icall_func(___castType0, ___handle1, ___version2);
-}
-// System.Void UnityEngine.Experimental.Director.Playables::InternalDestroy(UnityEngine.Experimental.Director.Playable&)
-extern "C"  void Playables_InternalDestroy_m3949572482 (Il2CppObject * __this /* static, unused */, Playable_t70832698 * ___playable0, const MethodInfo* method)
-{
-	{
-		Playable_t70832698 * L_0 = ___playable0;
-		Playables_INTERNAL_CALL_InternalDestroy_m1453669761(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Experimental.Director.Playables::INTERNAL_CALL_InternalDestroy(UnityEngine.Experimental.Director.Playable&)
-extern "C"  void Playables_INTERNAL_CALL_InternalDestroy_m1453669761 (Il2CppObject * __this /* static, unused */, Playable_t70832698 * ___playable0, const MethodInfo* method)
-{
-	typedef void (*Playables_INTERNAL_CALL_InternalDestroy_m1453669761_ftn) (Playable_t70832698 *);
-	static Playables_INTERNAL_CALL_InternalDestroy_m1453669761_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Playables_INTERNAL_CALL_InternalDestroy_m1453669761_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Experimental.Director.Playables::INTERNAL_CALL_InternalDestroy(UnityEngine.Experimental.Director.Playable&)");
-	_il2cpp_icall_func(___playable0);
-}
-// System.Boolean UnityEngine.Experimental.Director.Playables::ConnectInternal(UnityEngine.Experimental.Director.Playable&,UnityEngine.Experimental.Director.Playable&,System.Int32,System.Int32)
-extern "C"  bool Playables_ConnectInternal_m267734425 (Il2CppObject * __this /* static, unused */, Playable_t70832698 * ___source0, Playable_t70832698 * ___target1, int32_t ___sourceOutputPort2, int32_t ___targetInputPort3, const MethodInfo* method)
-{
-	{
-		Playable_t70832698 * L_0 = ___source0;
-		Playable_t70832698 * L_1 = ___target1;
-		int32_t L_2 = ___sourceOutputPort2;
-		int32_t L_3 = ___targetInputPort3;
-		bool L_4 = Playables_INTERNAL_CALL_ConnectInternal_m524648664(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
-		return L_4;
-	}
-}
-// System.Boolean UnityEngine.Experimental.Director.Playables::INTERNAL_CALL_ConnectInternal(UnityEngine.Experimental.Director.Playable&,UnityEngine.Experimental.Director.Playable&,System.Int32,System.Int32)
-extern "C"  bool Playables_INTERNAL_CALL_ConnectInternal_m524648664 (Il2CppObject * __this /* static, unused */, Playable_t70832698 * ___source0, Playable_t70832698 * ___target1, int32_t ___sourceOutputPort2, int32_t ___targetInputPort3, const MethodInfo* method)
-{
-	typedef bool (*Playables_INTERNAL_CALL_ConnectInternal_m524648664_ftn) (Playable_t70832698 *, Playable_t70832698 *, int32_t, int32_t);
-	static Playables_INTERNAL_CALL_ConnectInternal_m524648664_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Playables_INTERNAL_CALL_ConnectInternal_m524648664_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Experimental.Director.Playables::INTERNAL_CALL_ConnectInternal(UnityEngine.Experimental.Director.Playable&,UnityEngine.Experimental.Director.Playable&,System.Int32,System.Int32)");
-	return _il2cpp_icall_func(___source0, ___target1, ___sourceOutputPort2, ___targetInputPort3);
-}
-// System.Void UnityEngine.Experimental.Director.Playables::DisconnectInternal(UnityEngine.Experimental.Director.Playable&,System.Int32)
-extern "C"  void Playables_DisconnectInternal_m4214943703 (Il2CppObject * __this /* static, unused */, Playable_t70832698 * ___target0, int32_t ___inputPort1, const MethodInfo* method)
-{
-	{
-		Playable_t70832698 * L_0 = ___target0;
-		int32_t L_1 = ___inputPort1;
-		Playables_INTERNAL_CALL_DisconnectInternal_m624205270(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Experimental.Director.Playables::INTERNAL_CALL_DisconnectInternal(UnityEngine.Experimental.Director.Playable&,System.Int32)
-extern "C"  void Playables_INTERNAL_CALL_DisconnectInternal_m624205270 (Il2CppObject * __this /* static, unused */, Playable_t70832698 * ___target0, int32_t ___inputPort1, const MethodInfo* method)
-{
-	typedef void (*Playables_INTERNAL_CALL_DisconnectInternal_m624205270_ftn) (Playable_t70832698 *, int32_t);
-	static Playables_INTERNAL_CALL_DisconnectInternal_m624205270_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Playables_INTERNAL_CALL_DisconnectInternal_m624205270_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Experimental.Director.Playables::INTERNAL_CALL_DisconnectInternal(UnityEngine.Experimental.Director.Playable&,System.Int32)");
-	_il2cpp_icall_func(___target0, ___inputPort1);
-}
-// System.Boolean UnityEngine.Experimental.Director.Playables::CheckInputBounds(UnityEngine.Experimental.Director.Playable,System.Int32)
-extern "C"  bool Playables_CheckInputBounds_m2114632179 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, int32_t ___inputIndex1, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = ___inputIndex1;
-		bool L_1 = Playable_CheckInputBounds_m1883207375((&___playable0), L_0, /*hidden argument*/NULL);
-		return L_1;
-	}
-}
-// System.Boolean UnityEngine.Experimental.Director.Playables::IsValid(UnityEngine.Experimental.Director.Playable)
-extern "C"  bool Playables_IsValid_m2470091365 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, const MethodInfo* method)
-{
-	{
-		bool L_0 = Playable_IsValid_m4190676077((&___playable0), /*hidden argument*/NULL);
-		return L_0;
-	}
-}
-// System.Int32 UnityEngine.Experimental.Director.Playables::GetInputCountValidated(UnityEngine.Experimental.Director.Playable,System.Type)
-extern "C"  int32_t Playables_GetInputCountValidated_m1590651641 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, Type_t * ___typeofPlayable1, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = Playable_get_inputCount_m3038792623((&___playable0), /*hidden argument*/NULL);
-		return L_0;
-	}
-}
-// System.Int32 UnityEngine.Experimental.Director.Playables::GetOutputCountValidated(UnityEngine.Experimental.Director.Playable,System.Type)
-extern "C"  int32_t Playables_GetOutputCountValidated_m708466518 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, Type_t * ___typeofPlayable1, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = Playable_get_outputCount_m2666149542((&___playable0), /*hidden argument*/NULL);
-		return L_0;
-	}
-}
-// UnityEngine.Experimental.Director.PlayState UnityEngine.Experimental.Director.Playables::GetPlayStateValidated(UnityEngine.Experimental.Director.Playable,System.Type)
-extern "C"  int32_t Playables_GetPlayStateValidated_m1788069712 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, Type_t * ___typeofPlayable1, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = Playable_get_state_m3392280896((&___playable0), /*hidden argument*/NULL);
-		return L_0;
-	}
-}
-// System.Void UnityEngine.Experimental.Director.Playables::SetPlayStateValidated(UnityEngine.Experimental.Director.Playable,UnityEngine.Experimental.Director.PlayState,System.Type)
-extern "C"  void Playables_SetPlayStateValidated_m2009824181 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, int32_t ___playState1, Type_t * ___typeofPlayable2, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = ___playState1;
-		Playable_set_state_m2851443923((&___playable0), L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Double UnityEngine.Experimental.Director.Playables::GetTimeValidated(UnityEngine.Experimental.Director.Playable,System.Type)
-extern "C"  double Playables_GetTimeValidated_m2484996622 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, Type_t * ___typeofPlayable1, const MethodInfo* method)
-{
-	{
-		double L_0 = Playable_get_time_m4261299130((&___playable0), /*hidden argument*/NULL);
-		return L_0;
-	}
-}
-// System.Void UnityEngine.Experimental.Director.Playables::SetTimeValidated(UnityEngine.Experimental.Director.Playable,System.Double,System.Type)
-extern "C"  void Playables_SetTimeValidated_m778916929 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, double ___time1, Type_t * ___typeofPlayable2, const MethodInfo* method)
-{
-	{
-		double L_0 = ___time1;
-		Playable_set_time_m4095539287((&___playable0), L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Double UnityEngine.Experimental.Director.Playables::GetDurationValidated(UnityEngine.Experimental.Director.Playable,System.Type)
-extern "C"  double Playables_GetDurationValidated_m2822701863 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, Type_t * ___typeofPlayable1, const MethodInfo* method)
-{
-	{
-		double L_0 = Playable_get_duration_m4046926529((&___playable0), /*hidden argument*/NULL);
-		return L_0;
-	}
-}
-// System.Void UnityEngine.Experimental.Director.Playables::SetDurationValidated(UnityEngine.Experimental.Director.Playable,System.Double,System.Type)
-extern "C"  void Playables_SetDurationValidated_m2881460762 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, double ___duration1, Type_t * ___typeofPlayable2, const MethodInfo* method)
-{
-	{
-		double L_0 = ___duration1;
-		Playable_set_duration_m164564272((&___playable0), L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// UnityEngine.Experimental.Director.Playable UnityEngine.Experimental.Director.Playables::GetInputValidated(UnityEngine.Experimental.Director.Playable,System.Int32,System.Type)
-extern "C"  Playable_t70832698  Playables_GetInputValidated_m176010709 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, int32_t ___inputPort1, Type_t * ___typeofPlayable2, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = ___inputPort1;
-		Playable_t70832698  L_1 = Playable_GetInput_m777009268((&___playable0), L_0, /*hidden argument*/NULL);
-		return L_1;
-	}
-}
-// UnityEngine.Experimental.Director.Playable UnityEngine.Experimental.Director.Playables::GetOutputValidated(UnityEngine.Experimental.Director.Playable,System.Int32,System.Type)
-extern "C"  Playable_t70832698  Playables_GetOutputValidated_m70115406 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, int32_t ___outputPort1, Type_t * ___typeofPlayable2, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = ___outputPort1;
-		Playable_t70832698  L_1 = Playable_GetOutput_m1666786747((&___playable0), L_0, /*hidden argument*/NULL);
-		return L_1;
-	}
-}
-// System.Void UnityEngine.Experimental.Director.Playables::SetInputWeightValidated(UnityEngine.Experimental.Director.Playable,System.Int32,System.Single,System.Type)
-extern "C"  void Playables_SetInputWeightValidated_m799805684 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, int32_t ___inputIndex1, float ___weight2, Type_t * ___typeofPlayable3, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = ___inputIndex1;
-		float L_1 = ___weight2;
-		Playable_SetInputWeight_m2698917277((&___playable0), L_0, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Single UnityEngine.Experimental.Director.Playables::GetInputWeightValidated(UnityEngine.Experimental.Director.Playable,System.Int32,System.Type)
-extern "C"  float Playables_GetInputWeightValidated_m870617231 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___playable0, int32_t ___index1, Type_t * ___typeofPlayable2, const MethodInfo* method)
-{
-	{
-		int32_t L_0 = ___index1;
-		float L_1 = Playable_GetInputWeight_m837530218((&___playable0), L_0, /*hidden argument*/NULL);
-		return L_1;
-	}
-}
-// System.Boolean UnityEngine.Experimental.Director.Playables::Equals(UnityEngine.Experimental.Director.Playable,System.Object)
-extern "C"  bool Playables_Equals_m2773836346 (Il2CppObject * __this /* static, unused */, Playable_t70832698  ___isAPlayable0, Il2CppObject * ___mightBeAnythingOrNull1, const MethodInfo* method)
-{
-	int32_t G_B3_0 = 0;
-	{
-		Il2CppObject * L_0 = ___mightBeAnythingOrNull1;
-		if (!L_0)
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		Il2CppObject * L_1 = ___mightBeAnythingOrNull1;
-		bool L_2 = Playable_Equals_m1149042830((&___isAPlayable0), L_1, /*hidden argument*/NULL);
-		G_B3_0 = ((int32_t)(L_2));
-		goto IL_0011;
-	}
-
-IL_0010:
-	{
-		G_B3_0 = 0;
-	}
-
-IL_0011:
-	{
-		return (bool)G_B3_0;
-	}
-}
-// System.Void UnityEngine.Experimental.Director.ScriptPlayable::.ctor()
-extern "C"  void ScriptPlayable__ctor_m2840346104 (ScriptPlayable_t1378537957 * __this, const MethodInfo* method)
-{
-	{
-		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
-		return;
-	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

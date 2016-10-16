@@ -26,6 +26,8 @@ struct CultureInfo_t1065375142;
 struct ByteU5BU5D_t4260760469;
 // System.String
 struct String_t;
+// System.Object
+struct Il2CppObject;
 // System.Threading.ExecutionContext
 struct ExecutionContext_t1900239151;
 // System.Threading.CompressedStack
@@ -37,6 +39,7 @@ struct CompressedStack_t1790381301;
 #include "mscorlib_System_MulticastDelegate3389745971.h"
 #include "mscorlib_System_Globalization_CultureInfo1065375142.h"
 #include "mscorlib_System_String7231557.h"
+#include "mscorlib_System_Object4170816371.h"
 #include "mscorlib_System_Threading_ThreadState124146581.h"
 
 // System.Void System.Threading.Thread::.ctor(System.Threading.ThreadStart)
@@ -53,6 +56,14 @@ extern "C"  Thread_t1973216770 * Thread_get_CurrentThread_m1523593825 (Il2CppObj
 extern "C"  void Thread_FreeLocalSlotValues_m3189496250 (Il2CppObject * __this /* static, unused */, int32_t ___slot0, bool ___thread_local1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.Thread::GetDomainID()
 extern "C"  int32_t Thread_GetDomainID_m3584395396 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Threading.Thread::ResetAbort_internal()
+extern "C"  void Thread_ResetAbort_internal_m2789079470 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Threading.Thread::ResetAbort()
+extern "C"  void Thread_ResetAbort_m2356607568 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Threading.Thread::Sleep_internal(System.Int32)
+extern "C"  void Thread_Sleep_internal_m177894821 (Il2CppObject * __this /* static, unused */, int32_t ___ms0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Threading.Thread::Sleep(System.Int32)
+extern "C"  void Thread_Sleep_m633014587 (Il2CppObject * __this /* static, unused */, int32_t ___millisecondsTimeout0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Threading.Thread::Thread_internal(System.MulticastDelegate)
 extern "C"  IntPtr_t Thread_Thread_internal_m1309677628 (Thread_t1973216770 * __this, MulticastDelegate_t3389745971 * ___start0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::Thread_init()
@@ -79,6 +90,14 @@ extern "C"  void Thread_set_IsBackground_m1141752027 (Thread_t1973216770 * __thi
 extern "C"  void Thread_SetName_internal_m3255834084 (Thread_t1973216770 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::set_Name(System.String)
 extern "C"  void Thread_set_Name_m597236523 (Thread_t1973216770 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Threading.Thread::Abort_internal(System.Object)
+extern "C"  void Thread_Abort_internal_m2270610713 (Thread_t1973216770 * __this, Il2CppObject * ___stateInfo0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Threading.Thread::Abort()
+extern "C"  void Thread_Abort_m473867523 (Thread_t1973216770 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Threading.Thread::Join_internal(System.Int32,System.IntPtr)
+extern "C"  bool Thread_Join_internal_m913403110 (Thread_t1973216770 * __this, int32_t ___ms0, IntPtr_t ___handle1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Threading.Thread::Join()
+extern "C"  void Thread_Join_m2640073881 (Thread_t1973216770 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::Start()
 extern "C"  void Thread_Start_m4066427317 (Thread_t1973216770 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Thread::Thread_free_internal(System.IntPtr)

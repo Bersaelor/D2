@@ -61,6 +61,12 @@ extern "C"  void RenderTexture_set_depth_m68043273 (RenderTexture_t1963041563 * 
 extern "C"  int32_t RenderTexture_get_format_m3502109954 (RenderTexture_t1963041563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RenderTexture::set_format(UnityEngine.RenderTextureFormat)
 extern "C"  void RenderTexture_set_format_m2539201833 (RenderTexture_t1963041563 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RenderTexture::set_antiAliasing(System.Int32)
+extern "C"  void RenderTexture_set_antiAliasing_m3431921842 (RenderTexture_t1963041563 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RenderTexture::Release()
+extern "C"  void RenderTexture_Release_m2820287481 (RenderTexture_t1963041563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RenderTexture::INTERNAL_CALL_Release(UnityEngine.RenderTexture)
+extern "C"  void RenderTexture_INTERNAL_CALL_Release_m2325488906 (Il2CppObject * __this /* static, unused */, RenderTexture_t1963041563 * ___self0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RenderTexture::DiscardContents()
 extern "C"  void RenderTexture_DiscardContents_m1898044554 (RenderTexture_t1963041563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RenderTexture::INTERNAL_CALL_DiscardContents(UnityEngine.RenderTexture)
@@ -77,5 +83,7 @@ extern "C"  RenderBuffer_t3529837690  RenderTexture_get_depthBuffer_m990382574 (
 extern "C"  void RenderTexture_GetColorBuffer_m4145048604 (RenderTexture_t1963041563 * __this, RenderBuffer_t3529837690 * ___res0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RenderTexture::GetDepthBuffer(UnityEngine.RenderBuffer&)
 extern "C"  void RenderTexture_GetDepthBuffer_m63945916 (RenderTexture_t1963041563 * __this, RenderBuffer_t3529837690 * ___res0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RenderTexture UnityEngine.RenderTexture::get_active()
+extern "C"  RenderTexture_t1963041563 * RenderTexture_get_active_m1725644858 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RenderTexture::set_active(UnityEngine.RenderTexture)
 extern "C"  void RenderTexture_set_active_m1002947377 (Il2CppObject * __this /* static, unused */, RenderTexture_t1963041563 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

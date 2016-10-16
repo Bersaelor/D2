@@ -14,19 +14,22 @@
 
 // System.ComponentModel.TypeConverterAttribute
 struct TypeConverterAttribute_t1738187778;
+// System.String
+struct String_t;
 // System.Type
 struct Type_t;
 // System.Object
 struct Il2CppObject;
-// System.String
-struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_String7231557.h"
 #include "mscorlib_System_Type2863145774.h"
 #include "mscorlib_System_Object4170816371.h"
 
 // System.Void System.ComponentModel.TypeConverterAttribute::.ctor()
 extern "C"  void TypeConverterAttribute__ctor_m1679891427 (TypeConverterAttribute_t1738187778 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.ComponentModel.TypeConverterAttribute::.ctor(System.String)
+extern "C"  void TypeConverterAttribute__ctor_m2613980159 (TypeConverterAttribute_t1738187778 * __this, String_t* ___typeName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ComponentModel.TypeConverterAttribute::.ctor(System.Type)
 extern "C"  void TypeConverterAttribute__ctor_m1621665718 (TypeConverterAttribute_t1738187778 * __this, Type_t * ___type0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ComponentModel.TypeConverterAttribute::.cctor()

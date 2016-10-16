@@ -13,14 +13,20 @@
 #include <limits>
 #include <assert.h>
 
+// UnityEngine.ThreadAndSerializationSafe
+struct ThreadAndSerializationSafe_t3251508852;
+// UnityEngine.TooltipAttribute
+struct TooltipAttribute_t1877437789;
+// System.String
+struct String_t;
+// UnityEngine.TouchScreenKeyboard
+struct TouchScreenKeyboard_t1858258760;
 // UnityEngine.TrackedReference
 struct TrackedReference_t2089686725;
 // System.Object
 struct Il2CppObject;
 // UnityEngine.Transform
 struct Transform_t1659122786;
-// System.String
-struct String_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t3464575207;
 // UnityEngine.Transform/Enumerator
@@ -73,15 +79,42 @@ struct TypeInferenceRuleAttribute_t1657757719;
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array1146569071.h"
-#include "UnityEngine_UnityEngine_TouchScreenKeyboardType2604324130.h"
-#include "UnityEngine_UnityEngine_TouchScreenKeyboardType2604324130MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ThreadAndSerializationSafe3251508852.h"
+#include "UnityEngine_UnityEngine_ThreadAndSerializationSafe3251508852MethodDeclarations.h"
+#include "mscorlib_System_Void2863195528.h"
+#include "mscorlib_System_Attribute2523058482MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Time4241968337.h"
+#include "UnityEngine_UnityEngine_Time4241968337MethodDeclarations.h"
+#include "mscorlib_System_Single4291918972.h"
+#include "mscorlib_System_Int321153838500.h"
+#include "UnityEngine_UnityEngine_TooltipAttribute1877437789.h"
+#include "UnityEngine_UnityEngine_TooltipAttribute1877437789MethodDeclarations.h"
+#include "mscorlib_System_String7231557.h"
+#include "UnityEngine_UnityEngine_PropertyAttribute3531521085MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Touch4210255029.h"
+#include "UnityEngine_UnityEngine_Touch4210255029MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector24282066565.h"
+#include "UnityEngine_UnityEngine_TouchPhase1567063616.h"
 #include "UnityEngine_UnityEngine_TouchType970257423.h"
+#include "UnityEngine_UnityEngine_Vector24282066565MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TouchPhase1567063616MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TouchScreenKeyboard1858258760.h"
+#include "UnityEngine_UnityEngine_TouchScreenKeyboard1858258760MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TouchScreenKeyboardType2604324130.h"
+#include "mscorlib_System_Boolean476798718.h"
+#include "mscorlib_System_Object4170816371MethodDeclarations.h"
+#include "mscorlib_System_Convert1363677321MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TouchScreenKeyboard_Interna705488572.h"
+#include "mscorlib_System_UInt3224667981.h"
+#include "mscorlib_System_Object4170816371.h"
+#include "UnityEngine_UnityEngine_Application2856536070MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RuntimePlatform3050318497.h"
+#include "mscorlib_System_String7231557MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TouchScreenKeyboard_Interna705488572MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_TouchScreenKeyboardType2604324130MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_TouchType970257423MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_TrackedReference2089686725.h"
 #include "UnityEngine_UnityEngine_TrackedReference2089686725MethodDeclarations.h"
-#include "mscorlib_System_Object4170816371.h"
-#include "mscorlib_System_Boolean476798718.h"
-#include "mscorlib_System_Int321153838500.h"
 #include "mscorlib_System_IntPtr4010401971MethodDeclarations.h"
 #include "mscorlib_System_IntPtr4010401971.h"
 #include "UnityEngine_UnityEngine_TrailRenderer2401074527.h"
@@ -89,25 +122,19 @@ struct TypeInferenceRuleAttribute_t1657757719;
 #include "UnityEngine_UnityEngine_Transform1659122786.h"
 #include "UnityEngine_UnityEngine_Transform1659122786MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Vector34282066566.h"
-#include "mscorlib_System_Void2863195528.h"
 #include "UnityEngine_UnityEngine_Quaternion1553702882.h"
 #include "UnityEngine_UnityEngine_Quaternion1553702882MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Vector34282066566MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Debug4195163081MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RectTransform972643934.h"
-#include "mscorlib_System_String7231557.h"
 #include "UnityEngine_UnityEngine_Object3071478659.h"
 #include "UnityEngine_UnityEngine_Matrix4x41651859333.h"
 #include "UnityEngine_UnityEngine_Space4209342076.h"
-#include "mscorlib_System_Single4291918972.h"
 #include "UnityEngine_UnityEngine_Object3071478659MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Transform_Enumerator3875554846MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Transform_Enumerator3875554846.h"
-#include "mscorlib_System_Object4170816371MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_UICharInfo65807484.h"
 #include "UnityEngine_UnityEngine_UICharInfo65807484MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Vector24282066565.h"
-#include "UnityEngine_UnityEngine_Vector24282066565MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_UILineInfo4113875482.h"
 #include "UnityEngine_UnityEngine_UILineInfo4113875482MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_UIVertex4244065212.h"
@@ -126,7 +153,6 @@ struct TypeInferenceRuleAttribute_t1657757719;
 #include "mscorlib_System_UnhandledExceptionEventHandler2544755120.h"
 #include "mscorlib_System_UnhandledExceptionEventArgs3134093121MethodDeclarations.h"
 #include "mscorlib_System_Exception3991598821.h"
-#include "mscorlib_System_String7231557MethodDeclarations.h"
 #include "mscorlib_System_Exception3991598821MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_UnityException3473321374.h"
 #include "UnityEngine_UnityEngine_UnityException3473321374MethodDeclarations.h"
@@ -139,7 +165,6 @@ struct TypeInferenceRuleAttribute_t1657757719;
 #include "mscorlib_System_IndexOutOfRangeException3456360697.h"
 #include "mscorlib_System_Single4291918972MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Mathf4203372500MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Time4241968337MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Mathf4203372500.h"
 #include "UnityEngine_UnityEngine_VerticalWrapMode1147493927.h"
 #include "UnityEngine_UnityEngine_VerticalWrapMode1147493927MethodDeclarations.h"
@@ -155,7 +180,6 @@ struct TypeInferenceRuleAttribute_t1657757719;
 #include "UnityEngine_UnityEngine_CustomYieldInstruction2666549910MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_WrapperlessIcall2494346367.h"
 #include "UnityEngine_UnityEngine_WrapperlessIcall2494346367MethodDeclarations.h"
-#include "mscorlib_System_Attribute2523058482MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_WritableAttribute2171443922.h"
 #include "UnityEngine_UnityEngine_WritableAttribute2171443922MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_WWW3134621005.h"
@@ -198,6 +222,705 @@ struct TypeInferenceRuleAttribute_t1657757719;
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.ThreadAndSerializationSafe::.ctor()
+extern "C"  void ThreadAndSerializationSafe__ctor_m4149745981 (ThreadAndSerializationSafe_t3251508852 * __this, const MethodInfo* method)
+{
+	{
+		Attribute__ctor_m2985353781(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single UnityEngine.Time::get_time()
+extern "C"  float Time_get_time_m342192902 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (*Time_get_time_m342192902_ftn) ();
+	static Time_get_time_m342192902_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_time_m342192902_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_time()");
+	return _il2cpp_icall_func();
+}
+// System.Single UnityEngine.Time::get_deltaTime()
+extern "C"  float Time_get_deltaTime_m2741110510 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (*Time_get_deltaTime_m2741110510_ftn) ();
+	static Time_get_deltaTime_m2741110510_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_deltaTime_m2741110510_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_deltaTime()");
+	return _il2cpp_icall_func();
+}
+// System.Single UnityEngine.Time::get_unscaledTime()
+extern "C"  float Time_get_unscaledTime_m319114521 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (*Time_get_unscaledTime_m319114521_ftn) ();
+	static Time_get_unscaledTime_m319114521_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_unscaledTime_m319114521_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_unscaledTime()");
+	return _il2cpp_icall_func();
+}
+// System.Single UnityEngine.Time::get_unscaledDeltaTime()
+extern "C"  float Time_get_unscaledDeltaTime_m285638843 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (*Time_get_unscaledDeltaTime_m285638843_ftn) ();
+	static Time_get_unscaledDeltaTime_m285638843_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_unscaledDeltaTime_m285638843_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_unscaledDeltaTime()");
+	return _il2cpp_icall_func();
+}
+// System.Single UnityEngine.Time::get_fixedDeltaTime()
+extern "C"  float Time_get_fixedDeltaTime_m1418463946 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (*Time_get_fixedDeltaTime_m1418463946_ftn) ();
+	static Time_get_fixedDeltaTime_m1418463946_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_fixedDeltaTime_m1418463946_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_fixedDeltaTime()");
+	return _il2cpp_icall_func();
+}
+// System.Single UnityEngine.Time::get_timeScale()
+extern "C"  float Time_get_timeScale_m1970669766 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (*Time_get_timeScale_m1970669766_ftn) ();
+	static Time_get_timeScale_m1970669766_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_timeScale_m1970669766_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_timeScale()");
+	return _il2cpp_icall_func();
+}
+// System.Int32 UnityEngine.Time::get_frameCount()
+extern "C"  int32_t Time_get_frameCount_m3434184975 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (*Time_get_frameCount_m3434184975_ftn) ();
+	static Time_get_frameCount_m3434184975_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_frameCount_m3434184975_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_frameCount()");
+	return _il2cpp_icall_func();
+}
+// System.Single UnityEngine.Time::get_realtimeSinceStartup()
+extern "C"  float Time_get_realtimeSinceStartup_m2972554983 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (*Time_get_realtimeSinceStartup_m2972554983_ftn) ();
+	static Time_get_realtimeSinceStartup_m2972554983_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_realtimeSinceStartup_m2972554983_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_realtimeSinceStartup()");
+	return _il2cpp_icall_func();
+}
+// System.Void UnityEngine.TooltipAttribute::.ctor(System.String)
+extern "C"  void TooltipAttribute__ctor_m3341446606 (TooltipAttribute_t1877437789 * __this, String_t* ___tooltip0, const MethodInfo* method)
+{
+	{
+		PropertyAttribute__ctor_m1741701746(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___tooltip0;
+		__this->set_tooltip_0(L_0);
+		return;
+	}
+}
+// System.Int32 UnityEngine.Touch::get_fingerId()
+extern "C"  int32_t Touch_get_fingerId_m1427167959 (Touch_t4210255029 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_m_FingerId_0();
+		return L_0;
+	}
+}
+extern "C"  int32_t Touch_get_fingerId_m1427167959_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	Touch_t4210255029 * _thisAdjusted = reinterpret_cast<Touch_t4210255029 *>(__this + 1);
+	return Touch_get_fingerId_m1427167959(_thisAdjusted, method);
+}
+// UnityEngine.Vector2 UnityEngine.Touch::get_position()
+extern "C"  Vector2_t4282066565  Touch_get_position_m1943849441 (Touch_t4210255029 * __this, const MethodInfo* method)
+{
+	{
+		Vector2_t4282066565  L_0 = __this->get_m_Position_1();
+		return L_0;
+	}
+}
+extern "C"  Vector2_t4282066565  Touch_get_position_m1943849441_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	Touch_t4210255029 * _thisAdjusted = reinterpret_cast<Touch_t4210255029 *>(__this + 1);
+	return Touch_get_position_m1943849441(_thisAdjusted, method);
+}
+// UnityEngine.TouchPhase UnityEngine.Touch::get_phase()
+extern "C"  int32_t Touch_get_phase_m3314549414 (Touch_t4210255029 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_m_Phase_6();
+		return L_0;
+	}
+}
+extern "C"  int32_t Touch_get_phase_m3314549414_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	Touch_t4210255029 * _thisAdjusted = reinterpret_cast<Touch_t4210255029 *>(__this + 1);
+	return Touch_get_phase_m3314549414(_thisAdjusted, method);
+}
+// UnityEngine.TouchType UnityEngine.Touch::get_type()
+extern "C"  int32_t Touch_get_type_m1428398012 (Touch_t4210255029 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_m_Type_7();
+		return L_0;
+	}
+}
+extern "C"  int32_t Touch_get_type_m1428398012_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	Touch_t4210255029 * _thisAdjusted = reinterpret_cast<Touch_t4210255029 *>(__this + 1);
+	return Touch_get_type_m1428398012(_thisAdjusted, method);
+}
+// Conversion methods for marshalling of: UnityEngine.Touch
+extern "C" void Touch_t4210255029_marshal_pinvoke(const Touch_t4210255029& unmarshaled, Touch_t4210255029_marshaled_pinvoke& marshaled)
+{
+	marshaled.___m_FingerId_0 = unmarshaled.get_m_FingerId_0();
+	Vector2_t4282066565_marshal_pinvoke(unmarshaled.get_m_Position_1(), marshaled.___m_Position_1);
+	Vector2_t4282066565_marshal_pinvoke(unmarshaled.get_m_RawPosition_2(), marshaled.___m_RawPosition_2);
+	Vector2_t4282066565_marshal_pinvoke(unmarshaled.get_m_PositionDelta_3(), marshaled.___m_PositionDelta_3);
+	marshaled.___m_TimeDelta_4 = unmarshaled.get_m_TimeDelta_4();
+	marshaled.___m_TapCount_5 = unmarshaled.get_m_TapCount_5();
+	marshaled.___m_Phase_6 = unmarshaled.get_m_Phase_6();
+	marshaled.___m_Type_7 = unmarshaled.get_m_Type_7();
+	marshaled.___m_Pressure_8 = unmarshaled.get_m_Pressure_8();
+	marshaled.___m_maximumPossiblePressure_9 = unmarshaled.get_m_maximumPossiblePressure_9();
+	marshaled.___m_Radius_10 = unmarshaled.get_m_Radius_10();
+	marshaled.___m_RadiusVariance_11 = unmarshaled.get_m_RadiusVariance_11();
+	marshaled.___m_AltitudeAngle_12 = unmarshaled.get_m_AltitudeAngle_12();
+	marshaled.___m_AzimuthAngle_13 = unmarshaled.get_m_AzimuthAngle_13();
+}
+extern "C" void Touch_t4210255029_marshal_pinvoke_back(const Touch_t4210255029_marshaled_pinvoke& marshaled, Touch_t4210255029& unmarshaled)
+{
+	int32_t unmarshaled_m_FingerId_temp_0 = 0;
+	unmarshaled_m_FingerId_temp_0 = marshaled.___m_FingerId_0;
+	unmarshaled.set_m_FingerId_0(unmarshaled_m_FingerId_temp_0);
+	Vector2_t4282066565  unmarshaled_m_Position_temp_1;
+	memset(&unmarshaled_m_Position_temp_1, 0, sizeof(unmarshaled_m_Position_temp_1));
+	Vector2_t4282066565_marshal_pinvoke_back(marshaled.___m_Position_1, unmarshaled_m_Position_temp_1);
+	unmarshaled.set_m_Position_1(unmarshaled_m_Position_temp_1);
+	Vector2_t4282066565  unmarshaled_m_RawPosition_temp_2;
+	memset(&unmarshaled_m_RawPosition_temp_2, 0, sizeof(unmarshaled_m_RawPosition_temp_2));
+	Vector2_t4282066565_marshal_pinvoke_back(marshaled.___m_RawPosition_2, unmarshaled_m_RawPosition_temp_2);
+	unmarshaled.set_m_RawPosition_2(unmarshaled_m_RawPosition_temp_2);
+	Vector2_t4282066565  unmarshaled_m_PositionDelta_temp_3;
+	memset(&unmarshaled_m_PositionDelta_temp_3, 0, sizeof(unmarshaled_m_PositionDelta_temp_3));
+	Vector2_t4282066565_marshal_pinvoke_back(marshaled.___m_PositionDelta_3, unmarshaled_m_PositionDelta_temp_3);
+	unmarshaled.set_m_PositionDelta_3(unmarshaled_m_PositionDelta_temp_3);
+	float unmarshaled_m_TimeDelta_temp_4 = 0.0f;
+	unmarshaled_m_TimeDelta_temp_4 = marshaled.___m_TimeDelta_4;
+	unmarshaled.set_m_TimeDelta_4(unmarshaled_m_TimeDelta_temp_4);
+	int32_t unmarshaled_m_TapCount_temp_5 = 0;
+	unmarshaled_m_TapCount_temp_5 = marshaled.___m_TapCount_5;
+	unmarshaled.set_m_TapCount_5(unmarshaled_m_TapCount_temp_5);
+	int32_t unmarshaled_m_Phase_temp_6 = 0;
+	unmarshaled_m_Phase_temp_6 = marshaled.___m_Phase_6;
+	unmarshaled.set_m_Phase_6(unmarshaled_m_Phase_temp_6);
+	int32_t unmarshaled_m_Type_temp_7 = 0;
+	unmarshaled_m_Type_temp_7 = marshaled.___m_Type_7;
+	unmarshaled.set_m_Type_7(unmarshaled_m_Type_temp_7);
+	float unmarshaled_m_Pressure_temp_8 = 0.0f;
+	unmarshaled_m_Pressure_temp_8 = marshaled.___m_Pressure_8;
+	unmarshaled.set_m_Pressure_8(unmarshaled_m_Pressure_temp_8);
+	float unmarshaled_m_maximumPossiblePressure_temp_9 = 0.0f;
+	unmarshaled_m_maximumPossiblePressure_temp_9 = marshaled.___m_maximumPossiblePressure_9;
+	unmarshaled.set_m_maximumPossiblePressure_9(unmarshaled_m_maximumPossiblePressure_temp_9);
+	float unmarshaled_m_Radius_temp_10 = 0.0f;
+	unmarshaled_m_Radius_temp_10 = marshaled.___m_Radius_10;
+	unmarshaled.set_m_Radius_10(unmarshaled_m_Radius_temp_10);
+	float unmarshaled_m_RadiusVariance_temp_11 = 0.0f;
+	unmarshaled_m_RadiusVariance_temp_11 = marshaled.___m_RadiusVariance_11;
+	unmarshaled.set_m_RadiusVariance_11(unmarshaled_m_RadiusVariance_temp_11);
+	float unmarshaled_m_AltitudeAngle_temp_12 = 0.0f;
+	unmarshaled_m_AltitudeAngle_temp_12 = marshaled.___m_AltitudeAngle_12;
+	unmarshaled.set_m_AltitudeAngle_12(unmarshaled_m_AltitudeAngle_temp_12);
+	float unmarshaled_m_AzimuthAngle_temp_13 = 0.0f;
+	unmarshaled_m_AzimuthAngle_temp_13 = marshaled.___m_AzimuthAngle_13;
+	unmarshaled.set_m_AzimuthAngle_13(unmarshaled_m_AzimuthAngle_temp_13);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.Touch
+extern "C" void Touch_t4210255029_marshal_pinvoke_cleanup(Touch_t4210255029_marshaled_pinvoke& marshaled)
+{
+	Vector2_t4282066565_marshal_pinvoke_cleanup(marshaled.___m_Position_1);
+	Vector2_t4282066565_marshal_pinvoke_cleanup(marshaled.___m_RawPosition_2);
+	Vector2_t4282066565_marshal_pinvoke_cleanup(marshaled.___m_PositionDelta_3);
+}
+// Conversion methods for marshalling of: UnityEngine.Touch
+extern "C" void Touch_t4210255029_marshal_com(const Touch_t4210255029& unmarshaled, Touch_t4210255029_marshaled_com& marshaled)
+{
+	marshaled.___m_FingerId_0 = unmarshaled.get_m_FingerId_0();
+	Vector2_t4282066565_marshal_com(unmarshaled.get_m_Position_1(), marshaled.___m_Position_1);
+	Vector2_t4282066565_marshal_com(unmarshaled.get_m_RawPosition_2(), marshaled.___m_RawPosition_2);
+	Vector2_t4282066565_marshal_com(unmarshaled.get_m_PositionDelta_3(), marshaled.___m_PositionDelta_3);
+	marshaled.___m_TimeDelta_4 = unmarshaled.get_m_TimeDelta_4();
+	marshaled.___m_TapCount_5 = unmarshaled.get_m_TapCount_5();
+	marshaled.___m_Phase_6 = unmarshaled.get_m_Phase_6();
+	marshaled.___m_Type_7 = unmarshaled.get_m_Type_7();
+	marshaled.___m_Pressure_8 = unmarshaled.get_m_Pressure_8();
+	marshaled.___m_maximumPossiblePressure_9 = unmarshaled.get_m_maximumPossiblePressure_9();
+	marshaled.___m_Radius_10 = unmarshaled.get_m_Radius_10();
+	marshaled.___m_RadiusVariance_11 = unmarshaled.get_m_RadiusVariance_11();
+	marshaled.___m_AltitudeAngle_12 = unmarshaled.get_m_AltitudeAngle_12();
+	marshaled.___m_AzimuthAngle_13 = unmarshaled.get_m_AzimuthAngle_13();
+}
+extern "C" void Touch_t4210255029_marshal_com_back(const Touch_t4210255029_marshaled_com& marshaled, Touch_t4210255029& unmarshaled)
+{
+	int32_t unmarshaled_m_FingerId_temp_0 = 0;
+	unmarshaled_m_FingerId_temp_0 = marshaled.___m_FingerId_0;
+	unmarshaled.set_m_FingerId_0(unmarshaled_m_FingerId_temp_0);
+	Vector2_t4282066565  unmarshaled_m_Position_temp_1;
+	memset(&unmarshaled_m_Position_temp_1, 0, sizeof(unmarshaled_m_Position_temp_1));
+	Vector2_t4282066565_marshal_com_back(marshaled.___m_Position_1, unmarshaled_m_Position_temp_1);
+	unmarshaled.set_m_Position_1(unmarshaled_m_Position_temp_1);
+	Vector2_t4282066565  unmarshaled_m_RawPosition_temp_2;
+	memset(&unmarshaled_m_RawPosition_temp_2, 0, sizeof(unmarshaled_m_RawPosition_temp_2));
+	Vector2_t4282066565_marshal_com_back(marshaled.___m_RawPosition_2, unmarshaled_m_RawPosition_temp_2);
+	unmarshaled.set_m_RawPosition_2(unmarshaled_m_RawPosition_temp_2);
+	Vector2_t4282066565  unmarshaled_m_PositionDelta_temp_3;
+	memset(&unmarshaled_m_PositionDelta_temp_3, 0, sizeof(unmarshaled_m_PositionDelta_temp_3));
+	Vector2_t4282066565_marshal_com_back(marshaled.___m_PositionDelta_3, unmarshaled_m_PositionDelta_temp_3);
+	unmarshaled.set_m_PositionDelta_3(unmarshaled_m_PositionDelta_temp_3);
+	float unmarshaled_m_TimeDelta_temp_4 = 0.0f;
+	unmarshaled_m_TimeDelta_temp_4 = marshaled.___m_TimeDelta_4;
+	unmarshaled.set_m_TimeDelta_4(unmarshaled_m_TimeDelta_temp_4);
+	int32_t unmarshaled_m_TapCount_temp_5 = 0;
+	unmarshaled_m_TapCount_temp_5 = marshaled.___m_TapCount_5;
+	unmarshaled.set_m_TapCount_5(unmarshaled_m_TapCount_temp_5);
+	int32_t unmarshaled_m_Phase_temp_6 = 0;
+	unmarshaled_m_Phase_temp_6 = marshaled.___m_Phase_6;
+	unmarshaled.set_m_Phase_6(unmarshaled_m_Phase_temp_6);
+	int32_t unmarshaled_m_Type_temp_7 = 0;
+	unmarshaled_m_Type_temp_7 = marshaled.___m_Type_7;
+	unmarshaled.set_m_Type_7(unmarshaled_m_Type_temp_7);
+	float unmarshaled_m_Pressure_temp_8 = 0.0f;
+	unmarshaled_m_Pressure_temp_8 = marshaled.___m_Pressure_8;
+	unmarshaled.set_m_Pressure_8(unmarshaled_m_Pressure_temp_8);
+	float unmarshaled_m_maximumPossiblePressure_temp_9 = 0.0f;
+	unmarshaled_m_maximumPossiblePressure_temp_9 = marshaled.___m_maximumPossiblePressure_9;
+	unmarshaled.set_m_maximumPossiblePressure_9(unmarshaled_m_maximumPossiblePressure_temp_9);
+	float unmarshaled_m_Radius_temp_10 = 0.0f;
+	unmarshaled_m_Radius_temp_10 = marshaled.___m_Radius_10;
+	unmarshaled.set_m_Radius_10(unmarshaled_m_Radius_temp_10);
+	float unmarshaled_m_RadiusVariance_temp_11 = 0.0f;
+	unmarshaled_m_RadiusVariance_temp_11 = marshaled.___m_RadiusVariance_11;
+	unmarshaled.set_m_RadiusVariance_11(unmarshaled_m_RadiusVariance_temp_11);
+	float unmarshaled_m_AltitudeAngle_temp_12 = 0.0f;
+	unmarshaled_m_AltitudeAngle_temp_12 = marshaled.___m_AltitudeAngle_12;
+	unmarshaled.set_m_AltitudeAngle_12(unmarshaled_m_AltitudeAngle_temp_12);
+	float unmarshaled_m_AzimuthAngle_temp_13 = 0.0f;
+	unmarshaled_m_AzimuthAngle_temp_13 = marshaled.___m_AzimuthAngle_13;
+	unmarshaled.set_m_AzimuthAngle_13(unmarshaled_m_AzimuthAngle_temp_13);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.Touch
+extern "C" void Touch_t4210255029_marshal_com_cleanup(Touch_t4210255029_marshaled_com& marshaled)
+{
+	Vector2_t4282066565_marshal_com_cleanup(marshaled.___m_Position_1);
+	Vector2_t4282066565_marshal_com_cleanup(marshaled.___m_RawPosition_2);
+	Vector2_t4282066565_marshal_com_cleanup(marshaled.___m_PositionDelta_3);
+}
+// System.Void UnityEngine.TouchScreenKeyboard::.ctor(System.String,UnityEngine.TouchScreenKeyboardType,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)
+extern Il2CppClass* TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_il2cpp_TypeInfo_var;
+extern Il2CppClass* TouchScreenKeyboardType_t2604324130_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t1363677321_il2cpp_TypeInfo_var;
+extern const uint32_t TouchScreenKeyboard__ctor_m3607055310_MetadataUsageId;
+extern "C"  void TouchScreenKeyboard__ctor_m3607055310 (TouchScreenKeyboard_t1858258760 * __this, String_t* ___text0, int32_t ___keyboardType1, bool ___autocorrection2, bool ___multiline3, bool ___secure4, bool ___alert5, String_t* ___textPlaceholder6, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (TouchScreenKeyboard__ctor_m3607055310_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		Initobj (TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_il2cpp_TypeInfo_var, (&V_0));
+		int32_t L_0 = ___keyboardType1;
+		int32_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(TouchScreenKeyboardType_t2604324130_il2cpp_TypeInfo_var, &L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1363677321_il2cpp_TypeInfo_var);
+		uint32_t L_3 = Convert_ToUInt32_m2991910559(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		(&V_0)->set_keyboardType_0(L_3);
+		bool L_4 = ___autocorrection2;
+		uint32_t L_5 = Convert_ToUInt32_m175516108(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		(&V_0)->set_autocorrection_1(L_5);
+		bool L_6 = ___multiline3;
+		uint32_t L_7 = Convert_ToUInt32_m175516108(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		(&V_0)->set_multiline_2(L_7);
+		bool L_8 = ___secure4;
+		uint32_t L_9 = Convert_ToUInt32_m175516108(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		(&V_0)->set_secure_3(L_9);
+		bool L_10 = ___alert5;
+		uint32_t L_11 = Convert_ToUInt32_m175516108(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		(&V_0)->set_alert_4(L_11);
+		String_t* L_12 = ___text0;
+		String_t* L_13 = ___textPlaceholder6;
+		TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m3839791280(__this, (&V_0), L_12, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.TouchScreenKeyboard::Destroy()
+extern "C"  void TouchScreenKeyboard_Destroy_m3865079199 (TouchScreenKeyboard_t1858258760 * __this, const MethodInfo* method)
+{
+	typedef void (*TouchScreenKeyboard_Destroy_m3865079199_ftn) (TouchScreenKeyboard_t1858258760 *);
+	static TouchScreenKeyboard_Destroy_m3865079199_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TouchScreenKeyboard_Destroy_m3865079199_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::Destroy()");
+	_il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.TouchScreenKeyboard::Finalize()
+extern "C"  void TouchScreenKeyboard_Finalize_m541415163 (TouchScreenKeyboard_t1858258760 * __this, const MethodInfo* method)
+{
+	Exception_t3991598821 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t3991598821 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		TouchScreenKeyboard_Destroy_m3865079199(__this, /*hidden argument*/NULL);
+		IL2CPP_LEAVE(0x12, FINALLY_000b);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t3991598821 *)e.ex;
+		goto FINALLY_000b;
+	}
+
+FINALLY_000b:
+	{ // begin finally (depth: 1)
+		Object_Finalize_m3027285644(__this, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(11)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(11)
+	{
+		IL2CPP_JUMP_TBL(0x12, IL_0012)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3991598821 *)
+	}
+
+IL_0012:
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper(UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments&,System.String,System.String)
+extern "C"  void TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m3839791280 (TouchScreenKeyboard_t1858258760 * __this, TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572 * ___arguments0, String_t* ___text1, String_t* ___textPlaceholder2, const MethodInfo* method)
+{
+	typedef void (*TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m3839791280_ftn) (TouchScreenKeyboard_t1858258760 *, TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572 *, String_t*, String_t*);
+	static TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m3839791280_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TouchScreenKeyboard_TouchScreenKeyboard_InternalConstructorHelper_m3839791280_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::TouchScreenKeyboard_InternalConstructorHelper(UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments&,System.String,System.String)");
+	_il2cpp_icall_func(__this, ___arguments0, ___text1, ___textPlaceholder2);
+}
+// System.Boolean UnityEngine.TouchScreenKeyboard::get_isSupported()
+extern "C"  bool TouchScreenKeyboard_get_isSupported_m2472329766 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = Application_get_platform_m2918632856(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		V_1 = L_1;
+		int32_t L_2 = V_1;
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 0)
+		{
+			goto IL_0064;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 1)
+		{
+			goto IL_0064;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 2)
+		{
+			goto IL_0064;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 3)
+		{
+			goto IL_0062;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 4)
+		{
+			goto IL_0045;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 5)
+		{
+			goto IL_0062;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 6)
+		{
+			goto IL_0045;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 7)
+		{
+			goto IL_0045;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 8)
+		{
+			goto IL_0062;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 9)
+		{
+			goto IL_0045;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 10)
+		{
+			goto IL_0045;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 11)
+		{
+			goto IL_0045;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)((int32_t)18))) == 12)
+		{
+			goto IL_0062;
+		}
+	}
+
+IL_0045:
+	{
+		int32_t L_3 = V_1;
+		if (((int32_t)((int32_t)L_3-(int32_t)8)) == 0)
+		{
+			goto IL_0062;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)8)) == 1)
+		{
+			goto IL_0066;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)8)) == 2)
+		{
+			goto IL_0066;
+		}
+		if (((int32_t)((int32_t)L_3-(int32_t)8)) == 3)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		goto IL_0066;
+	}
+
+IL_0062:
+	{
+		return (bool)1;
+	}
+
+IL_0064:
+	{
+		return (bool)0;
+	}
+
+IL_0066:
+	{
+		return (bool)0;
+	}
+}
+// UnityEngine.TouchScreenKeyboard UnityEngine.TouchScreenKeyboard::Open(System.String,UnityEngine.TouchScreenKeyboardType,System.Boolean,System.Boolean,System.Boolean)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t TouchScreenKeyboard_Open_m3070776627_MetadataUsageId;
+extern "C"  TouchScreenKeyboard_t1858258760 * TouchScreenKeyboard_Open_m3070776627 (Il2CppObject * __this /* static, unused */, String_t* ___text0, int32_t ___keyboardType1, bool ___autocorrection2, bool ___multiline3, bool ___secure4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (TouchScreenKeyboard_Open_m3070776627_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	bool V_1 = false;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_0;
+		V_1 = (bool)0;
+		String_t* L_1 = ___text0;
+		int32_t L_2 = ___keyboardType1;
+		bool L_3 = ___autocorrection2;
+		bool L_4 = ___multiline3;
+		bool L_5 = ___secure4;
+		bool L_6 = V_1;
+		String_t* L_7 = V_0;
+		TouchScreenKeyboard_t1858258760 * L_8 = TouchScreenKeyboard_Open_m3970504870(NULL /*static, unused*/, L_1, L_2, L_3, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
+// UnityEngine.TouchScreenKeyboard UnityEngine.TouchScreenKeyboard::Open(System.String,UnityEngine.TouchScreenKeyboardType,System.Boolean,System.Boolean)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t TouchScreenKeyboard_Open_m751274250_MetadataUsageId;
+extern "C"  TouchScreenKeyboard_t1858258760 * TouchScreenKeyboard_Open_m751274250 (Il2CppObject * __this /* static, unused */, String_t* ___text0, int32_t ___keyboardType1, bool ___autocorrection2, bool ___multiline3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (TouchScreenKeyboard_Open_m751274250_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		V_0 = L_0;
+		V_1 = (bool)0;
+		V_2 = (bool)0;
+		String_t* L_1 = ___text0;
+		int32_t L_2 = ___keyboardType1;
+		bool L_3 = ___autocorrection2;
+		bool L_4 = ___multiline3;
+		bool L_5 = V_2;
+		bool L_6 = V_1;
+		String_t* L_7 = V_0;
+		TouchScreenKeyboard_t1858258760 * L_8 = TouchScreenKeyboard_Open_m3970504870(NULL /*static, unused*/, L_1, L_2, L_3, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
+// UnityEngine.TouchScreenKeyboard UnityEngine.TouchScreenKeyboard::Open(System.String,UnityEngine.TouchScreenKeyboardType,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String)
+extern Il2CppClass* TouchScreenKeyboard_t1858258760_il2cpp_TypeInfo_var;
+extern const uint32_t TouchScreenKeyboard_Open_m3970504870_MetadataUsageId;
+extern "C"  TouchScreenKeyboard_t1858258760 * TouchScreenKeyboard_Open_m3970504870 (Il2CppObject * __this /* static, unused */, String_t* ___text0, int32_t ___keyboardType1, bool ___autocorrection2, bool ___multiline3, bool ___secure4, bool ___alert5, String_t* ___textPlaceholder6, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (TouchScreenKeyboard_Open_m3970504870_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___text0;
+		int32_t L_1 = ___keyboardType1;
+		bool L_2 = ___autocorrection2;
+		bool L_3 = ___multiline3;
+		bool L_4 = ___secure4;
+		bool L_5 = ___alert5;
+		String_t* L_6 = ___textPlaceholder6;
+		TouchScreenKeyboard_t1858258760 * L_7 = (TouchScreenKeyboard_t1858258760 *)il2cpp_codegen_object_new(TouchScreenKeyboard_t1858258760_il2cpp_TypeInfo_var);
+		TouchScreenKeyboard__ctor_m3607055310(L_7, L_0, L_1, L_2, L_3, L_4, L_5, L_6, /*hidden argument*/NULL);
+		return L_7;
+	}
+}
+// System.String UnityEngine.TouchScreenKeyboard::get_text()
+extern "C"  String_t* TouchScreenKeyboard_get_text_m2874389744 (TouchScreenKeyboard_t1858258760 * __this, const MethodInfo* method)
+{
+	typedef String_t* (*TouchScreenKeyboard_get_text_m2874389744_ftn) (TouchScreenKeyboard_t1858258760 *);
+	static TouchScreenKeyboard_get_text_m2874389744_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TouchScreenKeyboard_get_text_m2874389744_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::get_text()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.TouchScreenKeyboard::set_text(System.String)
+extern "C"  void TouchScreenKeyboard_set_text_m1654889403 (TouchScreenKeyboard_t1858258760 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	typedef void (*TouchScreenKeyboard_set_text_m1654889403_ftn) (TouchScreenKeyboard_t1858258760 *, String_t*);
+	static TouchScreenKeyboard_set_text_m1654889403_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TouchScreenKeyboard_set_text_m1654889403_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::set_text(System.String)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.TouchScreenKeyboard::set_hideInput(System.Boolean)
+extern "C"  void TouchScreenKeyboard_set_hideInput_m2518551559 (Il2CppObject * __this /* static, unused */, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*TouchScreenKeyboard_set_hideInput_m2518551559_ftn) (bool);
+	static TouchScreenKeyboard_set_hideInput_m2518551559_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TouchScreenKeyboard_set_hideInput_m2518551559_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::set_hideInput(System.Boolean)");
+	_il2cpp_icall_func(___value0);
+}
+// System.Boolean UnityEngine.TouchScreenKeyboard::get_active()
+extern "C"  bool TouchScreenKeyboard_get_active_m4287082086 (TouchScreenKeyboard_t1858258760 * __this, const MethodInfo* method)
+{
+	typedef bool (*TouchScreenKeyboard_get_active_m4287082086_ftn) (TouchScreenKeyboard_t1858258760 *);
+	static TouchScreenKeyboard_get_active_m4287082086_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TouchScreenKeyboard_get_active_m4287082086_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::get_active()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.TouchScreenKeyboard::set_active(System.Boolean)
+extern "C"  void TouchScreenKeyboard_set_active_m3667959159 (TouchScreenKeyboard_t1858258760 * __this, bool ___value0, const MethodInfo* method)
+{
+	typedef void (*TouchScreenKeyboard_set_active_m3667959159_ftn) (TouchScreenKeyboard_t1858258760 *, bool);
+	static TouchScreenKeyboard_set_active_m3667959159_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TouchScreenKeyboard_set_active_m3667959159_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::set_active(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Boolean UnityEngine.TouchScreenKeyboard::get_done()
+extern "C"  bool TouchScreenKeyboard_get_done_m25268130 (TouchScreenKeyboard_t1858258760 * __this, const MethodInfo* method)
+{
+	typedef bool (*TouchScreenKeyboard_get_done_m25268130_ftn) (TouchScreenKeyboard_t1858258760 *);
+	static TouchScreenKeyboard_get_done_m25268130_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TouchScreenKeyboard_get_done_m25268130_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::get_done()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Boolean UnityEngine.TouchScreenKeyboard::get_wasCanceled()
+extern "C"  bool TouchScreenKeyboard_get_wasCanceled_m3910688420 (TouchScreenKeyboard_t1858258760 * __this, const MethodInfo* method)
+{
+	typedef bool (*TouchScreenKeyboard_get_wasCanceled_m3910688420_ftn) (TouchScreenKeyboard_t1858258760 *);
+	static TouchScreenKeyboard_get_wasCanceled_m3910688420_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TouchScreenKeyboard_get_wasCanceled_m3910688420_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TouchScreenKeyboard::get_wasCanceled()");
+	return _il2cpp_icall_func(__this);
+}
+// Conversion methods for marshalling of: UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
+extern "C" void TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshal_pinvoke(const TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572& unmarshaled, TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshaled_pinvoke& marshaled)
+{
+	marshaled.___keyboardType_0 = unmarshaled.get_keyboardType_0();
+	marshaled.___autocorrection_1 = unmarshaled.get_autocorrection_1();
+	marshaled.___multiline_2 = unmarshaled.get_multiline_2();
+	marshaled.___secure_3 = unmarshaled.get_secure_3();
+	marshaled.___alert_4 = unmarshaled.get_alert_4();
+}
+extern "C" void TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshal_pinvoke_back(const TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshaled_pinvoke& marshaled, TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572& unmarshaled)
+{
+	uint32_t unmarshaled_keyboardType_temp_0 = 0;
+	unmarshaled_keyboardType_temp_0 = marshaled.___keyboardType_0;
+	unmarshaled.set_keyboardType_0(unmarshaled_keyboardType_temp_0);
+	uint32_t unmarshaled_autocorrection_temp_1 = 0;
+	unmarshaled_autocorrection_temp_1 = marshaled.___autocorrection_1;
+	unmarshaled.set_autocorrection_1(unmarshaled_autocorrection_temp_1);
+	uint32_t unmarshaled_multiline_temp_2 = 0;
+	unmarshaled_multiline_temp_2 = marshaled.___multiline_2;
+	unmarshaled.set_multiline_2(unmarshaled_multiline_temp_2);
+	uint32_t unmarshaled_secure_temp_3 = 0;
+	unmarshaled_secure_temp_3 = marshaled.___secure_3;
+	unmarshaled.set_secure_3(unmarshaled_secure_temp_3);
+	uint32_t unmarshaled_alert_temp_4 = 0;
+	unmarshaled_alert_temp_4 = marshaled.___alert_4;
+	unmarshaled.set_alert_4(unmarshaled_alert_temp_4);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
+extern "C" void TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshal_pinvoke_cleanup(TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
+extern "C" void TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshal_com(const TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572& unmarshaled, TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshaled_com& marshaled)
+{
+	marshaled.___keyboardType_0 = unmarshaled.get_keyboardType_0();
+	marshaled.___autocorrection_1 = unmarshaled.get_autocorrection_1();
+	marshaled.___multiline_2 = unmarshaled.get_multiline_2();
+	marshaled.___secure_3 = unmarshaled.get_secure_3();
+	marshaled.___alert_4 = unmarshaled.get_alert_4();
+}
+extern "C" void TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshal_com_back(const TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshaled_com& marshaled, TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572& unmarshaled)
+{
+	uint32_t unmarshaled_keyboardType_temp_0 = 0;
+	unmarshaled_keyboardType_temp_0 = marshaled.___keyboardType_0;
+	unmarshaled.set_keyboardType_0(unmarshaled_keyboardType_temp_0);
+	uint32_t unmarshaled_autocorrection_temp_1 = 0;
+	unmarshaled_autocorrection_temp_1 = marshaled.___autocorrection_1;
+	unmarshaled.set_autocorrection_1(unmarshaled_autocorrection_temp_1);
+	uint32_t unmarshaled_multiline_temp_2 = 0;
+	unmarshaled_multiline_temp_2 = marshaled.___multiline_2;
+	unmarshaled.set_multiline_2(unmarshaled_multiline_temp_2);
+	uint32_t unmarshaled_secure_temp_3 = 0;
+	unmarshaled_secure_temp_3 = marshaled.___secure_3;
+	unmarshaled.set_secure_3(unmarshaled_secure_temp_3);
+	uint32_t unmarshaled_alert_temp_4 = 0;
+	unmarshaled_alert_temp_4 = marshaled.___alert_4;
+	unmarshaled.set_alert_4(unmarshaled_alert_temp_4);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
+extern "C" void TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshal_com_cleanup(TouchScreenKeyboard_InternalConstructorHelperArguments_t705488572_marshaled_com& marshaled)
+{
+}
 // System.Boolean UnityEngine.TrackedReference::Equals(System.Object)
 extern Il2CppClass* TrackedReference_t2089686725_il2cpp_TypeInfo_var;
 extern const uint32_t TrackedReference_Equals_m732758423_MetadataUsageId;
@@ -673,6 +1396,26 @@ extern "C"  void Transform_INTERNAL_get_worldToLocalMatrix_m3861589095 (Transfor
 	_il2cpp_icall_func = (Transform_INTERNAL_get_worldToLocalMatrix_m3861589095_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::INTERNAL_get_worldToLocalMatrix(UnityEngine.Matrix4x4&)");
 	_il2cpp_icall_func(__this, ___value0);
 }
+// UnityEngine.Matrix4x4 UnityEngine.Transform::get_localToWorldMatrix()
+extern "C"  Matrix4x4_t1651859333  Transform_get_localToWorldMatrix_m3571020210 (Transform_t1659122786 * __this, const MethodInfo* method)
+{
+	Matrix4x4_t1651859333  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Transform_INTERNAL_get_localToWorldMatrix_m3747334677(__this, (&V_0), /*hidden argument*/NULL);
+		Matrix4x4_t1651859333  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Transform::INTERNAL_get_localToWorldMatrix(UnityEngine.Matrix4x4&)
+extern "C"  void Transform_INTERNAL_get_localToWorldMatrix_m3747334677 (Transform_t1659122786 * __this, Matrix4x4_t1651859333 * ___value0, const MethodInfo* method)
+{
+	typedef void (*Transform_INTERNAL_get_localToWorldMatrix_m3747334677_ftn) (Transform_t1659122786 *, Matrix4x4_t1651859333 *);
+	static Transform_INTERNAL_get_localToWorldMatrix_m3747334677_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Transform_INTERNAL_get_localToWorldMatrix_m3747334677_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::INTERNAL_get_localToWorldMatrix(UnityEngine.Matrix4x4&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Void UnityEngine.Transform::Translate(UnityEngine.Vector3,UnityEngine.Space)
 extern "C"  void Transform_Translate_m1056984957 (Transform_t1659122786 * __this, Vector3_t4282066566  ___translation0, int32_t ___relativeTo1, const MethodInfo* method)
 {
@@ -1022,6 +1765,26 @@ extern "C"  Transform_t1659122786 * Transform_Find_m3950449392 (Transform_t16591
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Transform_Find_m3950449392_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::Find(System.String)");
 	return _il2cpp_icall_func(__this, ___name0);
+}
+// UnityEngine.Vector3 UnityEngine.Transform::get_lossyScale()
+extern "C"  Vector3_t4282066566  Transform_get_lossyScale_m3749612506 (Transform_t1659122786 * __this, const MethodInfo* method)
+{
+	Vector3_t4282066566  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Transform_INTERNAL_get_lossyScale_m2289856381(__this, (&V_0), /*hidden argument*/NULL);
+		Vector3_t4282066566  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Transform::INTERNAL_get_lossyScale(UnityEngine.Vector3&)
+extern "C"  void Transform_INTERNAL_get_lossyScale_m2289856381 (Transform_t1659122786 * __this, Vector3_t4282066566 * ___value0, const MethodInfo* method)
+{
+	typedef void (*Transform_INTERNAL_get_lossyScale_m2289856381_ftn) (Transform_t1659122786 *, Vector3_t4282066566 *);
+	static Transform_INTERNAL_get_lossyScale_m2289856381_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Transform_INTERNAL_get_lossyScale_m2289856381_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::INTERNAL_get_lossyScale(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 // System.Boolean UnityEngine.Transform::IsChildOf(UnityEngine.Transform)
 extern "C"  bool Transform_IsChildOf_m3321648579 (Transform_t1659122786 * __this, Transform_t1659122786 * ___parent0, const MethodInfo* method)
@@ -3661,6 +4424,19 @@ extern "C"  Vector4_t4282066567  Vector4_op_Implicit_m331673271 (Il2CppObject * 
 		return L_3;
 	}
 }
+// UnityEngine.Vector3 UnityEngine.Vector4::op_Implicit(UnityEngine.Vector4)
+extern "C"  Vector3_t4282066566  Vector4_op_Implicit_m3933247893 (Il2CppObject * __this /* static, unused */, Vector4_t4282066567  ___v0, const MethodInfo* method)
+{
+	{
+		float L_0 = (&___v0)->get_x_1();
+		float L_1 = (&___v0)->get_y_2();
+		float L_2 = (&___v0)->get_z_3();
+		Vector3_t4282066566  L_3;
+		memset(&L_3, 0, sizeof(L_3));
+		Vector3__ctor_m2926210380(&L_3, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
 // UnityEngine.Vector4 UnityEngine.Vector4::op_Implicit(UnityEngine.Vector2)
 extern "C"  Vector4_t4282066567  Vector4_op_Implicit_m331673240 (Il2CppObject * __this /* static, unused */, Vector2_t4282066565  ___v0, const MethodInfo* method)
 {
@@ -4061,31 +4837,31 @@ IL_0081:
 			ByteU5BU5D_t4260760469* L_16 = V_1;
 			NullCheck(L_16);
 			NullCheck(L_14);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_14, L_15, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_16)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_14, L_15, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_16)->max_length)))));
 			MemoryStream_t418716369 * L_17 = V_6;
 			ByteU5BU5D_t4260760469* L_18 = V_0;
 			ByteU5BU5D_t4260760469* L_19 = V_0;
 			NullCheck(L_19);
 			NullCheck(L_17);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_17, L_18, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_17, L_18, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length)))));
 			MemoryStream_t418716369 * L_20 = V_6;
 			ByteU5BU5D_t4260760469* L_21 = __this->get_boundary_4();
 			ByteU5BU5D_t4260760469* L_22 = __this->get_boundary_4();
 			NullCheck(L_22);
 			NullCheck(L_20);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_20, L_21, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_22)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_20, L_21, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_22)->max_length)))));
 			MemoryStream_t418716369 * L_23 = V_6;
 			ByteU5BU5D_t4260760469* L_24 = V_1;
 			ByteU5BU5D_t4260760469* L_25 = V_1;
 			NullCheck(L_25);
 			NullCheck(L_23);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_23, L_24, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_25)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_23, L_24, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_25)->max_length)))));
 			MemoryStream_t418716369 * L_26 = V_6;
 			ByteU5BU5D_t4260760469* L_27 = V_2;
 			ByteU5BU5D_t4260760469* L_28 = V_2;
 			NullCheck(L_28);
 			NullCheck(L_26);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_26, L_27, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_28)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_26, L_27, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_28)->max_length)))));
 			IL2CPP_RUNTIME_CLASS_INIT(Encoding_t2012439129_il2cpp_TypeInfo_var);
 			Encoding_t2012439129 * L_29 = Encoding_get_UTF8_m619558519(NULL /*static, unused*/, /*hidden argument*/NULL);
 			List_1_t1375417109 * L_30 = __this->get_types_3();
@@ -4100,19 +4876,19 @@ IL_0081:
 			ByteU5BU5D_t4260760469* L_36 = V_8;
 			NullCheck(L_36);
 			NullCheck(L_34);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_34, L_35, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_36)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_34, L_35, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_36)->max_length)))));
 			MemoryStream_t418716369 * L_37 = V_6;
 			ByteU5BU5D_t4260760469* L_38 = V_1;
 			ByteU5BU5D_t4260760469* L_39 = V_1;
 			NullCheck(L_39);
 			NullCheck(L_37);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_37, L_38, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_39)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_37, L_38, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_39)->max_length)))));
 			MemoryStream_t418716369 * L_40 = V_6;
 			ByteU5BU5D_t4260760469* L_41 = V_3;
 			ByteU5BU5D_t4260760469* L_42 = V_3;
 			NullCheck(L_42);
 			NullCheck(L_40);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_40, L_41, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_42)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_40, L_41, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_42)->max_length)))));
 			Encoding_t2012439129 * L_43 = Encoding_get_UTF8_m619558519(NULL /*static, unused*/, /*hidden argument*/NULL);
 			NullCheck(L_43);
 			String_t* L_44 = VirtFuncInvoker0< String_t* >::Invoke(23 /* System.String System.Text.Encoding::get_HeaderName() */, L_43);
@@ -4194,13 +4970,13 @@ IL_017d:
 			ByteU5BU5D_t4260760469* L_68 = V_11;
 			NullCheck(L_68);
 			NullCheck(L_66);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_66, L_67, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_68)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_66, L_67, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_68)->max_length)))));
 			MemoryStream_t418716369 * L_69 = V_6;
 			ByteU5BU5D_t4260760469* L_70 = V_4;
 			ByteU5BU5D_t4260760469* L_71 = V_4;
 			NullCheck(L_71);
 			NullCheck(L_69);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_69, L_70, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_71)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_69, L_70, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_71)->max_length)))));
 			List_1_t1375417109 * L_72 = __this->get_fileNames_2();
 			int32_t L_73 = V_7;
 			NullCheck(L_72);
@@ -4291,19 +5067,19 @@ IL_0224:
 			ByteU5BU5D_t4260760469* L_98 = V_5;
 			NullCheck(L_98);
 			NullCheck(L_96);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_96, L_97, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_98)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_96, L_97, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_98)->max_length)))));
 			MemoryStream_t418716369 * L_99 = V_6;
 			ByteU5BU5D_t4260760469* L_100 = V_13;
 			ByteU5BU5D_t4260760469* L_101 = V_13;
 			NullCheck(L_101);
 			NullCheck(L_99);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_99, L_100, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_101)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_99, L_100, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_101)->max_length)))));
 			MemoryStream_t418716369 * L_102 = V_6;
 			ByteU5BU5D_t4260760469* L_103 = V_4;
 			ByteU5BU5D_t4260760469* L_104 = V_4;
 			NullCheck(L_104);
 			NullCheck(L_102);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_102, L_103, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_104)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_102, L_103, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_104)->max_length)))));
 		}
 
 IL_025c:
@@ -4313,13 +5089,13 @@ IL_025c:
 			ByteU5BU5D_t4260760469* L_107 = V_1;
 			NullCheck(L_107);
 			NullCheck(L_105);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_105, L_106, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_107)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_105, L_106, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_107)->max_length)))));
 			MemoryStream_t418716369 * L_108 = V_6;
 			ByteU5BU5D_t4260760469* L_109 = V_1;
 			ByteU5BU5D_t4260760469* L_110 = V_1;
 			NullCheck(L_110);
 			NullCheck(L_108);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_108, L_109, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_110)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_108, L_109, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_110)->max_length)))));
 			List_1_t1333978725 * L_111 = __this->get_formData_0();
 			int32_t L_112 = V_7;
 			NullCheck(L_111);
@@ -4330,7 +5106,7 @@ IL_025c:
 			ByteU5BU5D_t4260760469* L_116 = V_14;
 			NullCheck(L_116);
 			NullCheck(L_114);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_114, L_115, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_116)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_114, L_115, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_116)->max_length)))));
 			int32_t L_117 = V_7;
 			V_7 = ((int32_t)((int32_t)L_117+(int32_t)1));
 		}
@@ -4354,34 +5130,34 @@ IL_02a9:
 			ByteU5BU5D_t4260760469* L_123 = V_1;
 			NullCheck(L_123);
 			NullCheck(L_121);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_121, L_122, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_123)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_121, L_122, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_123)->max_length)))));
 			MemoryStream_t418716369 * L_124 = V_6;
 			ByteU5BU5D_t4260760469* L_125 = V_0;
 			ByteU5BU5D_t4260760469* L_126 = V_0;
 			NullCheck(L_126);
 			NullCheck(L_124);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_124, L_125, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_126)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_124, L_125, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_126)->max_length)))));
 			MemoryStream_t418716369 * L_127 = V_6;
 			ByteU5BU5D_t4260760469* L_128 = __this->get_boundary_4();
 			ByteU5BU5D_t4260760469* L_129 = __this->get_boundary_4();
 			NullCheck(L_129);
 			NullCheck(L_127);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_127, L_128, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_129)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_127, L_128, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_129)->max_length)))));
 			MemoryStream_t418716369 * L_130 = V_6;
 			ByteU5BU5D_t4260760469* L_131 = V_0;
 			ByteU5BU5D_t4260760469* L_132 = V_0;
 			NullCheck(L_132);
 			NullCheck(L_130);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_130, L_131, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_132)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_130, L_131, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_132)->max_length)))));
 			MemoryStream_t418716369 * L_133 = V_6;
 			ByteU5BU5D_t4260760469* L_134 = V_1;
 			ByteU5BU5D_t4260760469* L_135 = V_1;
 			NullCheck(L_135);
 			NullCheck(L_133);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_133, L_134, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_135)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_133, L_134, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_135)->max_length)))));
 			MemoryStream_t418716369 * L_136 = V_6;
 			NullCheck(L_136);
-			ByteU5BU5D_t4260760469* L_137 = VirtFuncInvoker0< ByteU5BU5D_t4260760469* >::Invoke(25 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_136);
+			ByteU5BU5D_t4260760469* L_137 = VirtFuncInvoker0< ByteU5BU5D_t4260760469* >::Invoke(26 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_136);
 			V_22 = L_137;
 			IL2CPP_LEAVE(0x3F7, FINALLY_0302);
 		}
@@ -4483,7 +5259,7 @@ IL_0385:
 			ByteU5BU5D_t4260760469* L_159 = V_15;
 			NullCheck(L_159);
 			NullCheck(L_157);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_157, L_158, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_159)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_157, L_158, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_159)->max_length)))));
 		}
 
 IL_0393:
@@ -4493,19 +5269,19 @@ IL_0393:
 			ByteU5BU5D_t4260760469* L_162 = V_19;
 			NullCheck(L_162);
 			NullCheck(L_160);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_160, L_161, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_162)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_160, L_161, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_162)->max_length)))));
 			MemoryStream_t418716369 * L_163 = V_17;
 			ByteU5BU5D_t4260760469* L_164 = V_16;
 			ByteU5BU5D_t4260760469* L_165 = V_16;
 			NullCheck(L_165);
 			NullCheck(L_163);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_163, L_164, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_165)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_163, L_164, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_165)->max_length)))));
 			MemoryStream_t418716369 * L_166 = V_17;
 			ByteU5BU5D_t4260760469* L_167 = V_21;
 			ByteU5BU5D_t4260760469* L_168 = V_21;
 			NullCheck(L_168);
 			NullCheck(L_166);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_166, L_167, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_168)->max_length)))));
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, L_166, L_167, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_168)->max_length)))));
 			int32_t L_169 = V_18;
 			V_18 = ((int32_t)((int32_t)L_169+(int32_t)1));
 		}
@@ -4526,7 +5302,7 @@ IL_03d5:
 		{
 			MemoryStream_t418716369 * L_173 = V_17;
 			NullCheck(L_173);
-			ByteU5BU5D_t4260760469* L_174 = VirtFuncInvoker0< ByteU5BU5D_t4260760469* >::Invoke(25 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_173);
+			ByteU5BU5D_t4260760469* L_174 = VirtFuncInvoker0< ByteU5BU5D_t4260760469* >::Invoke(26 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_173);
 			V_22 = L_174;
 			IL2CPP_LEAVE(0x3F7, FINALLY_03e8);
 		}
@@ -4802,7 +5578,7 @@ IL_001c:
 			MemoryStream_t418716369 * L_6 = V_0;
 			uint8_t L_7 = ___space2;
 			NullCheck(L_6);
-			VirtActionInvoker1< uint8_t >::Invoke(19 /* System.Void System.IO.MemoryStream::WriteByte(System.Byte) */, L_6, L_7);
+			VirtActionInvoker1< uint8_t >::Invoke(20 /* System.Void System.IO.MemoryStream::WriteByte(System.Byte) */, L_6, L_7);
 			goto IL_0085;
 		}
 
@@ -4856,7 +5632,7 @@ IL_004a:
 			MemoryStream_t418716369 * L_22 = V_0;
 			uint8_t L_23 = ___escapeChar1;
 			NullCheck(L_22);
-			VirtActionInvoker1< uint8_t >::Invoke(19 /* System.Void System.IO.MemoryStream::WriteByte(System.Byte) */, L_22, L_23);
+			VirtActionInvoker1< uint8_t >::Invoke(20 /* System.Void System.IO.MemoryStream::WriteByte(System.Byte) */, L_22, L_23);
 			MemoryStream_t418716369 * L_24 = V_0;
 			ByteU5BU5D_t4260760469* L_25 = ___input0;
 			int32_t L_26 = V_1;
@@ -4899,7 +5675,7 @@ IL_006b:
 			IL2CPP_RUNTIME_CLASS_INIT(WWWTranscoder_t609724394_il2cpp_TypeInfo_var);
 			ByteU5BU5D_t4260760469* L_32 = WWWTranscoder_Byte2Hex_m2414999496(NULL /*static, unused*/, G_B10_1, G_B10_0, /*hidden argument*/NULL);
 			NullCheck(G_B10_2);
-			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(18 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, G_B10_2, L_32, 0, 2);
+			VirtActionInvoker3< ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(19 /* System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32) */, G_B10_2, L_32, 0, 2);
 			goto IL_0085;
 		}
 
@@ -4913,7 +5689,7 @@ IL_007c:
 			int32_t L_36 = L_35;
 			uint8_t L_37 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
 			NullCheck(L_33);
-			VirtActionInvoker1< uint8_t >::Invoke(19 /* System.Void System.IO.MemoryStream::WriteByte(System.Byte) */, L_33, L_37);
+			VirtActionInvoker1< uint8_t >::Invoke(20 /* System.Void System.IO.MemoryStream::WriteByte(System.Byte) */, L_33, L_37);
 		}
 
 IL_0085:
@@ -4937,7 +5713,7 @@ IL_0092:
 		{
 			MemoryStream_t418716369 * L_41 = V_0;
 			NullCheck(L_41);
-			ByteU5BU5D_t4260760469* L_42 = VirtFuncInvoker0< ByteU5BU5D_t4260760469* >::Invoke(25 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_41);
+			ByteU5BU5D_t4260760469* L_42 = VirtFuncInvoker0< ByteU5BU5D_t4260760469* >::Invoke(26 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_41);
 			V_2 = L_42;
 			IL2CPP_LEAVE(0xB0, FINALLY_00a3);
 		}

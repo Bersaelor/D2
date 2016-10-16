@@ -54,6 +54,12 @@ extern "C"  void Bounds_SetMinMax_m2186020994 (Bounds_t2711641849 * __this, Vect
 extern "C"  void Bounds_Encapsulate_m3624685234 (Bounds_t2711641849 * __this, Vector3_t4282066566  ___point0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Bounds::Encapsulate(UnityEngine.Bounds)
 extern "C"  void Bounds_Encapsulate_m2204751131 (Bounds_t2711641849 * __this, Bounds_t2711641849  ___bounds0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Bounds::Internal_Contains(UnityEngine.Bounds,UnityEngine.Vector3)
+extern "C"  bool Bounds_Internal_Contains_m346296312 (Il2CppObject * __this /* static, unused */, Bounds_t2711641849  ___m0, Vector3_t4282066566  ___point1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Bounds::INTERNAL_CALL_Internal_Contains(UnityEngine.Bounds&,UnityEngine.Vector3&)
+extern "C"  bool Bounds_INTERNAL_CALL_Internal_Contains_m1487742483 (Il2CppObject * __this /* static, unused */, Bounds_t2711641849 * ___m0, Vector3_t4282066566 * ___point1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Bounds::Contains(UnityEngine.Vector3)
+extern "C"  bool Bounds_Contains_m4280531336 (Bounds_t2711641849 * __this, Vector3_t4282066566  ___point0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Bounds::ToString()
 extern "C"  String_t* Bounds_ToString_m1795228795 (Bounds_t2711641849 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Bounds::op_Equality(UnityEngine.Bounds,UnityEngine.Bounds)

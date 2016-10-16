@@ -93,6 +93,10 @@ extern "C"  void Transform_SetParent_m263985879 (Transform_t1659122786 * __this,
 extern "C"  Matrix4x4_t1651859333  Transform_get_worldToLocalMatrix_m3792395652 (Transform_t1659122786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_get_worldToLocalMatrix(UnityEngine.Matrix4x4&)
 extern "C"  void Transform_INTERNAL_get_worldToLocalMatrix_m3861589095 (Transform_t1659122786 * __this, Matrix4x4_t1651859333 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Transform::get_localToWorldMatrix()
+extern "C"  Matrix4x4_t1651859333  Transform_get_localToWorldMatrix_m3571020210 (Transform_t1659122786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::INTERNAL_get_localToWorldMatrix(UnityEngine.Matrix4x4&)
+extern "C"  void Transform_INTERNAL_get_localToWorldMatrix_m3747334677 (Transform_t1659122786 * __this, Matrix4x4_t1651859333 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::Translate(UnityEngine.Vector3,UnityEngine.Space)
 extern "C"  void Transform_Translate_m1056984957 (Transform_t1659122786 * __this, Vector3_t4282066566  ___translation0, int32_t ___relativeTo1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::Rotate(UnityEngine.Vector3,UnityEngine.Space)
@@ -141,6 +145,10 @@ extern "C"  void Transform_DetachChildren_m1928114025 (Transform_t1659122786 * _
 extern "C"  void Transform_SetAsFirstSibling_m1746075601 (Transform_t1659122786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.Transform::Find(System.String)
 extern "C"  Transform_t1659122786 * Transform_Find_m3950449392 (Transform_t1659122786 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_lossyScale()
+extern "C"  Vector3_t4282066566  Transform_get_lossyScale_m3749612506 (Transform_t1659122786 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::INTERNAL_get_lossyScale(UnityEngine.Vector3&)
+extern "C"  void Transform_INTERNAL_get_lossyScale_m2289856381 (Transform_t1659122786 * __this, Vector3_t4282066566 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Transform::IsChildOf(UnityEngine.Transform)
 extern "C"  bool Transform_IsChildOf_m3321648579 (Transform_t1659122786 * __this, Transform_t1659122786 * ___parent0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator UnityEngine.Transform::GetEnumerator()

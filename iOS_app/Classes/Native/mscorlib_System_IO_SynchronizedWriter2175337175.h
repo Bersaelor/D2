@@ -26,26 +26,26 @@ struct  SynchronizedWriter_t2175337175  : public TextWriter_t2304124208
 {
 public:
 	// System.IO.TextWriter System.IO.SynchronizedWriter::writer
-	TextWriter_t2304124208 * ___writer_2;
+	TextWriter_t2304124208 * ___writer_3;
 	// System.Boolean System.IO.SynchronizedWriter::neverClose
-	bool ___neverClose_3;
+	bool ___neverClose_4;
 
 public:
-	inline static int32_t get_offset_of_writer_2() { return static_cast<int32_t>(offsetof(SynchronizedWriter_t2175337175, ___writer_2)); }
-	inline TextWriter_t2304124208 * get_writer_2() const { return ___writer_2; }
-	inline TextWriter_t2304124208 ** get_address_of_writer_2() { return &___writer_2; }
-	inline void set_writer_2(TextWriter_t2304124208 * value)
+	inline static int32_t get_offset_of_writer_3() { return static_cast<int32_t>(offsetof(SynchronizedWriter_t2175337175, ___writer_3)); }
+	inline TextWriter_t2304124208 * get_writer_3() const { return ___writer_3; }
+	inline TextWriter_t2304124208 ** get_address_of_writer_3() { return &___writer_3; }
+	inline void set_writer_3(TextWriter_t2304124208 * value)
 	{
-		___writer_2 = value;
-		Il2CppCodeGenWriteBarrier(&___writer_2, value);
+		___writer_3 = value;
+		Il2CppCodeGenWriteBarrier(&___writer_3, value);
 	}
 
-	inline static int32_t get_offset_of_neverClose_3() { return static_cast<int32_t>(offsetof(SynchronizedWriter_t2175337175, ___neverClose_3)); }
-	inline bool get_neverClose_3() const { return ___neverClose_3; }
-	inline bool* get_address_of_neverClose_3() { return &___neverClose_3; }
-	inline void set_neverClose_3(bool value)
+	inline static int32_t get_offset_of_neverClose_4() { return static_cast<int32_t>(offsetof(SynchronizedWriter_t2175337175, ___neverClose_4)); }
+	inline bool get_neverClose_4() const { return ___neverClose_4; }
+	inline bool* get_address_of_neverClose_4() { return &___neverClose_4; }
+	inline void set_neverClose_4(bool value)
 	{
-		___neverClose_3 = value;
+		___neverClose_4 = value;
 	}
 };
 

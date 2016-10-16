@@ -29,6 +29,8 @@ extern "C"  float Mathf_Sin_m2014639246 (Il2CppObject * __this /* static, unused
 extern "C"  float Mathf_Cos_m2060147711 (Il2CppObject * __this /* static, unused */, float ___f0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::Tan(System.Single)
 extern "C"  float Mathf_Tan_m3075991205 (Il2CppObject * __this /* static, unused */, float ___f0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::Asin(System.Single)
+extern "C"  float Mathf_Asin_m3387069943 (Il2CppObject * __this /* static, unused */, float ___f0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::Acos(System.Single)
 extern "C"  float Mathf_Acos_m3432578408 (Il2CppObject * __this /* static, unused */, float ___f0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::Atan(System.Single)
@@ -79,6 +81,8 @@ extern "C"  float Mathf_Lerp_m3257777633 (Il2CppObject * __this /* static, unuse
 extern "C"  float Mathf_LerpAngle_m1852538964 (Il2CppObject * __this /* static, unused */, float ___a0, float ___b1, float ___t2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::MoveTowards(System.Single,System.Single,System.Single)
 extern "C"  float Mathf_MoveTowards_m2701916357 (Il2CppObject * __this /* static, unused */, float ___current0, float ___target1, float ___maxDelta2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::SmoothStep(System.Single,System.Single,System.Single)
+extern "C"  float Mathf_SmoothStep_m1876640478 (Il2CppObject * __this /* static, unused */, float ___from0, float ___to1, float ___t2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Mathf::Approximately(System.Single,System.Single)
 extern "C"  bool Mathf_Approximately_m1395529776 (Il2CppObject * __this /* static, unused */, float ___a0, float ___b1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::SmoothDamp(System.Single,System.Single,System.Single&,System.Single)
@@ -87,6 +91,8 @@ extern "C"  float Mathf_SmoothDamp_m488292903 (Il2CppObject * __this /* static, 
 extern "C"  float Mathf_SmoothDamp_m779170481 (Il2CppObject * __this /* static, unused */, float ___current0, float ___target1, float* ___currentVelocity2, float ___smoothTime3, float ___maxSpeed4, float ___deltaTime5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::Repeat(System.Single,System.Single)
 extern "C"  float Mathf_Repeat_m3424250200 (Il2CppObject * __this /* static, unused */, float ___t0, float ___length1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::PingPong(System.Single,System.Single)
+extern "C"  float Mathf_PingPong_m763741129 (Il2CppObject * __this /* static, unused */, float ___t0, float ___length1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::InverseLerp(System.Single,System.Single,System.Single)
 extern "C"  float Mathf_InverseLerp_m152689993 (Il2CppObject * __this /* static, unused */, float ___a0, float ___b1, float ___value2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Mathf::DeltaAngle(System.Single,System.Single)

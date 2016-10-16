@@ -9,12 +9,15 @@
 #endif
 
 
+// System.Net.IPAddress
+struct IPAddress_t3525271463;
 // System.Text.RegularExpressions.Capture
 struct Capture_t754001812;
 // System.Text.RegularExpressions.Group
 struct Group_t2151468941;
 
 #include "mscorlib_System_Array1146569071.h"
+#include "System_System_Net_IPAddress3525271463.h"
 #include "System_System_Security_Cryptography_X509Certificate766901931.h"
 #include "System_System_Text_RegularExpressions_Capture754001812.h"
 #include "System_System_Text_RegularExpressions_Group2151468941.h"
@@ -22,6 +25,21 @@ struct Group_t2151468941;
 #include "System_System_Uri_UriScheme1290668975.h"
 
 #pragma once
+// System.Net.IPAddress[]
+struct IPAddressU5BU5D_t1215594974  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) IPAddress_t3525271463 * m_Items[1];
+
+public:
+	inline IPAddress_t3525271463 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline IPAddress_t3525271463 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, IPAddress_t3525271463 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // System.Security.Cryptography.X509Certificates.X509ChainStatus[]
 struct X509ChainStatusU5BU5D_t2899776074  : public Il2CppArray
 {

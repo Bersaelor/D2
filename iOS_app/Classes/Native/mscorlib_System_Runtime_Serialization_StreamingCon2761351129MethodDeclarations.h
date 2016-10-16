@@ -28,6 +28,8 @@ struct StreamingContext_t2761351129_marshaled_com;
 extern "C"  void StreamingContext__ctor_m165676124 (StreamingContext_t2761351129 * __this, int32_t ___state0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.StreamingContext::.ctor(System.Runtime.Serialization.StreamingContextStates,System.Object)
 extern "C"  void StreamingContext__ctor_m404323882 (StreamingContext_t2761351129 * __this, int32_t ___state0, Il2CppObject * ___additional1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Runtime.Serialization.StreamingContext::get_Context()
+extern "C"  Il2CppObject * StreamingContext_get_Context_m2263457517 (StreamingContext_t2761351129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Serialization.StreamingContextStates System.Runtime.Serialization.StreamingContext::get_State()
 extern "C"  int32_t StreamingContext_get_State_m334223851 (StreamingContext_t2761351129 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.StreamingContext::Equals(System.Object)

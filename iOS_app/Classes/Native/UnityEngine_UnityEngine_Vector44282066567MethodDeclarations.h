@@ -61,6 +61,8 @@ extern "C"  Vector4_t4282066567  Vector4_op_Division_m3513381747 (Il2CppObject *
 extern "C"  bool Vector4_op_Equality_m3533121638 (Il2CppObject * __this /* static, unused */, Vector4_t4282066567  ___lhs0, Vector4_t4282066567  ___rhs1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Vector4::op_Implicit(UnityEngine.Vector3)
 extern "C"  Vector4_t4282066567  Vector4_op_Implicit_m331673271 (Il2CppObject * __this /* static, unused */, Vector3_t4282066566  ___v0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector4::op_Implicit(UnityEngine.Vector4)
+extern "C"  Vector3_t4282066566  Vector4_op_Implicit_m3933247893 (Il2CppObject * __this /* static, unused */, Vector4_t4282066567  ___v0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Vector4::op_Implicit(UnityEngine.Vector2)
 extern "C"  Vector4_t4282066567  Vector4_op_Implicit_m331673240 (Il2CppObject * __this /* static, unused */, Vector2_t4282066565  ___v0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 

@@ -29,6 +29,8 @@ struct Rect_t4241904616_marshaled_com;
 
 // System.Void UnityEngine.Rect::.ctor(System.Single,System.Single,System.Single,System.Single)
 extern "C"  void Rect__ctor_m3291325233 (Rect_t4241904616 * __this, float ___x0, float ___y1, float ___width2, float ___height3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::Set(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void Rect_Set_m3128045745 (Rect_t4241904616 * __this, float ___x0, float ___y1, float ___width2, float ___height3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rect::get_x()
 extern "C"  float Rect_get_x_m982385354 (Rect_t4241904616 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rect::set_x(System.Single)
@@ -41,6 +43,8 @@ extern "C"  void Rect_set_y_m67436392 (Rect_t4241904616 * __this, float ___value
 extern "C"  Vector2_t4282066565  Rect_get_position_m2933356232 (Rect_t4241904616 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Rect::get_center()
 extern "C"  Vector2_t4282066565  Rect_get_center_m610643572 (Rect_t4241904616 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::set_center(UnityEngine.Vector2)
+extern "C"  void Rect_set_center_m1680296141 (Rect_t4241904616 * __this, Vector2_t4282066565  ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Rect::get_min()
 extern "C"  Vector2_t4282066565  Rect_get_min_m275942709 (Rect_t4241904616 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Rect::get_max()

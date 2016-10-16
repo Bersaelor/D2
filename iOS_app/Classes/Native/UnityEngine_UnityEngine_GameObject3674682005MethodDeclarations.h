@@ -81,6 +81,8 @@ extern "C"  bool GameObject_CompareTag_m3153977471 (GameObject_t3674682005 * __t
 extern "C"  GameObject_t3674682005 * GameObject_FindGameObjectWithTag_m2635560165 (Il2CppObject * __this /* static, unused */, String_t* ___tag0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 extern "C"  void GameObject_SendMessage_m423373689 (GameObject_t3674682005 * __this, String_t* ___methodName0, Il2CppObject * ___value1, int32_t ___options2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::SendMessage(System.String)
+extern "C"  void GameObject_SendMessage_m2244324713 (GameObject_t3674682005 * __this, String_t* ___methodName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::BroadcastMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 extern "C"  void GameObject_BroadcastMessage_m3938245262 (GameObject_t3674682005 * __this, String_t* ___methodName0, Il2CppObject * ___parameter1, int32_t ___options2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::BroadcastMessage(System.String)

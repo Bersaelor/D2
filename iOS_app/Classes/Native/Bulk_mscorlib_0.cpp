@@ -27449,7 +27449,7 @@ IL_002a:
 	{ // begin try (depth: 1)
 		StreamReader_t2549717843 * L_6 = V_1;
 		NullCheck(L_6);
-		String_t* L_7 = VirtFuncInvoker0< String_t* >::Invoke(10 /* System.String System.IO.StreamReader::ReadToEnd() */, L_6);
+		String_t* L_7 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.IO.StreamReader::ReadToEnd() */, L_6);
 		KeyPairPersistence_FromXml_m1868637128(__this, L_7, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x48, FINALLY_003b);
 	} // end try (depth: 1)
@@ -27545,10 +27545,10 @@ IL_0018:
 		StreamWriter_t2705123075 * L_6 = V_1;
 		String_t* L_7 = KeyPairPersistence_ToXml_m2810455020(__this, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void System.IO.StreamWriter::Write(System.String) */, L_6, L_7);
+		VirtActionInvoker1< String_t* >::Invoke(11 /* System.Void System.IO.StreamWriter::Write(System.String) */, L_6, L_7);
 		StreamWriter_t2705123075 * L_8 = V_1;
 		NullCheck(L_8);
-		VirtActionInvoker0::Invoke(5 /* System.Void System.IO.StreamWriter::Close() */, L_8);
+		VirtActionInvoker0::Invoke(6 /* System.Void System.IO.StreamWriter::Close() */, L_8);
 		IL2CPP_LEAVE(0x48, FINALLY_003b);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -44068,7 +44068,7 @@ extern "C"  int32_t SmallXmlParser_Peek_m1856282464 (SmallXmlParser_t383390549 *
 	{
 		TextReader_t2148718976 * L_0 = __this->get_reader_1();
 		NullCheck(L_0);
-		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 System.IO.TextReader::Peek() */, L_0);
+		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 System.IO.TextReader::Peek() */, L_0);
 		return L_1;
 	}
 }
@@ -44079,7 +44079,7 @@ extern "C"  int32_t SmallXmlParser_Read_m1913414875 (SmallXmlParser_t383390549 *
 	{
 		TextReader_t2148718976 * L_0 = __this->get_reader_1();
 		NullCheck(L_0);
-		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 System.IO.TextReader::Read() */, L_0);
+		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(8 /* System.Int32 System.IO.TextReader::Read() */, L_0);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)10)))))

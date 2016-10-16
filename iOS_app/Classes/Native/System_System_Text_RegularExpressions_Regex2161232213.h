@@ -22,6 +22,10 @@ struct StringU5BU5D_t4054002952;
 struct Int32U5BU5D_t3230847821;
 // System.String
 struct String_t;
+// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
+struct Dictionary_2_t1974256870;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
+struct Dictionary_2_t1151101739;
 
 #include "mscorlib_System_Object4170816371.h"
 #include "System_System_Text_RegularExpressions_RegexOptions3066443743.h"
@@ -44,14 +48,24 @@ public:
 	int32_t ___group_count_3;
 	// System.Int32 System.Text.RegularExpressions.Regex::gap
 	int32_t ___gap_4;
+	// System.Boolean System.Text.RegularExpressions.Regex::refsInitialized
+	bool ___refsInitialized_5;
 	// System.String[] System.Text.RegularExpressions.Regex::group_names
-	StringU5BU5D_t4054002952* ___group_names_5;
+	StringU5BU5D_t4054002952* ___group_names_6;
 	// System.Int32[] System.Text.RegularExpressions.Regex::group_numbers
-	Int32U5BU5D_t3230847821* ___group_numbers_6;
+	Int32U5BU5D_t3230847821* ___group_numbers_7;
 	// System.String System.Text.RegularExpressions.Regex::pattern
-	String_t* ___pattern_7;
+	String_t* ___pattern_8;
 	// System.Text.RegularExpressions.RegexOptions System.Text.RegularExpressions.Regex::roptions
-	int32_t ___roptions_8;
+	int32_t ___roptions_9;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Text.RegularExpressions.Regex::capnames
+	Dictionary_2_t1974256870 * ___capnames_10;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> System.Text.RegularExpressions.Regex::caps
+	Dictionary_2_t1151101739 * ___caps_11;
+	// System.Int32 System.Text.RegularExpressions.Regex::capsize
+	int32_t ___capsize_12;
+	// System.String[] System.Text.RegularExpressions.Regex::capslist
+	StringU5BU5D_t4054002952* ___capslist_13;
 
 public:
 	inline static int32_t get_offset_of_machineFactory_1() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___machineFactory_1)); }
@@ -88,39 +102,82 @@ public:
 		___gap_4 = value;
 	}
 
-	inline static int32_t get_offset_of_group_names_5() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___group_names_5)); }
-	inline StringU5BU5D_t4054002952* get_group_names_5() const { return ___group_names_5; }
-	inline StringU5BU5D_t4054002952** get_address_of_group_names_5() { return &___group_names_5; }
-	inline void set_group_names_5(StringU5BU5D_t4054002952* value)
+	inline static int32_t get_offset_of_refsInitialized_5() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___refsInitialized_5)); }
+	inline bool get_refsInitialized_5() const { return ___refsInitialized_5; }
+	inline bool* get_address_of_refsInitialized_5() { return &___refsInitialized_5; }
+	inline void set_refsInitialized_5(bool value)
 	{
-		___group_names_5 = value;
-		Il2CppCodeGenWriteBarrier(&___group_names_5, value);
+		___refsInitialized_5 = value;
 	}
 
-	inline static int32_t get_offset_of_group_numbers_6() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___group_numbers_6)); }
-	inline Int32U5BU5D_t3230847821* get_group_numbers_6() const { return ___group_numbers_6; }
-	inline Int32U5BU5D_t3230847821** get_address_of_group_numbers_6() { return &___group_numbers_6; }
-	inline void set_group_numbers_6(Int32U5BU5D_t3230847821* value)
+	inline static int32_t get_offset_of_group_names_6() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___group_names_6)); }
+	inline StringU5BU5D_t4054002952* get_group_names_6() const { return ___group_names_6; }
+	inline StringU5BU5D_t4054002952** get_address_of_group_names_6() { return &___group_names_6; }
+	inline void set_group_names_6(StringU5BU5D_t4054002952* value)
 	{
-		___group_numbers_6 = value;
-		Il2CppCodeGenWriteBarrier(&___group_numbers_6, value);
+		___group_names_6 = value;
+		Il2CppCodeGenWriteBarrier(&___group_names_6, value);
 	}
 
-	inline static int32_t get_offset_of_pattern_7() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___pattern_7)); }
-	inline String_t* get_pattern_7() const { return ___pattern_7; }
-	inline String_t** get_address_of_pattern_7() { return &___pattern_7; }
-	inline void set_pattern_7(String_t* value)
+	inline static int32_t get_offset_of_group_numbers_7() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___group_numbers_7)); }
+	inline Int32U5BU5D_t3230847821* get_group_numbers_7() const { return ___group_numbers_7; }
+	inline Int32U5BU5D_t3230847821** get_address_of_group_numbers_7() { return &___group_numbers_7; }
+	inline void set_group_numbers_7(Int32U5BU5D_t3230847821* value)
 	{
-		___pattern_7 = value;
-		Il2CppCodeGenWriteBarrier(&___pattern_7, value);
+		___group_numbers_7 = value;
+		Il2CppCodeGenWriteBarrier(&___group_numbers_7, value);
 	}
 
-	inline static int32_t get_offset_of_roptions_8() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___roptions_8)); }
-	inline int32_t get_roptions_8() const { return ___roptions_8; }
-	inline int32_t* get_address_of_roptions_8() { return &___roptions_8; }
-	inline void set_roptions_8(int32_t value)
+	inline static int32_t get_offset_of_pattern_8() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___pattern_8)); }
+	inline String_t* get_pattern_8() const { return ___pattern_8; }
+	inline String_t** get_address_of_pattern_8() { return &___pattern_8; }
+	inline void set_pattern_8(String_t* value)
 	{
-		___roptions_8 = value;
+		___pattern_8 = value;
+		Il2CppCodeGenWriteBarrier(&___pattern_8, value);
+	}
+
+	inline static int32_t get_offset_of_roptions_9() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___roptions_9)); }
+	inline int32_t get_roptions_9() const { return ___roptions_9; }
+	inline int32_t* get_address_of_roptions_9() { return &___roptions_9; }
+	inline void set_roptions_9(int32_t value)
+	{
+		___roptions_9 = value;
+	}
+
+	inline static int32_t get_offset_of_capnames_10() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___capnames_10)); }
+	inline Dictionary_2_t1974256870 * get_capnames_10() const { return ___capnames_10; }
+	inline Dictionary_2_t1974256870 ** get_address_of_capnames_10() { return &___capnames_10; }
+	inline void set_capnames_10(Dictionary_2_t1974256870 * value)
+	{
+		___capnames_10 = value;
+		Il2CppCodeGenWriteBarrier(&___capnames_10, value);
+	}
+
+	inline static int32_t get_offset_of_caps_11() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___caps_11)); }
+	inline Dictionary_2_t1151101739 * get_caps_11() const { return ___caps_11; }
+	inline Dictionary_2_t1151101739 ** get_address_of_caps_11() { return &___caps_11; }
+	inline void set_caps_11(Dictionary_2_t1151101739 * value)
+	{
+		___caps_11 = value;
+		Il2CppCodeGenWriteBarrier(&___caps_11, value);
+	}
+
+	inline static int32_t get_offset_of_capsize_12() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___capsize_12)); }
+	inline int32_t get_capsize_12() const { return ___capsize_12; }
+	inline int32_t* get_address_of_capsize_12() { return &___capsize_12; }
+	inline void set_capsize_12(int32_t value)
+	{
+		___capsize_12 = value;
+	}
+
+	inline static int32_t get_offset_of_capslist_13() { return static_cast<int32_t>(offsetof(Regex_t2161232213, ___capslist_13)); }
+	inline StringU5BU5D_t4054002952* get_capslist_13() const { return ___capslist_13; }
+	inline StringU5BU5D_t4054002952** get_address_of_capslist_13() { return &___capslist_13; }
+	inline void set_capslist_13(StringU5BU5D_t4054002952* value)
+	{
+		___capslist_13 = value;
+		Il2CppCodeGenWriteBarrier(&___capslist_13, value);
 	}
 };
 

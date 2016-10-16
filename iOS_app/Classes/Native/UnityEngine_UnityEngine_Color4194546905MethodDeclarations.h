@@ -48,6 +48,8 @@ extern "C"  Color_t4194546905  Color_get_white_m3038282331 (Il2CppObject * __thi
 extern "C"  Color_t4194546905  Color_get_black_m1687201969 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_yellow()
 extern "C"  Color_t4194546905  Color_get_yellow_m599454500 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_magenta()
+extern "C"  Color_t4194546905  Color_get_magenta_m2892617371 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::get_clear()
 extern "C"  Color_t4194546905  Color_get_clear_m2578346879 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Color::op_Multiply(UnityEngine.Color,System.Single)

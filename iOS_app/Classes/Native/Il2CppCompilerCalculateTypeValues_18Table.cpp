@@ -16,80 +16,95 @@
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_751009986.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_351245685.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2339122139.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2627308469.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_B59984938.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1277121599.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_335996342.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1464032496.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2836510274.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_220225470.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_354636755.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1631335591.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3605777074.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1025302025.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects4215849182.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2331622965.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1021540850.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2715957662.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3513202448.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1351415316.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1677992791.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3663505356.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1930014573.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2343682757.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3797097022.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3518381717.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1632191871.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1745685742.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1336427042.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1548262813.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_432057665.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_123024543.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2360494617.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3456138658.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects4156672859.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1638506170.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2022168152.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2084831179.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2135617677.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_842279737.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3325865135.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_386063093.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3002754187.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3744904080.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects4207487421.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1415309093.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3450182402.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_365352830.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_109709238.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2414447165.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2967460411.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1300254689.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2763871917.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3693462266.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3410618647.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2403244633.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2322200375.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1314848311.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3166798672.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2566945842.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1756613902.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects2681627918.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects1393266833.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_933682653.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_368191090.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects_174523162.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3341081225.h"
-#include "AssemblyU2DCSharp_UnityStandardAssets_ImageEffects3959512828.h"
-#include "AssemblyU2DCSharp_ReverseNormals4264251210.h"
-#include "AssemblyU2DCSharp_Gazable1480936474.h"
-#include "AssemblyU2DCSharp_MotionTrack794643221.h"
-#include "AssemblyU2DCSharp_PlayerInteraction2226664529.h"
-#include "AssemblyU2DCSharp_RayScript1851411829.h"
-#include "AssemblyU2DCSharp_Suicide4097995278.h"
+#include "UnityEngine_UI_UnityEngine_UI_HorizontalOrVertical2052396382.h"
+#include "UnityEngine_UI_UnityEngine_UI_LayoutElement1596995480.h"
+#include "UnityEngine_UI_UnityEngine_UI_LayoutGroup352294875.h"
+#include "UnityEngine_UI_UnityEngine_UI_LayoutRebuilder1942933988.h"
+#include "UnityEngine_UI_UnityEngine_UI_LayoutUtility3144854024.h"
+#include "UnityEngine_UI_UnityEngine_UI_VerticalLayoutGroup423167365.h"
+#include "UnityEngine_UI_UnityEngine_UI_VertexHelper3377436606.h"
+#include "UnityEngine_UI_UnityEngine_UI_BaseVertexEffect3555037586.h"
+#include "UnityEngine_UI_UnityEngine_UI_BaseMeshEffect2306480155.h"
+#include "UnityEngine_UI_UnityEngine_UI_Outline3745177896.h"
+#include "UnityEngine_UI_UnityEngine_UI_PositionAsUV14062429115.h"
+#include "UnityEngine_UI_UnityEngine_UI_Shadow75537580.h"
+#include "UnityEngine_UI_U3CPrivateImplementationDetailsU3E3053238933.h"
+#include "UnityEngine_UI_U3CPrivateImplementationDetailsU3E_3379220348.h"
+#include "AssemblyU2DCSharp_U3CModuleU3E86524790.h"
+#include "AssemblyU2DCSharp_DemoTimeOfDay768954549.h"
+#include "AssemblyU2DCSharp_Orbit76451882.h"
+#include "AssemblyU2DCSharp_ControllerDemoManager1306021614.h"
+#include "AssemblyU2DCSharp_Teleport2999409483.h"
+#include "AssemblyU2DCSharp_GvrHead2074018243.h"
+#include "AssemblyU2DCSharp_GvrHead_HeadUpdatedDelegate4119218932.h"
+#include "AssemblyU2DCSharp_GvrCameraUtils3751592777.h"
+#include "AssemblyU2DCSharp_GvrEye2145111534.h"
+#include "AssemblyU2DCSharp_GvrPostRender3571076089.h"
+#include "AssemblyU2DCSharp_GvrPreRender2492587030.h"
+#include "AssemblyU2DCSharp_GvrProfile2868291302.h"
+#include "AssemblyU2DCSharp_GvrProfile_Screen3577771989.h"
+#include "AssemblyU2DCSharp_GvrProfile_Lenses3379109269.h"
+#include "AssemblyU2DCSharp_GvrProfile_MaxFOV3404298290.h"
+#include "AssemblyU2DCSharp_GvrProfile_Distortion2316389254.h"
+#include "AssemblyU2DCSharp_GvrProfile_Viewer3668830587.h"
+#include "AssemblyU2DCSharp_GvrProfile_ScreenSizes4088223165.h"
+#include "AssemblyU2DCSharp_GvrProfile_ViewerTypes962081726.h"
+#include "AssemblyU2DCSharp_StereoController1637909972.h"
+#include "AssemblyU2DCSharp_StereoController_U3CEndOfFrameU33320551393.h"
+#include "AssemblyU2DCSharp_StereoRenderEffect4012593919.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_BaseVRDevice591083105.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_GvrDevice2458844523.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_iOSDevice141998261.h"
+#include "AssemblyU2DCSharp_GvrAudio4159038547.h"
+#include "AssemblyU2DCSharp_GvrAudio_Quality3830609699.h"
+#include "AssemblyU2DCSharp_GvrAudio_SpatializerType3928244512.h"
+#include "AssemblyU2DCSharp_GvrAudioListener2617838119.h"
+#include "AssemblyU2DCSharp_GvrAudioRoom252475342.h"
+#include "AssemblyU2DCSharp_GvrAudioRoom_SurfaceMaterial3675539603.h"
+#include "AssemblyU2DCSharp_GvrAudioSoundfield1975836158.h"
+#include "AssemblyU2DCSharp_GvrAudioSource2139450958.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorClientSocke2137111857.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorConfig3000403349.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorConfig_Mode884064821.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorGyroEvent3657941864.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorAccelEvent2349426533.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorTouchEvent2112311150.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorTouchEvent_A926435919.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorTouchEvent_3710907716.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorOrientation3989687101.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorButtonEvent200175493.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorButtonEvent3065328481.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager622010154.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnG1752883023.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnA1207501038.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnTo970385655.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnO2004619270.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnB1240547244.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_U3C2571948932.h"
+#include "AssemblyU2DCSharp_proto_Proto_PhoneEvent4294543246.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent1948414762.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types1856670140.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Type923828173.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_MotionEve2659645585.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_MotionEve1994437979.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_MotionEven190725481.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_MotionEve1865844949.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_MotionEve2183502845.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Gyroscope2921203048.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Gyroscope3312050644.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Accelerome148610782.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Accelerom1359586634.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_DepthMapE3758135118.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_DepthMapE3987156410.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Orientati3825228477.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Orientati3974107689.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_KeyEvent2095740558.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_KeyEvent_1063111930.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Builder2932595742.h"
+#include "AssemblyU2DCSharp_GazeInputModule2064533489.h"
+#include "AssemblyU2DCSharp_GvrViewer671349045.h"
+#include "AssemblyU2DCSharp_GvrViewer_Eye643876407.h"
+#include "AssemblyU2DCSharp_GvrViewer_Distortion2578366935.h"
 
 
 
@@ -98,748 +113,568 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1800 = { sizeof (Antialiasing_t751009986), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1800[22] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1800 = { sizeof (HorizontalOrVerticalLayoutGroup_t2052396382), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1800[3] = 
 {
-	Antialiasing_t751009986::get_offset_of_mode_5(),
-	Antialiasing_t751009986::get_offset_of_showGeneratedNormals_6(),
-	Antialiasing_t751009986::get_offset_of_offsetScale_7(),
-	Antialiasing_t751009986::get_offset_of_blurRadius_8(),
-	Antialiasing_t751009986::get_offset_of_edgeThresholdMin_9(),
-	Antialiasing_t751009986::get_offset_of_edgeThreshold_10(),
-	Antialiasing_t751009986::get_offset_of_edgeSharpness_11(),
-	Antialiasing_t751009986::get_offset_of_dlaaSharp_12(),
-	Antialiasing_t751009986::get_offset_of_ssaaShader_13(),
-	Antialiasing_t751009986::get_offset_of_ssaa_14(),
-	Antialiasing_t751009986::get_offset_of_dlaaShader_15(),
-	Antialiasing_t751009986::get_offset_of_dlaa_16(),
-	Antialiasing_t751009986::get_offset_of_nfaaShader_17(),
-	Antialiasing_t751009986::get_offset_of_nfaa_18(),
-	Antialiasing_t751009986::get_offset_of_shaderFXAAPreset2_19(),
-	Antialiasing_t751009986::get_offset_of_materialFXAAPreset2_20(),
-	Antialiasing_t751009986::get_offset_of_shaderFXAAPreset3_21(),
-	Antialiasing_t751009986::get_offset_of_materialFXAAPreset3_22(),
-	Antialiasing_t751009986::get_offset_of_shaderFXAAII_23(),
-	Antialiasing_t751009986::get_offset_of_materialFXAAII_24(),
-	Antialiasing_t751009986::get_offset_of_shaderFXAAIII_25(),
-	Antialiasing_t751009986::get_offset_of_materialFXAAIII_26(),
+	HorizontalOrVerticalLayoutGroup_t2052396382::get_offset_of_m_Spacing_10(),
+	HorizontalOrVerticalLayoutGroup_t2052396382::get_offset_of_m_ChildForceExpandWidth_11(),
+	HorizontalOrVerticalLayoutGroup_t2052396382::get_offset_of_m_ChildForceExpandHeight_12(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1801 = { sizeof (Bloom_t351245685), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1801[30] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1801 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1802 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1803 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1804 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1805 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1806 = { sizeof (LayoutElement_t1596995480), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1806[7] = 
 {
-	Bloom_t351245685::get_offset_of_tweakMode_5(),
-	Bloom_t351245685::get_offset_of_screenBlendMode_6(),
-	Bloom_t351245685::get_offset_of_hdr_7(),
-	Bloom_t351245685::get_offset_of_doHdr_8(),
-	Bloom_t351245685::get_offset_of_sepBlurSpread_9(),
-	Bloom_t351245685::get_offset_of_quality_10(),
-	Bloom_t351245685::get_offset_of_bloomIntensity_11(),
-	Bloom_t351245685::get_offset_of_bloomThreshold_12(),
-	Bloom_t351245685::get_offset_of_bloomThresholdColor_13(),
-	Bloom_t351245685::get_offset_of_bloomBlurIterations_14(),
-	Bloom_t351245685::get_offset_of_hollywoodFlareBlurIterations_15(),
-	Bloom_t351245685::get_offset_of_flareRotation_16(),
-	Bloom_t351245685::get_offset_of_lensflareMode_17(),
-	Bloom_t351245685::get_offset_of_hollyStretchWidth_18(),
-	Bloom_t351245685::get_offset_of_lensflareIntensity_19(),
-	Bloom_t351245685::get_offset_of_lensflareThreshold_20(),
-	Bloom_t351245685::get_offset_of_lensFlareSaturation_21(),
-	Bloom_t351245685::get_offset_of_flareColorA_22(),
-	Bloom_t351245685::get_offset_of_flareColorB_23(),
-	Bloom_t351245685::get_offset_of_flareColorC_24(),
-	Bloom_t351245685::get_offset_of_flareColorD_25(),
-	Bloom_t351245685::get_offset_of_lensFlareVignetteMask_26(),
-	Bloom_t351245685::get_offset_of_lensFlareShader_27(),
-	Bloom_t351245685::get_offset_of_lensFlareMaterial_28(),
-	Bloom_t351245685::get_offset_of_screenBlendShader_29(),
-	Bloom_t351245685::get_offset_of_screenBlend_30(),
-	Bloom_t351245685::get_offset_of_blurAndFlaresShader_31(),
-	Bloom_t351245685::get_offset_of_blurAndFlaresMaterial_32(),
-	Bloom_t351245685::get_offset_of_brightPassFilterShader_33(),
-	Bloom_t351245685::get_offset_of_brightPassFilterMaterial_34(),
+	LayoutElement_t1596995480::get_offset_of_m_IgnoreLayout_2(),
+	LayoutElement_t1596995480::get_offset_of_m_MinWidth_3(),
+	LayoutElement_t1596995480::get_offset_of_m_MinHeight_4(),
+	LayoutElement_t1596995480::get_offset_of_m_PreferredWidth_5(),
+	LayoutElement_t1596995480::get_offset_of_m_PreferredHeight_6(),
+	LayoutElement_t1596995480::get_offset_of_m_FlexibleWidth_7(),
+	LayoutElement_t1596995480::get_offset_of_m_FlexibleHeight_8(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1802 = { sizeof (LensFlareStyle_t2339122139)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1802[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1807 = { sizeof (LayoutGroup_t352294875), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1807[8] = 
 {
-	LensFlareStyle_t2339122139::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
+	LayoutGroup_t352294875::get_offset_of_m_Padding_2(),
+	LayoutGroup_t352294875::get_offset_of_m_ChildAlignment_3(),
+	LayoutGroup_t352294875::get_offset_of_m_Rect_4(),
+	LayoutGroup_t352294875::get_offset_of_m_Tracker_5(),
+	LayoutGroup_t352294875::get_offset_of_m_TotalMinSize_6(),
+	LayoutGroup_t352294875::get_offset_of_m_TotalPreferredSize_7(),
+	LayoutGroup_t352294875::get_offset_of_m_TotalFlexibleSize_8(),
+	LayoutGroup_t352294875::get_offset_of_m_RectChildren_9(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1803 = { sizeof (TweakMode_t2627308469)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1803[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1808 = { sizeof (LayoutRebuilder_t1942933988), -1, sizeof(LayoutRebuilder_t1942933988_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1808[9] = 
 {
-	TweakMode_t2627308469::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	LayoutRebuilder_t1942933988::get_offset_of_m_ToRebuild_0(),
+	LayoutRebuilder_t1942933988::get_offset_of_m_CachedHashFromTransform_1(),
+	LayoutRebuilder_t1942933988_StaticFields::get_offset_of_s_Rebuilders_2(),
+	LayoutRebuilder_t1942933988_StaticFields::get_offset_of_U3CU3Ef__amU24cache3_3(),
+	LayoutRebuilder_t1942933988_StaticFields::get_offset_of_U3CU3Ef__amU24cache4_4(),
+	LayoutRebuilder_t1942933988_StaticFields::get_offset_of_U3CU3Ef__amU24cache5_5(),
+	LayoutRebuilder_t1942933988_StaticFields::get_offset_of_U3CU3Ef__amU24cache6_6(),
+	LayoutRebuilder_t1942933988_StaticFields::get_offset_of_U3CU3Ef__amU24cache7_7(),
+	LayoutRebuilder_t1942933988_StaticFields::get_offset_of_U3CU3Ef__amU24cache8_8(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1809 = { sizeof (LayoutUtility_t3144854024), -1, sizeof(LayoutUtility_t3144854024_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1809[8] = 
+{
+	LayoutUtility_t3144854024_StaticFields::get_offset_of_U3CU3Ef__amU24cache0_0(),
+	LayoutUtility_t3144854024_StaticFields::get_offset_of_U3CU3Ef__amU24cache1_1(),
+	LayoutUtility_t3144854024_StaticFields::get_offset_of_U3CU3Ef__amU24cache2_2(),
+	LayoutUtility_t3144854024_StaticFields::get_offset_of_U3CU3Ef__amU24cache3_3(),
+	LayoutUtility_t3144854024_StaticFields::get_offset_of_U3CU3Ef__amU24cache4_4(),
+	LayoutUtility_t3144854024_StaticFields::get_offset_of_U3CU3Ef__amU24cache5_5(),
+	LayoutUtility_t3144854024_StaticFields::get_offset_of_U3CU3Ef__amU24cache6_6(),
+	LayoutUtility_t3144854024_StaticFields::get_offset_of_U3CU3Ef__amU24cache7_7(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1810 = { sizeof (VerticalLayoutGroup_t423167365), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1811 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1812 = { 0, 0, 0, 0 };
+extern const int32_t g_FieldOffsetTable1812[2] = 
+{
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1804 = { sizeof (HDRBloomMode_t59984938)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1804[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1813 = { 0, 0, 0, 0 };
+extern const int32_t g_FieldOffsetTable1813[2] = 
 {
-	HDRBloomMode_t59984938::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1805 = { sizeof (BloomScreenBlendMode_t1277121599)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1805[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1814 = { 0, 0, 0, 0 };
+extern const int32_t g_FieldOffsetTable1814[4] = 
 {
-	BloomScreenBlendMode_t1277121599::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1806 = { sizeof (BloomQuality_t335996342)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1806[3] = 
-{
-	BloomQuality_t335996342::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1807 = { sizeof (LensflareStyle34_t1464032496)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1807[4] = 
-{
-	LensflareStyle34_t1464032496::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1808 = { sizeof (TweakMode34_t2836510274)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1808[3] = 
-{
-	TweakMode34_t2836510274::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1809 = { sizeof (HDRBloomMode_t220225470)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1809[4] = 
-{
-	HDRBloomMode_t220225470::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1810 = { sizeof (BloomScreenBlendMode_t354636755)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1810[3] = 
-{
-	BloomScreenBlendMode_t354636755::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1811 = { sizeof (BloomAndFlares_t1631335591), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1811[34] = 
-{
-	BloomAndFlares_t1631335591::get_offset_of_tweakMode_5(),
-	BloomAndFlares_t1631335591::get_offset_of_screenBlendMode_6(),
-	BloomAndFlares_t1631335591::get_offset_of_hdr_7(),
-	BloomAndFlares_t1631335591::get_offset_of_doHdr_8(),
-	BloomAndFlares_t1631335591::get_offset_of_sepBlurSpread_9(),
-	BloomAndFlares_t1631335591::get_offset_of_useSrcAlphaAsMask_10(),
-	BloomAndFlares_t1631335591::get_offset_of_bloomIntensity_11(),
-	BloomAndFlares_t1631335591::get_offset_of_bloomThreshold_12(),
-	BloomAndFlares_t1631335591::get_offset_of_bloomBlurIterations_13(),
-	BloomAndFlares_t1631335591::get_offset_of_lensflares_14(),
-	BloomAndFlares_t1631335591::get_offset_of_hollywoodFlareBlurIterations_15(),
-	BloomAndFlares_t1631335591::get_offset_of_lensflareMode_16(),
-	BloomAndFlares_t1631335591::get_offset_of_hollyStretchWidth_17(),
-	BloomAndFlares_t1631335591::get_offset_of_lensflareIntensity_18(),
-	BloomAndFlares_t1631335591::get_offset_of_lensflareThreshold_19(),
-	BloomAndFlares_t1631335591::get_offset_of_flareColorA_20(),
-	BloomAndFlares_t1631335591::get_offset_of_flareColorB_21(),
-	BloomAndFlares_t1631335591::get_offset_of_flareColorC_22(),
-	BloomAndFlares_t1631335591::get_offset_of_flareColorD_23(),
-	BloomAndFlares_t1631335591::get_offset_of_lensFlareVignetteMask_24(),
-	BloomAndFlares_t1631335591::get_offset_of_lensFlareShader_25(),
-	BloomAndFlares_t1631335591::get_offset_of_lensFlareMaterial_26(),
-	BloomAndFlares_t1631335591::get_offset_of_vignetteShader_27(),
-	BloomAndFlares_t1631335591::get_offset_of_vignetteMaterial_28(),
-	BloomAndFlares_t1631335591::get_offset_of_separableBlurShader_29(),
-	BloomAndFlares_t1631335591::get_offset_of_separableBlurMaterial_30(),
-	BloomAndFlares_t1631335591::get_offset_of_addBrightStuffOneOneShader_31(),
-	BloomAndFlares_t1631335591::get_offset_of_addBrightStuffBlendOneOneMaterial_32(),
-	BloomAndFlares_t1631335591::get_offset_of_screenBlendShader_33(),
-	BloomAndFlares_t1631335591::get_offset_of_screenBlend_34(),
-	BloomAndFlares_t1631335591::get_offset_of_hollywoodFlaresShader_35(),
-	BloomAndFlares_t1631335591::get_offset_of_hollywoodFlaresMaterial_36(),
-	BloomAndFlares_t1631335591::get_offset_of_brightPassFilterShader_37(),
-	BloomAndFlares_t1631335591::get_offset_of_brightPassFilterMaterial_38(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1812 = { sizeof (BloomOptimized_t3605777074), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1812[8] = 
-{
-	BloomOptimized_t3605777074::get_offset_of_threshold_5(),
-	BloomOptimized_t3605777074::get_offset_of_intensity_6(),
-	BloomOptimized_t3605777074::get_offset_of_blurSize_7(),
-	BloomOptimized_t3605777074::get_offset_of_resolution_8(),
-	BloomOptimized_t3605777074::get_offset_of_blurIterations_9(),
-	BloomOptimized_t3605777074::get_offset_of_blurType_10(),
-	BloomOptimized_t3605777074::get_offset_of_fastBloomShader_11(),
-	BloomOptimized_t3605777074::get_offset_of_fastBloomMaterial_12(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1813 = { sizeof (Resolution_t1025302025)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1813[3] = 
-{
-	Resolution_t1025302025::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1814 = { sizeof (BlurType_t4215849182)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1814[3] = 
-{
-	BlurType_t4215849182::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1815 = { sizeof (Blur_t2331622965), -1, sizeof(Blur_t2331622965_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1815[4] = 
-{
-	Blur_t2331622965::get_offset_of_iterations_2(),
-	Blur_t2331622965::get_offset_of_blurSpread_3(),
-	Blur_t2331622965::get_offset_of_blurShader_4(),
-	Blur_t2331622965_StaticFields::get_offset_of_m_Material_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1816 = { sizeof (BlurOptimized_t1021540850), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1816[6] = 
-{
-	BlurOptimized_t1021540850::get_offset_of_downsample_5(),
-	BlurOptimized_t1021540850::get_offset_of_blurSize_6(),
-	BlurOptimized_t1021540850::get_offset_of_blurIterations_7(),
-	BlurOptimized_t1021540850::get_offset_of_blurType_8(),
-	BlurOptimized_t1021540850::get_offset_of_blurShader_9(),
-	BlurOptimized_t1021540850::get_offset_of_blurMaterial_10(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1817 = { sizeof (BlurType_t2715957662)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1817[3] = 
-{
-	BlurType_t2715957662::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1818 = { sizeof (CameraMotionBlur_t3513202448), -1, sizeof(CameraMotionBlur_t3513202448_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1818[30] = 
-{
-	CameraMotionBlur_t3513202448_StaticFields::get_offset_of_MAX_RADIUS_5(),
-	CameraMotionBlur_t3513202448::get_offset_of_filterType_6(),
-	CameraMotionBlur_t3513202448::get_offset_of_preview_7(),
-	CameraMotionBlur_t3513202448::get_offset_of_previewScale_8(),
-	CameraMotionBlur_t3513202448::get_offset_of_movementScale_9(),
-	CameraMotionBlur_t3513202448::get_offset_of_rotationScale_10(),
-	CameraMotionBlur_t3513202448::get_offset_of_maxVelocity_11(),
-	CameraMotionBlur_t3513202448::get_offset_of_minVelocity_12(),
-	CameraMotionBlur_t3513202448::get_offset_of_velocityScale_13(),
-	CameraMotionBlur_t3513202448::get_offset_of_softZDistance_14(),
-	CameraMotionBlur_t3513202448::get_offset_of_velocityDownsample_15(),
-	CameraMotionBlur_t3513202448::get_offset_of_excludeLayers_16(),
-	CameraMotionBlur_t3513202448::get_offset_of_tmpCam_17(),
-	CameraMotionBlur_t3513202448::get_offset_of_shader_18(),
-	CameraMotionBlur_t3513202448::get_offset_of_dx11MotionBlurShader_19(),
-	CameraMotionBlur_t3513202448::get_offset_of_replacementClear_20(),
-	CameraMotionBlur_t3513202448::get_offset_of_motionBlurMaterial_21(),
-	CameraMotionBlur_t3513202448::get_offset_of_dx11MotionBlurMaterial_22(),
-	CameraMotionBlur_t3513202448::get_offset_of_noiseTexture_23(),
-	CameraMotionBlur_t3513202448::get_offset_of_jitter_24(),
-	CameraMotionBlur_t3513202448::get_offset_of_showVelocity_25(),
-	CameraMotionBlur_t3513202448::get_offset_of_showVelocityScale_26(),
-	CameraMotionBlur_t3513202448::get_offset_of_currentViewProjMat_27(),
-	CameraMotionBlur_t3513202448::get_offset_of_prevViewProjMat_28(),
-	CameraMotionBlur_t3513202448::get_offset_of_prevFrameCount_29(),
-	CameraMotionBlur_t3513202448::get_offset_of_wasActive_30(),
-	CameraMotionBlur_t3513202448::get_offset_of_prevFrameForward_31(),
-	CameraMotionBlur_t3513202448::get_offset_of_prevFrameUp_32(),
-	CameraMotionBlur_t3513202448::get_offset_of_prevFramePos_33(),
-	CameraMotionBlur_t3513202448::get_offset_of__camera_34(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1819 = { sizeof (MotionBlurFilter_t1351415316)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1819[6] = 
-{
-	MotionBlurFilter_t1351415316::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
 	0,
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1820 = { sizeof (ColorCorrectionCurves_t1677992791), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1820[24] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1815 = { sizeof (VertexHelper_t3377436606), -1, sizeof(VertexHelper_t3377436606_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1815[9] = 
 {
-	ColorCorrectionCurves_t1677992791::get_offset_of_redChannel_5(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_greenChannel_6(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_blueChannel_7(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_useDepthCorrection_8(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_zCurve_9(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_depthRedChannel_10(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_depthGreenChannel_11(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_depthBlueChannel_12(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_ccMaterial_13(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_ccDepthMaterial_14(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_selectiveCcMaterial_15(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_rgbChannelTex_16(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_rgbDepthChannelTex_17(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_zCurveTex_18(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_saturation_19(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_selectiveCc_20(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_selectiveFromColor_21(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_selectiveToColor_22(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_mode_23(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_updateTextures_24(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_colorCorrectionCurvesShader_25(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_simpleColorCorrectionCurvesShader_26(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_colorCorrectionSelectiveShader_27(),
-	ColorCorrectionCurves_t1677992791::get_offset_of_updateTexturesOnStartup_28(),
+	VertexHelper_t3377436606::get_offset_of_m_Positions_0(),
+	VertexHelper_t3377436606::get_offset_of_m_Colors_1(),
+	VertexHelper_t3377436606::get_offset_of_m_Uv0S_2(),
+	VertexHelper_t3377436606::get_offset_of_m_Uv1S_3(),
+	VertexHelper_t3377436606::get_offset_of_m_Normals_4(),
+	VertexHelper_t3377436606::get_offset_of_m_Tangents_5(),
+	VertexHelper_t3377436606::get_offset_of_m_Indices_6(),
+	VertexHelper_t3377436606_StaticFields::get_offset_of_s_DefaultTangent_7(),
+	VertexHelper_t3377436606_StaticFields::get_offset_of_s_DefaultNormal_8(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1821 = { sizeof (ColorCorrectionMode_t3663505356)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1821[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1816 = { sizeof (BaseVertexEffect_t3555037586), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1817 = { sizeof (BaseMeshEffect_t2306480155), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1817[1] = 
 {
-	ColorCorrectionMode_t3663505356::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
+	BaseMeshEffect_t2306480155::get_offset_of_m_Graphic_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1822 = { sizeof (ColorCorrectionLookup_t1930014573), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1818 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1819 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1820 = { sizeof (Outline_t3745177896), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1821 = { sizeof (PositionAsUV1_t4062429115), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1822 = { sizeof (Shadow_t75537580), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable1822[4] = 
 {
-	ColorCorrectionLookup_t1930014573::get_offset_of_shader_5(),
-	ColorCorrectionLookup_t1930014573::get_offset_of_material_6(),
-	ColorCorrectionLookup_t1930014573::get_offset_of_converted3DLut_7(),
-	ColorCorrectionLookup_t1930014573::get_offset_of_basedOnTempTex_8(),
+	0,
+	Shadow_t75537580::get_offset_of_m_EffectColor_4(),
+	Shadow_t75537580::get_offset_of_m_EffectDistance_5(),
+	Shadow_t75537580::get_offset_of_m_UseGraphicAlpha_6(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1823 = { sizeof (ColorCorrectionRamp_t2343682757), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1823 = { sizeof (U3CPrivateImplementationDetailsU3E_t3053238937), -1, sizeof(U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable1823[1] = 
 {
-	ColorCorrectionRamp_t2343682757::get_offset_of_textureRamp_4(),
+	U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields::get_offset_of_U24U24fieldU2D0_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1824 = { sizeof (ContrastEnhance_t3797097022), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1824[7] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1824 = { sizeof (U24ArrayTypeU2412_t3379220351)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU2412_t3379220351_marshaled_pinvoke), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1825 = { sizeof (U3CModuleU3E_t86524797), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1826 = { sizeof (DemoTimeOfDay_t768954549), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1826[6] = 
 {
-	ContrastEnhance_t3797097022::get_offset_of_intensity_5(),
-	ContrastEnhance_t3797097022::get_offset_of_threshold_6(),
-	ContrastEnhance_t3797097022::get_offset_of_separableBlurMaterial_7(),
-	ContrastEnhance_t3797097022::get_offset_of_contrastCompositeMaterial_8(),
-	ContrastEnhance_t3797097022::get_offset_of_blurSpread_9(),
-	ContrastEnhance_t3797097022::get_offset_of_separableBlurShader_10(),
-	ContrastEnhance_t3797097022::get_offset_of_contrastCompositeShader_11(),
+	DemoTimeOfDay_t768954549::get_offset_of_lightSource_2(),
+	DemoTimeOfDay_t768954549::get_offset_of_minAngle_3(),
+	DemoTimeOfDay_t768954549::get_offset_of_cycleDuration_4(),
+	DemoTimeOfDay_t768954549::get_offset_of_maxAngle_5(),
+	DemoTimeOfDay_t768954549::get_offset_of_yAngle_6(),
+	DemoTimeOfDay_t768954549::get_offset_of_maxIntensity_7(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1825 = { sizeof (ContrastStretch_t3518381717), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1825[13] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1827 = { sizeof (Orbit_t76451882), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1827[1] = 
 {
-	ContrastStretch_t3518381717::get_offset_of_adaptationSpeed_2(),
-	ContrastStretch_t3518381717::get_offset_of_limitMinimum_3(),
-	ContrastStretch_t3518381717::get_offset_of_limitMaximum_4(),
-	ContrastStretch_t3518381717::get_offset_of_adaptRenderTex_5(),
-	ContrastStretch_t3518381717::get_offset_of_curAdaptIndex_6(),
-	ContrastStretch_t3518381717::get_offset_of_shaderLum_7(),
-	ContrastStretch_t3518381717::get_offset_of_m_materialLum_8(),
-	ContrastStretch_t3518381717::get_offset_of_shaderReduce_9(),
-	ContrastStretch_t3518381717::get_offset_of_m_materialReduce_10(),
-	ContrastStretch_t3518381717::get_offset_of_shaderAdapt_11(),
-	ContrastStretch_t3518381717::get_offset_of_m_materialAdapt_12(),
-	ContrastStretch_t3518381717::get_offset_of_shaderApply_13(),
-	ContrastStretch_t3518381717::get_offset_of_m_materialApply_14(),
+	Orbit_t76451882::get_offset_of_degreesPerSecond_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1826 = { sizeof (CreaseShading_t1632191871), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1826[9] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1828 = { sizeof (ControllerDemoManager_t1306021614), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1828[9] = 
 {
-	CreaseShading_t1632191871::get_offset_of_intensity_5(),
-	CreaseShading_t1632191871::get_offset_of_softness_6(),
-	CreaseShading_t1632191871::get_offset_of_spread_7(),
-	CreaseShading_t1632191871::get_offset_of_blurShader_8(),
-	CreaseShading_t1632191871::get_offset_of_blurMaterial_9(),
-	CreaseShading_t1632191871::get_offset_of_depthFetchShader_10(),
-	CreaseShading_t1632191871::get_offset_of_depthFetchMaterial_11(),
-	CreaseShading_t1632191871::get_offset_of_creaseApplyShader_12(),
-	CreaseShading_t1632191871::get_offset_of_creaseApplyMaterial_13(),
+	ControllerDemoManager_t1306021614::get_offset_of_controllerPivot_2(),
+	ControllerDemoManager_t1306021614::get_offset_of_messageCanvas_3(),
+	ControllerDemoManager_t1306021614::get_offset_of_messageText_4(),
+	ControllerDemoManager_t1306021614::get_offset_of_cubeInactiveMaterial_5(),
+	ControllerDemoManager_t1306021614::get_offset_of_cubeHoverMaterial_6(),
+	ControllerDemoManager_t1306021614::get_offset_of_cubeActiveMaterial_7(),
+	ControllerDemoManager_t1306021614::get_offset_of_controllerCursorRenderer_8(),
+	ControllerDemoManager_t1306021614::get_offset_of_selectedObject_9(),
+	ControllerDemoManager_t1306021614::get_offset_of_dragging_10(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1827 = { sizeof (DepthOfField_t1745685742), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1827[25] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1829 = { sizeof (Teleport_t2999409483), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1829[1] = 
 {
-	DepthOfField_t1745685742::get_offset_of_visualizeFocus_5(),
-	DepthOfField_t1745685742::get_offset_of_focalLength_6(),
-	DepthOfField_t1745685742::get_offset_of_focalSize_7(),
-	DepthOfField_t1745685742::get_offset_of_aperture_8(),
-	DepthOfField_t1745685742::get_offset_of_focalTransform_9(),
-	DepthOfField_t1745685742::get_offset_of_maxBlurSize_10(),
-	DepthOfField_t1745685742::get_offset_of_highResolution_11(),
-	DepthOfField_t1745685742::get_offset_of_blurType_12(),
-	DepthOfField_t1745685742::get_offset_of_blurSampleCount_13(),
-	DepthOfField_t1745685742::get_offset_of_nearBlur_14(),
-	DepthOfField_t1745685742::get_offset_of_foregroundOverlap_15(),
-	DepthOfField_t1745685742::get_offset_of_dofHdrShader_16(),
-	DepthOfField_t1745685742::get_offset_of_dofHdrMaterial_17(),
-	DepthOfField_t1745685742::get_offset_of_dx11BokehShader_18(),
-	DepthOfField_t1745685742::get_offset_of_dx11bokehMaterial_19(),
-	DepthOfField_t1745685742::get_offset_of_dx11BokehThreshold_20(),
-	DepthOfField_t1745685742::get_offset_of_dx11SpawnHeuristic_21(),
-	DepthOfField_t1745685742::get_offset_of_dx11BokehTexture_22(),
-	DepthOfField_t1745685742::get_offset_of_dx11BokehScale_23(),
-	DepthOfField_t1745685742::get_offset_of_dx11BokehIntensity_24(),
-	DepthOfField_t1745685742::get_offset_of_focalDistance01_25(),
-	DepthOfField_t1745685742::get_offset_of_cbDrawArgs_26(),
-	DepthOfField_t1745685742::get_offset_of_cbPoints_27(),
-	DepthOfField_t1745685742::get_offset_of_internalBlurWidth_28(),
-	DepthOfField_t1745685742::get_offset_of_cachedCamera_29(),
+	Teleport_t2999409483::get_offset_of_startingPosition_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1828 = { sizeof (BlurType_t1336427042)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1828[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1830 = { sizeof (GvrHead_t2074018243), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1830[6] = 
 {
-	BlurType_t1336427042::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
+	GvrHead_t2074018243::get_offset_of_trackRotation_2(),
+	GvrHead_t2074018243::get_offset_of_trackPosition_3(),
+	GvrHead_t2074018243::get_offset_of_target_4(),
+	GvrHead_t2074018243::get_offset_of_updateEarly_5(),
+	GvrHead_t2074018243::get_offset_of_updated_6(),
+	GvrHead_t2074018243::get_offset_of_OnHeadUpdated_7(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1829 = { sizeof (BlurSampleCount_t1548262813)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1829[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1831 = { sizeof (HeadUpdatedDelegate_t4119218932), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1832 = { sizeof (GvrCameraUtils_t3751592777), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1833 = { sizeof (GvrEye_t2145111534), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1833[8] = 
 {
-	BlurSampleCount_t1548262813::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
+	GvrEye_t2145111534::get_offset_of_eye_2(),
+	GvrEye_t2145111534::get_offset_of_toggleCullingMask_3(),
+	GvrEye_t2145111534::get_offset_of_controller_4(),
+	GvrEye_t2145111534::get_offset_of_stereoEffect_5(),
+	GvrEye_t2145111534::get_offset_of_monoCamera_6(),
+	GvrEye_t2145111534::get_offset_of_realProj_7(),
+	GvrEye_t2145111534::get_offset_of_interpPosition_8(),
+	GvrEye_t2145111534::get_offset_of_U3CcamU3Ek__BackingField_9(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1830 = { sizeof (DepthOfFieldDeprecated_t432057665), -1, sizeof(DepthOfFieldDeprecated_t432057665_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1830[43] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1834 = { sizeof (GvrPostRender_t3571076089), -1, sizeof(GvrPostRender_t3571076089_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1834[22] = 
 {
-	DepthOfFieldDeprecated_t432057665_StaticFields::get_offset_of_SMOOTH_DOWNSAMPLE_PASS_5(),
-	DepthOfFieldDeprecated_t432057665_StaticFields::get_offset_of_BOKEH_EXTRA_BLUR_6(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_quality_7(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_resolution_8(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_simpleTweakMode_9(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_focalPoint_10(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_smoothness_11(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_focalZDistance_12(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_focalZStartCurve_13(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_focalZEndCurve_14(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_focalStartCurve_15(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_focalEndCurve_16(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_focalDistance01_17(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_objectFocus_18(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_focalSize_19(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bluriness_20(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_maxBlurSpread_21(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_foregroundBlurExtrude_22(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_dofBlurShader_23(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_dofBlurMaterial_24(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_dofShader_25(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_dofMaterial_26(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_visualize_27(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehDestination_28(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_widthOverHeight_29(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_oneOverBaseSize_30(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokeh_31(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehSupport_32(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehShader_33(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehTexture_34(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehScale_35(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehIntensity_36(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehThresholdContrast_37(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehThresholdLuminance_38(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehDownsample_39(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehMaterial_40(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of__camera_41(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_foregroundTexture_42(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_mediumRezWorkTexture_43(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_finalDefocus_44(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_lowRezWorkTexture_45(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehSource_46(),
-	DepthOfFieldDeprecated_t432057665::get_offset_of_bokehSource2_47(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	GvrPostRender_t3571076089::get_offset_of_distortionMesh_14(),
+	GvrPostRender_t3571076089::get_offset_of_meshMaterial_15(),
+	GvrPostRender_t3571076089::get_offset_of_uiMaterial_16(),
+	GvrPostRender_t3571076089::get_offset_of_centerWidthPx_17(),
+	GvrPostRender_t3571076089::get_offset_of_buttonWidthPx_18(),
+	GvrPostRender_t3571076089::get_offset_of_xScale_19(),
+	GvrPostRender_t3571076089::get_offset_of_yScale_20(),
+	GvrPostRender_t3571076089::get_offset_of_xfm_21(),
+	GvrPostRender_t3571076089_StaticFields::get_offset_of_Angles_22(),
+	GvrPostRender_t3571076089::get_offset_of_U3CcamU3Ek__BackingField_23(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1831 = { sizeof (Dof34QualitySetting_t123024543)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1831[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1835 = { sizeof (GvrPreRender_t2492587030), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1835[1] = 
 {
-	Dof34QualitySetting_t123024543::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
+	GvrPreRender_t2492587030::get_offset_of_U3CcamU3Ek__BackingField_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1832 = { sizeof (DofResolution_t2360494617)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1832[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1836 = { sizeof (GvrProfile_t2868291302), -1, sizeof(GvrProfile_t2868291302_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1836[15] = 
 {
-	DofResolution_t2360494617::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
+	GvrProfile_t2868291302::get_offset_of_screen_0(),
+	GvrProfile_t2868291302::get_offset_of_viewer_1(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_Nexus5_2(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_Nexus6_3(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_GalaxyS6_4(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_GalaxyNote4_5(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_LGG3_6(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_iPhone4_7(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_iPhone5_8(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_iPhone6_9(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_iPhone6p_10(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_CardboardJun2014_11(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_CardboardMay2015_12(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_GoggleTechC1Glass_13(),
+	GvrProfile_t2868291302_StaticFields::get_offset_of_Default_14(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1833 = { sizeof (DofBlurriness_t3456138658)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1833[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1837 = { sizeof (Screen_t3577771989)+ sizeof (Il2CppObject), sizeof(Screen_t3577771989_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1837[3] = 
 {
-	DofBlurriness_t3456138658::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
+	Screen_t3577771989::get_offset_of_width_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Screen_t3577771989::get_offset_of_height_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Screen_t3577771989::get_offset_of_border_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1834 = { sizeof (BokehDestination_t4156672859)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1834[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1838 = { sizeof (Lenses_t3379109269)+ sizeof (Il2CppObject), sizeof(Lenses_t3379109269_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1838[7] = 
 {
-	BokehDestination_t4156672859::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	Lenses_t3379109269::get_offset_of_separation_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Lenses_t3379109269::get_offset_of_offset_4() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Lenses_t3379109269::get_offset_of_screenDistance_5() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Lenses_t3379109269::get_offset_of_alignment_6() + static_cast<int32_t>(sizeof(Il2CppObject)),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1839 = { sizeof (MaxFOV_t3404298290)+ sizeof (Il2CppObject), sizeof(MaxFOV_t3404298290_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1839[4] = 
+{
+	MaxFOV_t3404298290::get_offset_of_outer_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	MaxFOV_t3404298290::get_offset_of_inner_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	MaxFOV_t3404298290::get_offset_of_upper_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	MaxFOV_t3404298290::get_offset_of_lower_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1840 = { sizeof (Distortion_t2316389254)+ sizeof (Il2CppObject), sizeof(Distortion_t2316389254_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1840[1] = 
+{
+	Distortion_t2316389254::get_offset_of_coef_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1841 = { sizeof (Viewer_t3668830587)+ sizeof (Il2CppObject), sizeof(Viewer_t3668830587_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1841[4] = 
+{
+	Viewer_t3668830587::get_offset_of_lenses_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Viewer_t3668830587::get_offset_of_maxFOV_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Viewer_t3668830587::get_offset_of_distortion_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Viewer_t3668830587::get_offset_of_inverse_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1842 = { sizeof (ScreenSizes_t4088223165)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1842[10] = 
+{
+	ScreenSizes_t4088223165::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1835 = { sizeof (EdgeDetection_t1638506170), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1835[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1843 = { sizeof (ViewerTypes_t962081726)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1843[4] = 
 {
-	EdgeDetection_t1638506170::get_offset_of_mode_5(),
-	EdgeDetection_t1638506170::get_offset_of_sensitivityDepth_6(),
-	EdgeDetection_t1638506170::get_offset_of_sensitivityNormals_7(),
-	EdgeDetection_t1638506170::get_offset_of_lumThreshold_8(),
-	EdgeDetection_t1638506170::get_offset_of_edgeExp_9(),
-	EdgeDetection_t1638506170::get_offset_of_sampleDist_10(),
-	EdgeDetection_t1638506170::get_offset_of_edgesOnly_11(),
-	EdgeDetection_t1638506170::get_offset_of_edgesOnlyBgColor_12(),
-	EdgeDetection_t1638506170::get_offset_of_edgeDetectShader_13(),
-	EdgeDetection_t1638506170::get_offset_of_edgeDetectMaterial_14(),
-	EdgeDetection_t1638506170::get_offset_of_oldMode_15(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1836 = { sizeof (EdgeDetectMode_t2022168152)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1836[6] = 
-{
-	EdgeDetectMode_t2022168152::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
+	ViewerTypes_t962081726::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1837 = { sizeof (Fisheye_t2084831179), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1837[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1844 = { sizeof (StereoController_t1637909972), -1, sizeof(StereoController_t1637909972_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1844[17] = 
 {
-	Fisheye_t2084831179::get_offset_of_strengthX_5(),
-	Fisheye_t2084831179::get_offset_of_strengthY_6(),
-	Fisheye_t2084831179::get_offset_of_fishEyeShader_7(),
-	Fisheye_t2084831179::get_offset_of_fisheyeMaterial_8(),
+	StereoController_t1637909972::get_offset_of_directRender_2(),
+	StereoController_t1637909972::get_offset_of_keepStereoUpdated_3(),
+	StereoController_t1637909972::get_offset_of_stereoMultiplier_4(),
+	StereoController_t1637909972::get_offset_of_matchMonoFOV_5(),
+	StereoController_t1637909972::get_offset_of_matchByZoom_6(),
+	StereoController_t1637909972::get_offset_of_centerOfInterest_7(),
+	StereoController_t1637909972::get_offset_of_radiusOfInterest_8(),
+	StereoController_t1637909972::get_offset_of_checkStereoComfort_9(),
+	StereoController_t1637909972::get_offset_of_stereoAdjustSmoothing_10(),
+	StereoController_t1637909972::get_offset_of_screenParallax_11(),
+	StereoController_t1637909972::get_offset_of_stereoPaddingX_12(),
+	StereoController_t1637909972::get_offset_of_stereoPaddingY_13(),
+	StereoController_t1637909972::get_offset_of_renderedStereo_14(),
+	StereoController_t1637909972::get_offset_of_eyes_15(),
+	StereoController_t1637909972::get_offset_of_head_16(),
+	StereoController_t1637909972::get_offset_of_U3CcamU3Ek__BackingField_17(),
+	StereoController_t1637909972_StaticFields::get_offset_of_U3CU3Ef__amU24cache10_18(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1838 = { sizeof (GlobalFog_t2135617677), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1838[9] = 
-{
-	GlobalFog_t2135617677::get_offset_of_distanceFog_5(),
-	GlobalFog_t2135617677::get_offset_of_excludeFarPixels_6(),
-	GlobalFog_t2135617677::get_offset_of_useRadialDistance_7(),
-	GlobalFog_t2135617677::get_offset_of_heightFog_8(),
-	GlobalFog_t2135617677::get_offset_of_height_9(),
-	GlobalFog_t2135617677::get_offset_of_heightDensity_10(),
-	GlobalFog_t2135617677::get_offset_of_startDistance_11(),
-	GlobalFog_t2135617677::get_offset_of_fogShader_12(),
-	GlobalFog_t2135617677::get_offset_of_fogMaterial_13(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1839 = { sizeof (Grayscale_t842279737), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1839[2] = 
-{
-	Grayscale_t842279737::get_offset_of_textureRamp_4(),
-	Grayscale_t842279737::get_offset_of_rampOffset_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1840 = { sizeof (ImageEffectBase_t3325865135), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1840[2] = 
-{
-	ImageEffectBase_t3325865135::get_offset_of_shader_2(),
-	ImageEffectBase_t3325865135::get_offset_of_m_Material_3(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1841 = { sizeof (ImageEffects_t386063093), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1842 = { sizeof (MotionBlur_t3002754187), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1842[3] = 
-{
-	MotionBlur_t3002754187::get_offset_of_blurAmount_4(),
-	MotionBlur_t3002754187::get_offset_of_extraBlur_5(),
-	MotionBlur_t3002754187::get_offset_of_accumTexture_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1843 = { sizeof (NoiseAndGrain_t3744904080), -1, sizeof(NoiseAndGrain_t3744904080_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1843[18] = 
-{
-	NoiseAndGrain_t3744904080::get_offset_of_intensityMultiplier_5(),
-	NoiseAndGrain_t3744904080::get_offset_of_generalIntensity_6(),
-	NoiseAndGrain_t3744904080::get_offset_of_blackIntensity_7(),
-	NoiseAndGrain_t3744904080::get_offset_of_whiteIntensity_8(),
-	NoiseAndGrain_t3744904080::get_offset_of_midGrey_9(),
-	NoiseAndGrain_t3744904080::get_offset_of_dx11Grain_10(),
-	NoiseAndGrain_t3744904080::get_offset_of_softness_11(),
-	NoiseAndGrain_t3744904080::get_offset_of_monochrome_12(),
-	NoiseAndGrain_t3744904080::get_offset_of_intensities_13(),
-	NoiseAndGrain_t3744904080::get_offset_of_tiling_14(),
-	NoiseAndGrain_t3744904080::get_offset_of_monochromeTiling_15(),
-	NoiseAndGrain_t3744904080::get_offset_of_filterMode_16(),
-	NoiseAndGrain_t3744904080::get_offset_of_noiseTexture_17(),
-	NoiseAndGrain_t3744904080::get_offset_of_noiseShader_18(),
-	NoiseAndGrain_t3744904080::get_offset_of_noiseMaterial_19(),
-	NoiseAndGrain_t3744904080::get_offset_of_dx11NoiseShader_20(),
-	NoiseAndGrain_t3744904080::get_offset_of_dx11NoiseMaterial_21(),
-	NoiseAndGrain_t3744904080_StaticFields::get_offset_of_TILE_AMOUNT_22(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1844 = { sizeof (NoiseAndScratches_t4207487421), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1844[18] = 
-{
-	NoiseAndScratches_t4207487421::get_offset_of_monochrome_2(),
-	NoiseAndScratches_t4207487421::get_offset_of_rgbFallback_3(),
-	NoiseAndScratches_t4207487421::get_offset_of_grainIntensityMin_4(),
-	NoiseAndScratches_t4207487421::get_offset_of_grainIntensityMax_5(),
-	NoiseAndScratches_t4207487421::get_offset_of_grainSize_6(),
-	NoiseAndScratches_t4207487421::get_offset_of_scratchIntensityMin_7(),
-	NoiseAndScratches_t4207487421::get_offset_of_scratchIntensityMax_8(),
-	NoiseAndScratches_t4207487421::get_offset_of_scratchFPS_9(),
-	NoiseAndScratches_t4207487421::get_offset_of_scratchJitter_10(),
-	NoiseAndScratches_t4207487421::get_offset_of_grainTexture_11(),
-	NoiseAndScratches_t4207487421::get_offset_of_scratchTexture_12(),
-	NoiseAndScratches_t4207487421::get_offset_of_shaderRGB_13(),
-	NoiseAndScratches_t4207487421::get_offset_of_shaderYUV_14(),
-	NoiseAndScratches_t4207487421::get_offset_of_m_MaterialRGB_15(),
-	NoiseAndScratches_t4207487421::get_offset_of_m_MaterialYUV_16(),
-	NoiseAndScratches_t4207487421::get_offset_of_scratchTimeLeft_17(),
-	NoiseAndScratches_t4207487421::get_offset_of_scratchX_18(),
-	NoiseAndScratches_t4207487421::get_offset_of_scratchY_19(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1845 = { sizeof (PostEffectsBase_t1415309093), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1845 = { sizeof (U3CEndOfFrameU3Ec__Iterator0_t3320551393), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable1845[3] = 
 {
-	PostEffectsBase_t1415309093::get_offset_of_supportHDRTextures_2(),
-	PostEffectsBase_t1415309093::get_offset_of_supportDX11_3(),
-	PostEffectsBase_t1415309093::get_offset_of_isSupported_4(),
+	U3CEndOfFrameU3Ec__Iterator0_t3320551393::get_offset_of_U24PC_0(),
+	U3CEndOfFrameU3Ec__Iterator0_t3320551393::get_offset_of_U24current_1(),
+	U3CEndOfFrameU3Ec__Iterator0_t3320551393::get_offset_of_U3CU3Ef__this_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1846 = { sizeof (PostEffectsHelper_t3450182402), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1847 = { sizeof (Quads_t365352830), -1, sizeof(Quads_t365352830_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1847[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1846 = { sizeof (StereoRenderEffect_t4012593919), -1, sizeof(StereoRenderEffect_t4012593919_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1846[3] = 
 {
-	Quads_t365352830_StaticFields::get_offset_of_meshes_0(),
-	Quads_t365352830_StaticFields::get_offset_of_currentQuads_1(),
+	StereoRenderEffect_t4012593919::get_offset_of_material_2(),
+	StereoRenderEffect_t4012593919::get_offset_of_cam_3(),
+	StereoRenderEffect_t4012593919_StaticFields::get_offset_of_fullRect_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1848 = { sizeof (ScreenOverlay_t109709238), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1848[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1847 = { sizeof (BaseVRDevice_t591083105), -1, sizeof(BaseVRDevice_t591083105_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1847[19] = 
 {
-	ScreenOverlay_t109709238::get_offset_of_blendMode_5(),
-	ScreenOverlay_t109709238::get_offset_of_intensity_6(),
-	ScreenOverlay_t109709238::get_offset_of_texture_7(),
-	ScreenOverlay_t109709238::get_offset_of_overlayShader_8(),
-	ScreenOverlay_t109709238::get_offset_of_overlayMaterial_9(),
+	BaseVRDevice_t591083105_StaticFields::get_offset_of_device_0(),
+	BaseVRDevice_t591083105::get_offset_of_headPose_1(),
+	BaseVRDevice_t591083105::get_offset_of_leftEyePose_2(),
+	BaseVRDevice_t591083105::get_offset_of_rightEyePose_3(),
+	BaseVRDevice_t591083105::get_offset_of_leftEyeDistortedProjection_4(),
+	BaseVRDevice_t591083105::get_offset_of_rightEyeDistortedProjection_5(),
+	BaseVRDevice_t591083105::get_offset_of_leftEyeUndistortedProjection_6(),
+	BaseVRDevice_t591083105::get_offset_of_rightEyeUndistortedProjection_7(),
+	BaseVRDevice_t591083105::get_offset_of_leftEyeDistortedViewport_8(),
+	BaseVRDevice_t591083105::get_offset_of_rightEyeDistortedViewport_9(),
+	BaseVRDevice_t591083105::get_offset_of_leftEyeUndistortedViewport_10(),
+	BaseVRDevice_t591083105::get_offset_of_rightEyeUndistortedViewport_11(),
+	BaseVRDevice_t591083105::get_offset_of_recommendedTextureSize_12(),
+	BaseVRDevice_t591083105::get_offset_of_leftEyeOrientation_13(),
+	BaseVRDevice_t591083105::get_offset_of_rightEyeOrientation_14(),
+	BaseVRDevice_t591083105::get_offset_of_tilted_15(),
+	BaseVRDevice_t591083105::get_offset_of_profileChanged_16(),
+	BaseVRDevice_t591083105::get_offset_of_backButtonPressed_17(),
+	BaseVRDevice_t591083105::get_offset_of_U3CProfileU3Ek__BackingField_18(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1849 = { sizeof (OverlayBlendMode_t2414447165)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1849[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1848 = { sizeof (GvrDevice_t2458844523), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1848[13] = 
 {
-	OverlayBlendMode_t2414447165::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
 	0,
 	0,
+	GvrDevice_t2458844523::get_offset_of_headData_24(),
+	GvrDevice_t2458844523::get_offset_of_viewData_25(),
+	GvrDevice_t2458844523::get_offset_of_profileData_26(),
+	GvrDevice_t2458844523::get_offset_of_headView_27(),
+	GvrDevice_t2458844523::get_offset_of_leftEyeView_28(),
+	GvrDevice_t2458844523::get_offset_of_rightEyeView_29(),
+	GvrDevice_t2458844523::get_offset_of_debugDisableNativeProjections_30(),
+	GvrDevice_t2458844523::get_offset_of_debugDisableNativeUILayer_31(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1850 = { sizeof (ScreenSpaceAmbientObscurance_t2967460411), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1850[8] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1849 = { sizeof (iOSDevice_t141998261), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1849[1] = 
 {
-	ScreenSpaceAmbientObscurance_t2967460411::get_offset_of_intensity_5(),
-	ScreenSpaceAmbientObscurance_t2967460411::get_offset_of_radius_6(),
-	ScreenSpaceAmbientObscurance_t2967460411::get_offset_of_blurIterations_7(),
-	ScreenSpaceAmbientObscurance_t2967460411::get_offset_of_blurFilterDistance_8(),
-	ScreenSpaceAmbientObscurance_t2967460411::get_offset_of_downsample_9(),
-	ScreenSpaceAmbientObscurance_t2967460411::get_offset_of_rand_10(),
-	ScreenSpaceAmbientObscurance_t2967460411::get_offset_of_aoShader_11(),
-	ScreenSpaceAmbientObscurance_t2967460411::get_offset_of_aoMaterial_12(),
+	iOSDevice_t141998261::get_offset_of_isOpenGL_32(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1851 = { sizeof (ScreenSpaceAmbientOcclusion_t1300254689), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1851[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1850 = { sizeof (GvrAudio_t4159038547), -1, sizeof(GvrAudio_t4159038547_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1850[25] = 
 {
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_Radius_2(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_SampleCount_3(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_OcclusionIntensity_4(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_Blur_5(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_Downsampling_6(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_OcclusionAttenuation_7(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_MinZ_8(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_SSAOShader_9(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_SSAOMaterial_10(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_RandomTexture_11(),
-	ScreenSpaceAmbientOcclusion_t1300254689::get_offset_of_m_Supported_12(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	GvrAudio_t4159038547_StaticFields::get_offset_of_sampleRate_15(),
+	GvrAudio_t4159038547_StaticFields::get_offset_of_numChannels_16(),
+	GvrAudio_t4159038547_StaticFields::get_offset_of_framesPerBuffer_17(),
+	GvrAudio_t4159038547_StaticFields::get_offset_of_bounds_18(),
+	GvrAudio_t4159038547_StaticFields::get_offset_of_enabledRooms_19(),
+	GvrAudio_t4159038547_StaticFields::get_offset_of_initialized_20(),
+	GvrAudio_t4159038547_StaticFields::get_offset_of_listenerTransform_21(),
+	GvrAudio_t4159038547_StaticFields::get_offset_of_occlusionMaskValue_22(),
+	GvrAudio_t4159038547_StaticFields::get_offset_of_pose_23(),
+	GvrAudio_t4159038547_StaticFields::get_offset_of_worldScaleInverse_24(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1852 = { sizeof (SSAOSamples_t2763871917)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1852[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1851 = { sizeof (Quality_t3830609699)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1851[4] = 
 {
-	SSAOSamples_t2763871917::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Quality_t3830609699::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1853 = { sizeof (SepiaTone_t3693462266), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1854 = { sizeof (SunShafts_t3410618647), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1854[14] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1852 = { sizeof (SpatializerType_t3928244512)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1852[3] = 
 {
-	SunShafts_t3410618647::get_offset_of_resolution_5(),
-	SunShafts_t3410618647::get_offset_of_screenBlendMode_6(),
-	SunShafts_t3410618647::get_offset_of_sunTransform_7(),
-	SunShafts_t3410618647::get_offset_of_radialBlurIterations_8(),
-	SunShafts_t3410618647::get_offset_of_sunColor_9(),
-	SunShafts_t3410618647::get_offset_of_sunThreshold_10(),
-	SunShafts_t3410618647::get_offset_of_sunShaftBlurRadius_11(),
-	SunShafts_t3410618647::get_offset_of_sunShaftIntensity_12(),
-	SunShafts_t3410618647::get_offset_of_maxRadius_13(),
-	SunShafts_t3410618647::get_offset_of_useDepthTexture_14(),
-	SunShafts_t3410618647::get_offset_of_sunShaftsShader_15(),
-	SunShafts_t3410618647::get_offset_of_sunShaftsMaterial_16(),
-	SunShafts_t3410618647::get_offset_of_simpleClearShader_17(),
-	SunShafts_t3410618647::get_offset_of_simpleClearMaterial_18(),
+	SpatializerType_t3928244512::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1855 = { sizeof (SunShaftsResolution_t2403244633)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1855[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1853 = { sizeof (GvrAudioListener_t2617838119), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1853[4] = 
 {
-	SunShaftsResolution_t2403244633::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
+	GvrAudioListener_t2617838119::get_offset_of_globalGainDb_2(),
+	GvrAudioListener_t2617838119::get_offset_of_worldScale_3(),
+	GvrAudioListener_t2617838119::get_offset_of_occlusionMask_4(),
+	GvrAudioListener_t2617838119::get_offset_of_quality_5(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1856 = { sizeof (ShaftsScreenBlendMode_t2322200375)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1856[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1854 = { sizeof (GvrAudioRoom_t252475342), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1854[12] = 
 {
-	ShaftsScreenBlendMode_t2322200375::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
+	GvrAudioRoom_t252475342::get_offset_of_leftWall_2(),
+	GvrAudioRoom_t252475342::get_offset_of_rightWall_3(),
+	GvrAudioRoom_t252475342::get_offset_of_floor_4(),
+	GvrAudioRoom_t252475342::get_offset_of_ceiling_5(),
+	GvrAudioRoom_t252475342::get_offset_of_backWall_6(),
+	GvrAudioRoom_t252475342::get_offset_of_frontWall_7(),
+	GvrAudioRoom_t252475342::get_offset_of_reflectivity_8(),
+	GvrAudioRoom_t252475342::get_offset_of_reverbGainDb_9(),
+	GvrAudioRoom_t252475342::get_offset_of_reverbBrightness_10(),
+	GvrAudioRoom_t252475342::get_offset_of_reverbTime_11(),
+	GvrAudioRoom_t252475342::get_offset_of_size_12(),
+	GvrAudioRoom_t252475342::get_offset_of_surfaceMaterials_13(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1857 = { sizeof (TiltShift_t1314848311), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1857[7] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1855 = { sizeof (SurfaceMaterial_t3675539603)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1855[24] = 
 {
-	TiltShift_t1314848311::get_offset_of_mode_5(),
-	TiltShift_t1314848311::get_offset_of_quality_6(),
-	TiltShift_t1314848311::get_offset_of_blurArea_7(),
-	TiltShift_t1314848311::get_offset_of_maxBlurSize_8(),
-	TiltShift_t1314848311::get_offset_of_downsample_9(),
-	TiltShift_t1314848311::get_offset_of_tiltShiftShader_10(),
-	TiltShift_t1314848311::get_offset_of_tiltShiftMaterial_11(),
+	SurfaceMaterial_t3675539603::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1858 = { sizeof (TiltShiftMode_t3166798672)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1858[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1856 = { sizeof (GvrAudioSoundfield_t1975836158), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1856[12] = 
 {
-	TiltShiftMode_t3166798672::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
+	GvrAudioSoundfield_t1975836158::get_offset_of_gainDb_2(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_playOnAwake_3(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_soundfieldClip0102_4(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_soundfieldClip0304_5(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_soundfieldLoop_6(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_soundfieldMute_7(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_soundfieldPitch_8(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_soundfieldPriority_9(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_soundfieldVolume_10(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_id_11(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_audioSources_12(),
+	GvrAudioSoundfield_t1975836158::get_offset_of_isPaused_13(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1859 = { sizeof (TiltShiftQuality_t2566945842)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1857 = { sizeof (GvrAudioSource_t2139450958), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1857[22] = 
+{
+	GvrAudioSource_t2139450958::get_offset_of_bypassRoomEffects_2(),
+	GvrAudioSource_t2139450958::get_offset_of_directivityAlpha_3(),
+	GvrAudioSource_t2139450958::get_offset_of_directivitySharpness_4(),
+	GvrAudioSource_t2139450958::get_offset_of_gainDb_5(),
+	GvrAudioSource_t2139450958::get_offset_of_occlusionEnabled_6(),
+	GvrAudioSource_t2139450958::get_offset_of_playOnAwake_7(),
+	GvrAudioSource_t2139450958::get_offset_of_rolloffMode_8(),
+	GvrAudioSource_t2139450958::get_offset_of_spread_9(),
+	GvrAudioSource_t2139450958::get_offset_of_sourceClip_10(),
+	GvrAudioSource_t2139450958::get_offset_of_sourceLoop_11(),
+	GvrAudioSource_t2139450958::get_offset_of_sourceMute_12(),
+	GvrAudioSource_t2139450958::get_offset_of_sourcePitch_13(),
+	GvrAudioSource_t2139450958::get_offset_of_sourcePriority_14(),
+	GvrAudioSource_t2139450958::get_offset_of_sourceVolume_15(),
+	GvrAudioSource_t2139450958::get_offset_of_sourceMaxDistance_16(),
+	GvrAudioSource_t2139450958::get_offset_of_sourceMinDistance_17(),
+	GvrAudioSource_t2139450958::get_offset_of_hrtfEnabled_18(),
+	GvrAudioSource_t2139450958::get_offset_of_audioSource_19(),
+	GvrAudioSource_t2139450958::get_offset_of_id_20(),
+	GvrAudioSource_t2139450958::get_offset_of_currentOcclusion_21(),
+	GvrAudioSource_t2139450958::get_offset_of_nextOcclusionUpdate_22(),
+	GvrAudioSource_t2139450958::get_offset_of_isPaused_23(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1858 = { sizeof (EmulatorClientSocket_t2137111857), -1, sizeof(EmulatorClientSocket_t2137111857_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1858[8] = 
+{
+	0,
+	0,
+	EmulatorClientSocket_t2137111857_StaticFields::get_offset_of_kPhoneEventPort_4(),
+	EmulatorClientSocket_t2137111857::get_offset_of_phoneMirroringSocket_5(),
+	EmulatorClientSocket_t2137111857::get_offset_of_phoneEventThread_6(),
+	EmulatorClientSocket_t2137111857::get_offset_of_shouldStop_7(),
+	EmulatorClientSocket_t2137111857::get_offset_of_phoneRemote_8(),
+	EmulatorClientSocket_t2137111857::get_offset_of_U3CconnectedU3Ek__BackingField_9(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1859 = { sizeof (EmulatorConfig_t3000403349), -1, sizeof(EmulatorConfig_t3000403349_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable1859[4] = 
 {
-	TiltShiftQuality_t2566945842::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	EmulatorConfig_t3000403349_StaticFields::get_offset_of_instance_2(),
+	EmulatorConfig_t3000403349::get_offset_of_PHONE_EVENT_MODE_3(),
+	EmulatorConfig_t3000403349_StaticFields::get_offset_of_USB_SERVER_IP_4(),
+	EmulatorConfig_t3000403349_StaticFields::get_offset_of_WIFI_SERVER_IP_5(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1860 = { sizeof (Mode_t884064821)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1860[4] = 
+{
+	Mode_t884064821::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1860 = { sizeof (Tonemapping_t1756613902), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1860[13] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1861 = { sizeof (EmulatorGyroEvent_t3657941864)+ sizeof (Il2CppObject), sizeof(EmulatorGyroEvent_t3657941864_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1861[2] = 
 {
-	Tonemapping_t1756613902::get_offset_of_type_5(),
-	Tonemapping_t1756613902::get_offset_of_adaptiveTextureSize_6(),
-	Tonemapping_t1756613902::get_offset_of_remapCurve_7(),
-	Tonemapping_t1756613902::get_offset_of_curveTex_8(),
-	Tonemapping_t1756613902::get_offset_of_exposureAdjustment_9(),
-	Tonemapping_t1756613902::get_offset_of_middleGrey_10(),
-	Tonemapping_t1756613902::get_offset_of_white_11(),
-	Tonemapping_t1756613902::get_offset_of_adaptionSpeed_12(),
-	Tonemapping_t1756613902::get_offset_of_tonemapper_13(),
-	Tonemapping_t1756613902::get_offset_of_validRenderTextureFormat_14(),
-	Tonemapping_t1756613902::get_offset_of_tonemapMaterial_15(),
-	Tonemapping_t1756613902::get_offset_of_rt_16(),
-	Tonemapping_t1756613902::get_offset_of_rtFormat_17(),
+	EmulatorGyroEvent_t3657941864::get_offset_of_timestamp_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	EmulatorGyroEvent_t3657941864::get_offset_of_value_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1861 = { sizeof (TonemapperType_t2681627918)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1861[8] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1862 = { sizeof (EmulatorAccelEvent_t2349426533)+ sizeof (Il2CppObject), sizeof(EmulatorAccelEvent_t2349426533_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1862[2] = 
 {
-	TonemapperType_t2681627918::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	EmulatorAccelEvent_t2349426533::get_offset_of_timestamp_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	EmulatorAccelEvent_t2349426533::get_offset_of_value_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1862 = { sizeof (AdaptiveTexSize_t1393266833)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1862[8] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1863 = { sizeof (EmulatorTouchEvent_t2112311150)+ sizeof (Il2CppObject), -1, sizeof(EmulatorTouchEvent_t2112311150_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1863[6] = 
 {
-	AdaptiveTexSize_t1393266833::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	EmulatorTouchEvent_t2112311150::get_offset_of_action_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	EmulatorTouchEvent_t2112311150::get_offset_of_relativeTimestamp_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	EmulatorTouchEvent_t2112311150::get_offset_of_pointers_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	EmulatorTouchEvent_t2112311150_StaticFields::get_offset_of_ACTION_POINTER_INDEX_SHIFT_3(),
+	EmulatorTouchEvent_t2112311150_StaticFields::get_offset_of_ACTION_POINTER_INDEX_MASK_4(),
+	EmulatorTouchEvent_t2112311150_StaticFields::get_offset_of_ACTION_MASK_5(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1864 = { sizeof (Action_t926435919)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1864[10] = 
+{
+	Action_t926435919::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
 	0,
 	0,
 	0,
@@ -848,86 +683,342 @@ extern const int32_t g_FieldOffsetTable1862[8] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1863 = { sizeof (Triangles_t933682653), -1, sizeof(Triangles_t933682653_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1863[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1865 = { sizeof (Pointer_t3710907716)+ sizeof (Il2CppObject), sizeof(Pointer_t3710907716_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1865[3] = 
 {
-	Triangles_t933682653_StaticFields::get_offset_of_meshes_0(),
-	Triangles_t933682653_StaticFields::get_offset_of_currentTris_1(),
+	Pointer_t3710907716::get_offset_of_fingerId_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Pointer_t3710907716::get_offset_of_normalizedX_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Pointer_t3710907716::get_offset_of_normalizedY_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1864 = { sizeof (Twirl_t368191090), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1864[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1866 = { sizeof (EmulatorOrientationEvent_t3989687101)+ sizeof (Il2CppObject), sizeof(EmulatorOrientationEvent_t3989687101_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1866[2] = 
 {
-	Twirl_t368191090::get_offset_of_radius_4(),
-	Twirl_t368191090::get_offset_of_angle_5(),
-	Twirl_t368191090::get_offset_of_center_6(),
+	EmulatorOrientationEvent_t3989687101::get_offset_of_timestamp_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	EmulatorOrientationEvent_t3989687101::get_offset_of_orientation_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1865 = { sizeof (VignetteAndChromaticAberration_t174523162), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1865[14] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1867 = { sizeof (EmulatorButtonEvent_t200175493)+ sizeof (Il2CppObject), sizeof(EmulatorButtonEvent_t200175493_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable1867[2] = 
 {
-	VignetteAndChromaticAberration_t174523162::get_offset_of_mode_5(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_intensity_6(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_chromaticAberration_7(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_axialAberration_8(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_blur_9(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_blurSpread_10(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_luminanceDependency_11(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_blurDistance_12(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_vignetteShader_13(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_separableBlurShader_14(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_chromAberrationShader_15(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_m_VignetteMaterial_16(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_m_SeparableBlurMaterial_17(),
-	VignetteAndChromaticAberration_t174523162::get_offset_of_m_ChromAberrationMaterial_18(),
+	EmulatorButtonEvent_t200175493::get_offset_of_code_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	EmulatorButtonEvent_t200175493::get_offset_of_down_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1866 = { sizeof (AberrationMode_t3341081225)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1866[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1868 = { sizeof (ButtonCode_t3065328481)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1868[7] = 
 {
-	AberrationMode_t3341081225::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	ButtonCode_t3065328481::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1867 = { sizeof (Vortex_t3959512828), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1867[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1869 = { sizeof (EmulatorManager_t622010154), -1, sizeof(EmulatorManager_t622010154_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1869[16] = 
 {
-	Vortex_t3959512828::get_offset_of_radius_4(),
-	Vortex_t3959512828::get_offset_of_angle_5(),
-	Vortex_t3959512828::get_offset_of_center_6(),
+	EmulatorManager_t622010154::get_offset_of_emulatorUpdate_2(),
+	EmulatorManager_t622010154::get_offset_of_waitForEndOfFrame_3(),
+	EmulatorManager_t622010154_StaticFields::get_offset_of_instance_4(),
+	EmulatorManager_t622010154::get_offset_of_currentGyroEvent_5(),
+	EmulatorManager_t622010154::get_offset_of_currentAccelEvent_6(),
+	EmulatorManager_t622010154::get_offset_of_currentTouchEvent_7(),
+	EmulatorManager_t622010154::get_offset_of_currentOrientationEvent_8(),
+	EmulatorManager_t622010154::get_offset_of_currentButtonEvent_9(),
+	EmulatorManager_t622010154::get_offset_of_pendingEvents_10(),
+	EmulatorManager_t622010154::get_offset_of_socket_11(),
+	EmulatorManager_t622010154::get_offset_of_lastDownTimeMs_12(),
+	EmulatorManager_t622010154::get_offset_of_gyroEventListenersInternal_13(),
+	EmulatorManager_t622010154::get_offset_of_accelEventListenersInternal_14(),
+	EmulatorManager_t622010154::get_offset_of_touchEventListenersInternal_15(),
+	EmulatorManager_t622010154::get_offset_of_orientationEventListenersInternal_16(),
+	EmulatorManager_t622010154::get_offset_of_buttonEventListenersInternal_17(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1868 = { sizeof (ReverseNormals_t4264251210), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1869 = { sizeof (Gazable_t1480936474), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1869[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1870 = { sizeof (OnGyroEvent_t1752883023), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1871 = { sizeof (OnAccelEvent_t1207501038), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1872 = { sizeof (OnTouchEvent_t970385655), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1873 = { sizeof (OnOrientationEvent_t2004619270), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1874 = { sizeof (OnButtonEvent_t1240547244), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1875 = { sizeof (U3CEndOfFrameU3Ec__Iterator1_t2571948932), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1875[5] = 
 {
-	Gazable_t1480936474::get_offset_of_fairyLights_2(),
-	Gazable_t1480936474::get_offset_of_explosionPrefab_3(),
-	Gazable_t1480936474::get_offset_of_gazedCount_4(),
-	Gazable_t1480936474::get_offset_of_isExploded_5(),
+	U3CEndOfFrameU3Ec__Iterator1_t2571948932::get_offset_of_U3CphoneEventU3E__0_0(),
+	U3CEndOfFrameU3Ec__Iterator1_t2571948932::get_offset_of_U3CU24s_4U3E__1_1(),
+	U3CEndOfFrameU3Ec__Iterator1_t2571948932::get_offset_of_U24PC_2(),
+	U3CEndOfFrameU3Ec__Iterator1_t2571948932::get_offset_of_U24current_3(),
+	U3CEndOfFrameU3Ec__Iterator1_t2571948932::get_offset_of_U3CU3Ef__this_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1870 = { sizeof (MotionTrack_t794643221), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1870[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1876 = { sizeof (PhoneEvent_t4294543246), -1, sizeof(PhoneEvent_t4294543246_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1876[1] = 
 {
-	MotionTrack_t794643221::get_offset_of_pos_2(),
-	MotionTrack_t794643221::get_offset_of_isRec_3(),
-	MotionTrack_t794643221::get_offset_of_tempX_4(),
-	MotionTrack_t794643221::get_offset_of_tempY_5(),
-	MotionTrack_t794643221::get_offset_of_tempZ_6(),
+	PhoneEvent_t4294543246_StaticFields::get_offset_of_Descriptor_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1871 = { sizeof (PlayerInteraction_t2226664529), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1871[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1877 = { sizeof (PhoneEvent_t1948414762), -1, sizeof(PhoneEvent_t1948414762_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1877[25] = 
 {
-	PlayerInteraction_t2226664529::get_offset_of_mainCam_2(),
-	PlayerInteraction_t2226664529::get_offset_of_selectedTerrain_3(),
-	PlayerInteraction_t2226664529::get_offset_of_initialHeight_4(),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	PhoneEvent_t1948414762_StaticFields::get_offset_of_defaultInstance_7(),
+	PhoneEvent_t1948414762_StaticFields::get_offset_of__phoneEventFieldNames_8(),
+	PhoneEvent_t1948414762_StaticFields::get_offset_of__phoneEventFieldTags_9(),
+	PhoneEvent_t1948414762::get_offset_of_hasType_10(),
+	PhoneEvent_t1948414762::get_offset_of_type__11(),
+	PhoneEvent_t1948414762::get_offset_of_hasMotionEvent_12(),
+	PhoneEvent_t1948414762::get_offset_of_motionEvent__13(),
+	PhoneEvent_t1948414762::get_offset_of_hasGyroscopeEvent_14(),
+	PhoneEvent_t1948414762::get_offset_of_gyroscopeEvent__15(),
+	PhoneEvent_t1948414762::get_offset_of_hasAccelerometerEvent_16(),
+	PhoneEvent_t1948414762::get_offset_of_accelerometerEvent__17(),
+	PhoneEvent_t1948414762::get_offset_of_hasDepthMapEvent_18(),
+	PhoneEvent_t1948414762::get_offset_of_depthMapEvent__19(),
+	PhoneEvent_t1948414762::get_offset_of_hasOrientationEvent_20(),
+	PhoneEvent_t1948414762::get_offset_of_orientationEvent__21(),
+	PhoneEvent_t1948414762::get_offset_of_hasKeyEvent_22(),
+	PhoneEvent_t1948414762::get_offset_of_keyEvent__23(),
+	PhoneEvent_t1948414762::get_offset_of_memoizedSerializedSize_24(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1872 = { sizeof (RayScript_t1851411829), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1872[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1878 = { sizeof (Types_t1856670140), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1879 = { sizeof (Type_t923828173)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1879[7] = 
 {
-	RayScript_t1851411829::get_offset_of_cachedObj_2(),
+	Type_t923828173::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1873 = { sizeof (Suicide_t4097995278), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1873[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1880 = { sizeof (MotionEvent_t2659645585), -1, sizeof(MotionEvent_t2659645585_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1880[12] = 
 {
-	Suicide_t4097995278::get_offset_of_maxLifeTime_2(),
-	Suicide_t4097995278::get_offset_of_lifeTime_3(),
+	0,
+	0,
+	0,
+	MotionEvent_t2659645585_StaticFields::get_offset_of_defaultInstance_3(),
+	MotionEvent_t2659645585_StaticFields::get_offset_of__motionEventFieldNames_4(),
+	MotionEvent_t2659645585_StaticFields::get_offset_of__motionEventFieldTags_5(),
+	MotionEvent_t2659645585::get_offset_of_hasTimestamp_6(),
+	MotionEvent_t2659645585::get_offset_of_timestamp__7(),
+	MotionEvent_t2659645585::get_offset_of_hasAction_8(),
+	MotionEvent_t2659645585::get_offset_of_action__9(),
+	MotionEvent_t2659645585::get_offset_of_pointers__10(),
+	MotionEvent_t2659645585::get_offset_of_memoizedSerializedSize_11(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1881 = { sizeof (Types_t1994437979), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1882 = { sizeof (Pointer_t190725481), -1, sizeof(Pointer_t190725481_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1882[13] = 
+{
+	0,
+	0,
+	0,
+	Pointer_t190725481_StaticFields::get_offset_of_defaultInstance_3(),
+	Pointer_t190725481_StaticFields::get_offset_of__pointerFieldNames_4(),
+	Pointer_t190725481_StaticFields::get_offset_of__pointerFieldTags_5(),
+	Pointer_t190725481::get_offset_of_hasId_6(),
+	Pointer_t190725481::get_offset_of_id__7(),
+	Pointer_t190725481::get_offset_of_hasNormalizedX_8(),
+	Pointer_t190725481::get_offset_of_normalizedX__9(),
+	Pointer_t190725481::get_offset_of_hasNormalizedY_10(),
+	Pointer_t190725481::get_offset_of_normalizedY__11(),
+	Pointer_t190725481::get_offset_of_memoizedSerializedSize_12(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1883 = { sizeof (Builder_t1865844949), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1883[2] = 
+{
+	Builder_t1865844949::get_offset_of_resultIsReadOnly_0(),
+	Builder_t1865844949::get_offset_of_result_1(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1884 = { sizeof (Builder_t2183502845), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1884[2] = 
+{
+	Builder_t2183502845::get_offset_of_resultIsReadOnly_0(),
+	Builder_t2183502845::get_offset_of_result_1(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1885 = { sizeof (GyroscopeEvent_t2921203048), -1, sizeof(GyroscopeEvent_t2921203048_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1885[16] = 
+{
+	0,
+	0,
+	0,
+	0,
+	GyroscopeEvent_t2921203048_StaticFields::get_offset_of_defaultInstance_4(),
+	GyroscopeEvent_t2921203048_StaticFields::get_offset_of__gyroscopeEventFieldNames_5(),
+	GyroscopeEvent_t2921203048_StaticFields::get_offset_of__gyroscopeEventFieldTags_6(),
+	GyroscopeEvent_t2921203048::get_offset_of_hasTimestamp_7(),
+	GyroscopeEvent_t2921203048::get_offset_of_timestamp__8(),
+	GyroscopeEvent_t2921203048::get_offset_of_hasX_9(),
+	GyroscopeEvent_t2921203048::get_offset_of_x__10(),
+	GyroscopeEvent_t2921203048::get_offset_of_hasY_11(),
+	GyroscopeEvent_t2921203048::get_offset_of_y__12(),
+	GyroscopeEvent_t2921203048::get_offset_of_hasZ_13(),
+	GyroscopeEvent_t2921203048::get_offset_of_z__14(),
+	GyroscopeEvent_t2921203048::get_offset_of_memoizedSerializedSize_15(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1886 = { sizeof (Builder_t3312050644), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1886[2] = 
+{
+	Builder_t3312050644::get_offset_of_resultIsReadOnly_0(),
+	Builder_t3312050644::get_offset_of_result_1(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1887 = { sizeof (AccelerometerEvent_t148610782), -1, sizeof(AccelerometerEvent_t148610782_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1887[16] = 
+{
+	0,
+	0,
+	0,
+	0,
+	AccelerometerEvent_t148610782_StaticFields::get_offset_of_defaultInstance_4(),
+	AccelerometerEvent_t148610782_StaticFields::get_offset_of__accelerometerEventFieldNames_5(),
+	AccelerometerEvent_t148610782_StaticFields::get_offset_of__accelerometerEventFieldTags_6(),
+	AccelerometerEvent_t148610782::get_offset_of_hasTimestamp_7(),
+	AccelerometerEvent_t148610782::get_offset_of_timestamp__8(),
+	AccelerometerEvent_t148610782::get_offset_of_hasX_9(),
+	AccelerometerEvent_t148610782::get_offset_of_x__10(),
+	AccelerometerEvent_t148610782::get_offset_of_hasY_11(),
+	AccelerometerEvent_t148610782::get_offset_of_y__12(),
+	AccelerometerEvent_t148610782::get_offset_of_hasZ_13(),
+	AccelerometerEvent_t148610782::get_offset_of_z__14(),
+	AccelerometerEvent_t148610782::get_offset_of_memoizedSerializedSize_15(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1888 = { sizeof (Builder_t1359586634), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1888[2] = 
+{
+	Builder_t1359586634::get_offset_of_resultIsReadOnly_0(),
+	Builder_t1359586634::get_offset_of_result_1(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1889 = { sizeof (DepthMapEvent_t3758135118), -1, sizeof(DepthMapEvent_t3758135118_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1889[16] = 
+{
+	0,
+	0,
+	0,
+	0,
+	DepthMapEvent_t3758135118_StaticFields::get_offset_of_defaultInstance_4(),
+	DepthMapEvent_t3758135118_StaticFields::get_offset_of__depthMapEventFieldNames_5(),
+	DepthMapEvent_t3758135118_StaticFields::get_offset_of__depthMapEventFieldTags_6(),
+	DepthMapEvent_t3758135118::get_offset_of_hasTimestamp_7(),
+	DepthMapEvent_t3758135118::get_offset_of_timestamp__8(),
+	DepthMapEvent_t3758135118::get_offset_of_hasWidth_9(),
+	DepthMapEvent_t3758135118::get_offset_of_width__10(),
+	DepthMapEvent_t3758135118::get_offset_of_hasHeight_11(),
+	DepthMapEvent_t3758135118::get_offset_of_height__12(),
+	DepthMapEvent_t3758135118::get_offset_of_zDistancesMemoizedSerializedSize_13(),
+	DepthMapEvent_t3758135118::get_offset_of_zDistances__14(),
+	DepthMapEvent_t3758135118::get_offset_of_memoizedSerializedSize_15(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1890 = { sizeof (Builder_t3987156410), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1890[2] = 
+{
+	Builder_t3987156410::get_offset_of_resultIsReadOnly_0(),
+	Builder_t3987156410::get_offset_of_result_1(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1891 = { sizeof (OrientationEvent_t3825228477), -1, sizeof(OrientationEvent_t3825228477_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1891[19] = 
+{
+	0,
+	0,
+	0,
+	0,
+	0,
+	OrientationEvent_t3825228477_StaticFields::get_offset_of_defaultInstance_5(),
+	OrientationEvent_t3825228477_StaticFields::get_offset_of__orientationEventFieldNames_6(),
+	OrientationEvent_t3825228477_StaticFields::get_offset_of__orientationEventFieldTags_7(),
+	OrientationEvent_t3825228477::get_offset_of_hasTimestamp_8(),
+	OrientationEvent_t3825228477::get_offset_of_timestamp__9(),
+	OrientationEvent_t3825228477::get_offset_of_hasX_10(),
+	OrientationEvent_t3825228477::get_offset_of_x__11(),
+	OrientationEvent_t3825228477::get_offset_of_hasY_12(),
+	OrientationEvent_t3825228477::get_offset_of_y__13(),
+	OrientationEvent_t3825228477::get_offset_of_hasZ_14(),
+	OrientationEvent_t3825228477::get_offset_of_z__15(),
+	OrientationEvent_t3825228477::get_offset_of_hasW_16(),
+	OrientationEvent_t3825228477::get_offset_of_w__17(),
+	OrientationEvent_t3825228477::get_offset_of_memoizedSerializedSize_18(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1892 = { sizeof (Builder_t3974107689), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1892[2] = 
+{
+	Builder_t3974107689::get_offset_of_resultIsReadOnly_0(),
+	Builder_t3974107689::get_offset_of_result_1(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1893 = { sizeof (KeyEvent_t2095740558), -1, sizeof(KeyEvent_t2095740558_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1893[10] = 
+{
+	0,
+	0,
+	KeyEvent_t2095740558_StaticFields::get_offset_of_defaultInstance_2(),
+	KeyEvent_t2095740558_StaticFields::get_offset_of__keyEventFieldNames_3(),
+	KeyEvent_t2095740558_StaticFields::get_offset_of__keyEventFieldTags_4(),
+	KeyEvent_t2095740558::get_offset_of_hasAction_5(),
+	KeyEvent_t2095740558::get_offset_of_action__6(),
+	KeyEvent_t2095740558::get_offset_of_hasCode_7(),
+	KeyEvent_t2095740558::get_offset_of_code__8(),
+	KeyEvent_t2095740558::get_offset_of_memoizedSerializedSize_9(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1894 = { sizeof (Builder_t1063111930), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1894[2] = 
+{
+	Builder_t1063111930::get_offset_of_resultIsReadOnly_0(),
+	Builder_t1063111930::get_offset_of_result_1(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1895 = { sizeof (Builder_t2932595742), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1895[2] = 
+{
+	Builder_t2932595742::get_offset_of_resultIsReadOnly_0(),
+	Builder_t2932595742::get_offset_of_result_1(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1896 = { sizeof (GazeInputModule_t2064533489), -1, sizeof(GazeInputModule_t2064533489_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1896[6] = 
+{
+	0,
+	GazeInputModule_t2064533489::get_offset_of_vrModeOnly_7(),
+	GazeInputModule_t2064533489_StaticFields::get_offset_of_gazePointer_8(),
+	GazeInputModule_t2064533489::get_offset_of_pointerData_9(),
+	GazeInputModule_t2064533489::get_offset_of_lastHeadPose_10(),
+	GazeInputModule_t2064533489::get_offset_of_isActive_11(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1897 = { sizeof (GvrViewer_t671349045), -1, sizeof(GvrViewer_t671349045_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1897[19] = 
+{
+	0,
+	GvrViewer_t671349045_StaticFields::get_offset_of_instance_3(),
+	GvrViewer_t671349045_StaticFields::get_offset_of_currentController_4(),
+	GvrViewer_t671349045_StaticFields::get_offset_of_currentMainCamera_5(),
+	GvrViewer_t671349045::get_offset_of_vrModeEnabled_6(),
+	GvrViewer_t671349045::get_offset_of_distortionCorrectionEnabled_7(),
+	GvrViewer_t671349045::get_offset_of_neckModelScale_8(),
+	GvrViewer_t671349045_StaticFields::get_offset_of_device_9(),
+	GvrViewer_t671349045::get_offset_of_stereoScreenScale_10(),
+	GvrViewer_t671349045_StaticFields::get_offset_of_stereoScreen_11(),
+	GvrViewer_t671349045::get_offset_of_defaultComfortableViewingRange_12(),
+	GvrViewer_t671349045::get_offset_of_DefaultDeviceProfile_13(),
+	GvrViewer_t671349045::get_offset_of_updatedToFrame_14(),
+	GvrViewer_t671349045::get_offset_of_OnStereoScreenChanged_15(),
+	GvrViewer_t671349045::get_offset_of_U3CNativeUILayerSupportedU3Ek__BackingField_16(),
+	GvrViewer_t671349045::get_offset_of_U3CTriggeredU3Ek__BackingField_17(),
+	GvrViewer_t671349045::get_offset_of_U3CTiltedU3Ek__BackingField_18(),
+	GvrViewer_t671349045::get_offset_of_U3CProfileChangedU3Ek__BackingField_19(),
+	GvrViewer_t671349045::get_offset_of_U3CBackButtonPressedU3Ek__BackingField_20(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1898 = { sizeof (Eye_t643876407)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1898[4] = 
+{
+	Eye_t643876407::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1899 = { sizeof (Distortion_t2578366935)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1899[3] = 
+{
+	Distortion_t2578366935::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

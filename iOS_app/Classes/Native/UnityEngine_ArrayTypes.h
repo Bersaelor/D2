@@ -43,6 +43,8 @@ struct Display_t1321072632;
 struct Collider_t2939674232;
 // UnityEngine.Rigidbody2D
 struct Rigidbody2D_t1743771669;
+// UnityEngine.Audio.AudioMixerGroup
+struct AudioMixerGroup_t3743235458;
 // UnityEngine.GUILayoutOption
 struct GUILayoutOption_t331591504;
 // UnityEngine.GUILayoutUtility/LayoutCache
@@ -77,12 +79,14 @@ struct Font_t4241557075;
 struct CanvasGroup_t3702418109;
 // UnityEngine.RectTransform
 struct RectTransform_t972643934;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t667441552;
+// UnityEngine.AudioSource
+struct AudioSource_t1740077639;
 // UnityEngine.Renderer
 struct Renderer_t3076687687;
 // UnityEngine.AudioClip
 struct AudioClip_t794140988;
-// UnityEngine.MonoBehaviour
-struct MonoBehaviour_t667441552;
 // UnityEngine.ParticleSystem
 struct ParticleSystem_t381473177;
 // UnityEngine.RenderTexture
@@ -120,6 +124,7 @@ struct Mesh_t4241756145;
 #include "UnityEngine_UnityEngine_Rigidbody2D1743771669.h"
 #include "UnityEngine_UnityEngine_RaycastHit2D1374744384.h"
 #include "UnityEngine_UnityEngine_ContactPoint2D4288432358.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixerGroup3743235458.h"
 #include "UnityEngine_UnityEngine_UIVertex4244065212.h"
 #include "UnityEngine_UnityEngine_UICharInfo65807484.h"
 #include "UnityEngine_UnityEngine_UILineInfo4113875482.h"
@@ -140,9 +145,10 @@ struct Mesh_t4241756145;
 #include "UnityEngine_UnityEngine_Font4241557075.h"
 #include "UnityEngine_UnityEngine_CanvasGroup3702418109.h"
 #include "UnityEngine_UnityEngine_RectTransform972643934.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour667441552.h"
+#include "UnityEngine_UnityEngine_AudioSource1740077639.h"
 #include "UnityEngine_UnityEngine_Renderer3076687687.h"
 #include "UnityEngine_UnityEngine_AudioClip794140988.h"
-#include "UnityEngine_UnityEngine_MonoBehaviour667441552.h"
 #include "UnityEngine_UnityEngine_ParticleSystem381473177.h"
 #include "UnityEngine_UnityEngine_RenderTexture1963041563.h"
 #include "UnityEngine_UnityEngine_Texture2526458961.h"
@@ -600,6 +606,21 @@ public:
 		m_Items[index] = value;
 	}
 };
+// UnityEngine.Audio.AudioMixerGroup[]
+struct AudioMixerGroupU5BU5D_t2816729655  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) AudioMixerGroup_t3743235458 * m_Items[1];
+
+public:
+	inline AudioMixerGroup_t3743235458 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline AudioMixerGroup_t3743235458 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, AudioMixerGroup_t3743235458 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // UnityEngine.UIVertex[]
 struct UIVertexU5BU5D_t1796391381  : public Il2CppArray
 {
@@ -911,6 +932,36 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
+// UnityEngine.MonoBehaviour[]
+struct MonoBehaviourU5BU5D_t129089073  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) MonoBehaviour_t667441552 * m_Items[1];
+
+public:
+	inline MonoBehaviour_t667441552 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline MonoBehaviour_t667441552 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, MonoBehaviour_t667441552 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// UnityEngine.AudioSource[]
+struct AudioSourceU5BU5D_t44861630  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) AudioSource_t1740077639 * m_Items[1];
+
+public:
+	inline AudioSource_t1740077639 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
+	inline AudioSource_t1740077639 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
+	inline void SetAt(il2cpp_array_size_t index, AudioSource_t1740077639 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // UnityEngine.Renderer[]
 struct RendererU5BU5D_t440051646  : public Il2CppArray
 {
@@ -936,21 +987,6 @@ public:
 	inline AudioClip_t794140988 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
 	inline AudioClip_t794140988 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
 	inline void SetAt(il2cpp_array_size_t index, AudioClip_t794140988 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// UnityEngine.MonoBehaviour[]
-struct MonoBehaviourU5BU5D_t129089073  : public Il2CppArray
-{
-public:
-	ALIGN_FIELD (8) MonoBehaviour_t667441552 * m_Items[1];
-
-public:
-	inline MonoBehaviour_t667441552 * GetAt(il2cpp_array_size_t index) const { return m_Items[index]; }
-	inline MonoBehaviour_t667441552 ** GetAddressAt(il2cpp_array_size_t index) { return m_Items + index; }
-	inline void SetAt(il2cpp_array_size_t index, MonoBehaviour_t667441552 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

@@ -16,22 +16,22 @@
 struct ILogger_t629411471;
 // System.Object
 struct Il2CppObject;
-// UnityEngine.Object
-struct Object_t3071478659;
-// System.Exception
-struct Exception_t3991598821;
 // System.String
 struct String_t;
 // System.Object[]
 struct ObjectU5BU5D_t1108656482;
+// UnityEngine.Object
+struct Object_t3071478659;
+// System.Exception
+struct Exception_t3991598821;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Vector34282066566.h"
 #include "UnityEngine_UnityEngine_Color4194546905.h"
 #include "mscorlib_System_Object4170816371.h"
+#include "mscorlib_System_String7231557.h"
 #include "UnityEngine_UnityEngine_Object3071478659.h"
 #include "mscorlib_System_Exception3991598821.h"
-#include "mscorlib_System_String7231557.h"
 
 // System.Void UnityEngine.Debug::.cctor()
 extern "C"  void Debug__cctor_m37515655 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -47,10 +47,14 @@ extern "C"  void Debug_DrawRay_m123146114 (Il2CppObject * __this /* static, unus
 extern "C"  void Debug_DrawRay_m3043129782 (Il2CppObject * __this /* static, unused */, Vector3_t4282066566  ___start0, Vector3_t4282066566  ___dir1, Color_t4194546905  ___color2, float ___duration3, bool ___depthTest4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::Log(System.Object)
 extern "C"  void Debug_Log_m1731103628 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::LogFormat(System.String,System.Object[])
+extern "C"  void Debug_LogFormat_m4265115055 (Il2CppObject * __this /* static, unused */, String_t* ___format0, ObjectU5BU5D_t1108656482* ___args1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogError(System.Object)
 extern "C"  void Debug_LogError_m4127342994 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogError(System.Object,UnityEngine.Object)
 extern "C"  void Debug_LogError_m214246398 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___message0, Object_t3071478659 * ___context1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::LogErrorFormat(System.String,System.Object[])
+extern "C"  void Debug_LogErrorFormat_m1558793013 (Il2CppObject * __this /* static, unused */, String_t* ___format0, ObjectU5BU5D_t1108656482* ___args1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogException(System.Exception)
 extern "C"  void Debug_LogException_m248970745 (Il2CppObject * __this /* static, unused */, Exception_t3991598821 * ___exception0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Debug::LogException(System.Exception,UnityEngine.Object)

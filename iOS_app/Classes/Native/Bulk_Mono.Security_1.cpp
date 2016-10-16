@@ -15227,7 +15227,7 @@ IL_0009:
 		ByteU5BU5D_t4260760469* L_6 = V_0;
 		NullCheck(L_6);
 		NullCheck(L_4);
-		VirtFuncInvoker3< int32_t, ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(14 /* System.Int32 System.IO.FileStream::Read(System.Byte[],System.Int32,System.Int32) */, L_4, L_5, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length)))));
+		VirtFuncInvoker3< int32_t, ByteU5BU5D_t4260760469*, int32_t, int32_t >::Invoke(15 /* System.Int32 System.IO.FileStream::Read(System.Byte[],System.Int32,System.Int32) */, L_4, L_5, 0, (((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length)))));
 		FileStream_t2141505868 * L_7 = V_1;
 		NullCheck(L_7);
 		VirtActionInvoker0::Invoke(12 /* System.Void System.IO.Stream::Close() */, L_7);

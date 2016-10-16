@@ -16,6 +16,10 @@
 struct String_t;
 // System.OperatingSystem
 struct OperatingSystem_t1654038694;
+// System.Collections.IDictionary
+struct IDictionary_t537317817;
+// System.String[]
+struct StringU5BU5D_t4054002952;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_PlatformID785953154.h"
@@ -36,6 +40,8 @@ extern "C"  OperatingSystem_t1654038694 * Environment_get_OSVersion_m2506362029 
 extern "C"  String_t* Environment_internalGetEnvironmentVariable_m1433380067 (Il2CppObject * __this /* static, unused */, String_t* ___variable0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetEnvironmentVariable(System.String)
 extern "C"  String_t* Environment_GetEnvironmentVariable_m3419218304 (Il2CppObject * __this /* static, unused */, String_t* ___variable0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IDictionary System.Environment::GetEnvironmentVariables()
+extern "C"  Il2CppObject * Environment_GetEnvironmentVariables_m3447325842 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetWindowsFolderPath(System.Int32)
 extern "C"  String_t* Environment_GetWindowsFolderPath_m274642490 (Il2CppObject * __this /* static, unused */, int32_t ___folder0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetFolderPath(System.Environment/SpecialFolder)
@@ -46,6 +52,8 @@ extern "C"  String_t* Environment_ReadXdgUserDir_m2296308400 (Il2CppObject * __t
 extern "C"  String_t* Environment_InternalGetFolderPath_m3585366137 (Il2CppObject * __this /* static, unused */, int32_t ___folder0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Environment::get_IsRunningOnWindows()
 extern "C"  bool Environment_get_IsRunningOnWindows_m1303597216 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String[] System.Environment::GetEnvironmentVariableNames()
+extern "C"  StringU5BU5D_t4054002952* Environment_GetEnvironmentVariableNames_m3670964970 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::GetMachineConfigPath()
 extern "C"  String_t* Environment_GetMachineConfigPath_m4130630145 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Environment::internalGetHome()

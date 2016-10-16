@@ -18,5 +18,7 @@
 
 // System.Void UnityEngine.QualitySettings::set_shadowDistance(System.Single)
 extern "C"  void QualitySettings_set_shadowDistance_m3102645484 (Il2CppObject * __this /* static, unused */, float ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.QualitySettings::get_antiAliasing()
+extern "C"  int32_t QualitySettings_get_antiAliasing_m2055981962 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.ColorSpace UnityEngine.QualitySettings::get_activeColorSpace()
 extern "C"  int32_t QualitySettings_get_activeColorSpace_m2993616266 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

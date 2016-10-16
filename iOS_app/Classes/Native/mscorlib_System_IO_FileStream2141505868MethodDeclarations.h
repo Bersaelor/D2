@@ -39,6 +39,8 @@ struct Stream_t1561764144;
 #include "mscorlib_System_IO_SeekOrigin4120335598.h"
 #include "mscorlib_System_IO_Stream1561764144.h"
 
+// System.Void System.IO.FileStream::.ctor(System.IntPtr,System.IO.FileAccess,System.Boolean,System.Int32,System.Boolean)
+extern "C"  void FileStream__ctor_m509521357 (FileStream_t2141505868 * __this, IntPtr_t ___handle0, int32_t ___access1, bool ___ownsHandle2, int32_t ___bufferSize3, bool ___isAsync4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileStream::.ctor(System.IntPtr,System.IO.FileAccess,System.Boolean,System.Int32,System.Boolean,System.Boolean)
 extern "C"  void FileStream__ctor_m3655381520 (FileStream_t2141505868 * __this, IntPtr_t ___handle0, int32_t ___access1, bool ___ownsHandle2, int32_t ___bufferSize3, bool ___isAsync4, bool ___noBuffering5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.FileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess)

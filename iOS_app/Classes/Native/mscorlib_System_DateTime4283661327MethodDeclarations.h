@@ -208,5 +208,7 @@ extern "C"  bool DateTime_op_Inequality_m3446449971 (Il2CppObject * __this /* st
 extern "C"  bool DateTime_op_LessThan_m35073816 (Il2CppObject * __this /* static, unused */, DateTime_t4283661327  ___t10, DateTime_t4283661327  ___t21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.DateTime::op_LessThanOrEqual(System.DateTime,System.DateTime)
 extern "C"  bool DateTime_op_LessThanOrEqual_m354447689 (Il2CppObject * __this /* static, unused */, DateTime_t4283661327  ___t10, DateTime_t4283661327  ___t21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.TimeSpan System.DateTime::op_Subtraction(System.DateTime,System.DateTime)
+extern "C"  TimeSpan_t413522987  DateTime_op_Subtraction_m3612355463 (Il2CppObject * __this /* static, unused */, DateTime_t4283661327  ___d10, DateTime_t4283661327  ___d21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.DateTime::op_Subtraction(System.DateTime,System.TimeSpan)
 extern "C"  DateTime_t4283661327  DateTime_op_Subtraction_m3609021319 (Il2CppObject * __this /* static, unused */, DateTime_t4283661327  ___d0, TimeSpan_t413522987  ___t1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

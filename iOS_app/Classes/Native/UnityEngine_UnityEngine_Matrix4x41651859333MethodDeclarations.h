@@ -52,6 +52,10 @@ extern "C"  Vector4_t4282066567  Matrix4x4_GetColumn_m786071102 (Matrix4x4_t1651
 extern "C"  void Matrix4x4_SetRow_m242342709 (Matrix4x4_t1651859333 * __this, int32_t ___i0, Vector4_t4282066567  ___v1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint3x4(UnityEngine.Vector3)
 extern "C"  Vector3_t4282066566  Matrix4x4_MultiplyPoint3x4_m2198174902 (Matrix4x4_t1651859333 * __this, Vector3_t4282066566  ___v0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Scale(UnityEngine.Vector3)
+extern "C"  Matrix4x4_t1651859333  Matrix4x4_Scale_m3563471884 (Il2CppObject * __this /* static, unused */, Vector3_t4282066566  ___v0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_zero()
+extern "C"  Matrix4x4_t1651859333  Matrix4x4_get_zero_m1808471152 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_identity()
 extern "C"  Matrix4x4_t1651859333  Matrix4x4_get_identity_m3946683782 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Matrix4x4::SetTRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)

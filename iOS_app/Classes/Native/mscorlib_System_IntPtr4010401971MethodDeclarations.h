@@ -63,5 +63,7 @@ extern "C"  IntPtr_t IntPtr_op_Explicit_m2174170701 (Il2CppObject * __this /* st
 extern "C"  IntPtr_t IntPtr_op_Explicit_m2546989380 (Il2CppObject * __this /* static, unused */, void* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IntPtr::op_Explicit(System.IntPtr)
 extern "C"  int32_t IntPtr_op_Explicit_m1500672818 (Il2CppObject * __this /* static, unused */, IntPtr_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.IntPtr::op_Explicit(System.IntPtr)
+extern "C"  int64_t IntPtr_op_Explicit_m1824165073 (Il2CppObject * __this /* static, unused */, IntPtr_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void* System.IntPtr::op_Explicit(System.IntPtr)
 extern "C"  void* IntPtr_op_Explicit_m2322222010 (Il2CppObject * __this /* static, unused */, IntPtr_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

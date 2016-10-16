@@ -49,10 +49,10 @@ struct Toggle_t110812896;
 struct IClipper_t1175935472;
 // UnityEngine.UI.LayoutRebuilder
 struct LayoutRebuilder_t1942933988;
-// UnityEngine.EventSystems.IPointerDownHandler
-struct IPointerDownHandler_t1340699618;
 // UnityEngine.EventSystems.IPointerUpHandler
 struct IPointerUpHandler_t3049278345;
+// UnityEngine.EventSystems.IPointerDownHandler
+struct IPointerDownHandler_t1340699618;
 
 #include "mscorlib_System_Array1146569071.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseInputMod15847059.h"
@@ -403,8 +403,8 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
-// UnityEngine.EventSystems.IPointerDownHandler[]
-struct IPointerDownHandlerU5BU5D_t4206831191  : public Il2CppArray
+// UnityEngine.EventSystems.IPointerUpHandler[]
+struct IPointerUpHandlerU5BU5D_t3944173620  : public Il2CppArray
 {
 public:
 	ALIGN_FIELD (8) Il2CppObject * m_Items[1];
@@ -418,8 +418,8 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
-// UnityEngine.EventSystems.IPointerUpHandler[]
-struct IPointerUpHandlerU5BU5D_t3944173620  : public Il2CppArray
+// UnityEngine.EventSystems.IPointerDownHandler[]
+struct IPointerDownHandlerU5BU5D_t4206831191  : public Il2CppArray
 {
 public:
 	ALIGN_FIELD (8) Il2CppObject * m_Items[1];

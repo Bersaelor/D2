@@ -32,8 +32,10 @@ public:
 	IntPtr_t ____winid_1;
 	// System.Threading.CompressedStack System.Security.SecurityContext::_stack
 	CompressedStack_t1790381301 * ____stack_2;
+	// System.Boolean System.Security.SecurityContext::_suppressFlowWindowsIdentity
+	bool ____suppressFlowWindowsIdentity_3;
 	// System.Boolean System.Security.SecurityContext::_suppressFlow
-	bool ____suppressFlow_3;
+	bool ____suppressFlow_4;
 
 public:
 	inline static int32_t get_offset_of__capture_0() { return static_cast<int32_t>(offsetof(SecurityContext_t444694245, ____capture_0)); }
@@ -61,12 +63,20 @@ public:
 		Il2CppCodeGenWriteBarrier(&____stack_2, value);
 	}
 
-	inline static int32_t get_offset_of__suppressFlow_3() { return static_cast<int32_t>(offsetof(SecurityContext_t444694245, ____suppressFlow_3)); }
-	inline bool get__suppressFlow_3() const { return ____suppressFlow_3; }
-	inline bool* get_address_of__suppressFlow_3() { return &____suppressFlow_3; }
-	inline void set__suppressFlow_3(bool value)
+	inline static int32_t get_offset_of__suppressFlowWindowsIdentity_3() { return static_cast<int32_t>(offsetof(SecurityContext_t444694245, ____suppressFlowWindowsIdentity_3)); }
+	inline bool get__suppressFlowWindowsIdentity_3() const { return ____suppressFlowWindowsIdentity_3; }
+	inline bool* get_address_of__suppressFlowWindowsIdentity_3() { return &____suppressFlowWindowsIdentity_3; }
+	inline void set__suppressFlowWindowsIdentity_3(bool value)
 	{
-		____suppressFlow_3 = value;
+		____suppressFlowWindowsIdentity_3 = value;
+	}
+
+	inline static int32_t get_offset_of__suppressFlow_4() { return static_cast<int32_t>(offsetof(SecurityContext_t444694245, ____suppressFlow_4)); }
+	inline bool get__suppressFlow_4() const { return ____suppressFlow_4; }
+	inline bool* get_address_of__suppressFlow_4() { return &____suppressFlow_4; }
+	inline void set__suppressFlow_4(bool value)
+	{
+		____suppressFlow_4 = value;
 	}
 };
 

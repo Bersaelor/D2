@@ -2281,6 +2281,81 @@ IL_0034:
 		return L_13;
 	}
 }
+// System.Void System.Linq.Check::Source(System.Object)
+extern Il2CppClass* ArgumentNullException_t3573189601_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3398461467;
+extern const uint32_t Check_Source_m228347543_MetadataUsageId;
+extern "C"  void Check_Source_m228347543 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___source0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Check_Source_m228347543_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___source0;
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		ArgumentNullException_t3573189601 * L_1 = (ArgumentNullException_t3573189601 *)il2cpp_codegen_object_new(ArgumentNullException_t3573189601_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m135444188(L_1, _stringLiteral3398461467, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0011:
+	{
+		return;
+	}
+}
+// System.Void System.Linq.Check::SourceAndSelector(System.Object,System.Object)
+extern Il2CppClass* ArgumentNullException_t3573189601_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3398461467;
+extern Il2CppCodeGenString* _stringLiteral1191572447;
+extern const uint32_t Check_SourceAndSelector_m3164339431_MetadataUsageId;
+extern "C"  void Check_SourceAndSelector_m3164339431 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___source0, Il2CppObject * ___selector1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Check_SourceAndSelector_m3164339431_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___source0;
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		ArgumentNullException_t3573189601 * L_1 = (ArgumentNullException_t3573189601 *)il2cpp_codegen_object_new(ArgumentNullException_t3573189601_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m135444188(L_1, _stringLiteral3398461467, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0011:
+	{
+		Il2CppObject * L_2 = ___selector1;
+		if (L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		ArgumentNullException_t3573189601 * L_3 = (ArgumentNullException_t3573189601 *)il2cpp_codegen_object_new(ArgumentNullException_t3573189601_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m135444188(L_3, _stringLiteral1191572447, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
 // System.Void System.Linq.Check::SourceAndPredicate(System.Object,System.Object)
 extern Il2CppClass* ArgumentNullException_t3573189601_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3398461467;

@@ -17,7 +17,7 @@
 #include "mscorlib_System_Collections_Generic_List_1_gen1244034627MethodDeclarations.h"
 
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::.ctor()
-#define List_1__ctor_m2291327103(__this, method) ((  void (*) (List_1_t1333978725 *, const MethodInfo*))List_1__ctor_m3048469268_gshared)(__this, method)
+#define List_1__ctor_m2997542816(__this, method) ((  void (*) (List_1_t1333978725 *, const MethodInfo*))List_1__ctor_m3048469268_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1__ctor_m3924775584(__this, ___collection0, method) ((  void (*) (List_1_t1333978725 *, Il2CppObject*, const MethodInfo*))List_1__ctor_m1160795371_gshared)(__this, ___collection0, method)
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::.ctor(System.Int32)
@@ -55,7 +55,7 @@
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::System.Collections.IList.set_Item(System.Int32,System.Object)
 #define List_1_System_Collections_IList_set_Item_m1515598443(__this, ___index0, ___value1, method) ((  void (*) (List_1_t1333978725 *, int32_t, Il2CppObject *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m3234554688_gshared)(__this, ___index0, ___value1, method)
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::Add(T)
-#define List_1_Add_m2557908000(__this, ___item0, method) ((  void (*) (List_1_t1333978725 *, ByteU5BU5D_t4260760469*, const MethodInfo*))List_1_Add_m642669291_gshared)(__this, ___item0, method)
+#define List_1_Add_m2691903632(__this, ___item0, method) ((  void (*) (List_1_t1333978725 *, ByteU5BU5D_t4260760469*, const MethodInfo*))List_1_Add_m642669291_gshared)(__this, ___item0, method)
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::GrowIfNeeded(System.Int32)
 #define List_1_GrowIfNeeded_m1849061979(__this, ___newCount0, method) ((  void (*) (List_1_t1333978725 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m4122600870_gshared)(__this, ___newCount0, method)
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::AddCollection(System.Collections.Generic.ICollection`1<T>)
@@ -79,7 +79,7 @@
 // System.Int32 System.Collections.Generic.List`1<System.Byte[]>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
 #define List_1_GetIndex_m602768120(__this, ___startIndex0, ___count1, ___match2, method) ((  int32_t (*) (List_1_t1333978725 *, int32_t, int32_t, Predicate_1_t3871817352 *, const MethodInfo*))List_1_GetIndex_m4275988045_gshared)(__this, ___startIndex0, ___count1, ___match2, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Byte[]>::GetEnumerator()
-#define List_1_GetEnumerator_m4075240981(__this, method) ((  Enumerator_t1353651495  (*) (List_1_t1333978725 *, const MethodInfo*))List_1_GetEnumerator_m2326457258_gshared)(__this, method)
+#define List_1_GetEnumerator_m1629323507(__this, method) ((  Enumerator_t1353651495  (*) (List_1_t1333978725 *, const MethodInfo*))List_1_GetEnumerator_m2326457258_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<System.Byte[]>::IndexOf(T)
 #define List_1_IndexOf_m2898304404(__this, ___item0, method) ((  int32_t (*) (List_1_t1333978725 *, ByteU5BU5D_t4260760469*, const MethodInfo*))List_1_IndexOf_m1752303327_gshared)(__this, ___item0, method)
 // System.Void System.Collections.Generic.List`1<System.Byte[]>::Shift(System.Int32,System.Int32)

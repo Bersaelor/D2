@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[ExecuteInEditMode]
 public class RayScript : MonoBehaviour
 {
 
@@ -48,10 +47,4 @@ public class RayScript : MonoBehaviour
 				
 	}
 
-	void OnDrawGizmos ()
-	{
-
-		Gizmos.color = Color.red;
-		Gizmos.DrawLine (Camera.main.transform.position, Camera.main.transform.forward * 100.0f);
-	}
 }

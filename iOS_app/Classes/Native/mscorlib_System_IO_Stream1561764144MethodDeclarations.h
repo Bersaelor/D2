@@ -37,6 +37,8 @@ extern "C"  void Stream_Dispose_m2904306374 (Stream_t1561764144 * __this, const 
 extern "C"  void Stream_Dispose_m3908539837 (Stream_t1561764144 * __this, bool ___disposing0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Stream::Close()
 extern "C"  void Stream_Close_m3144153567 (Stream_t1561764144 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.IO.Stream::set_ReadTimeout(System.Int32)
+extern "C"  void Stream_set_ReadTimeout_m3385086790 (Stream_t1561764144 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.Stream::ReadByte()
 extern "C"  int32_t Stream_ReadByte_m3456529589 (Stream_t1561764144 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.Stream::WriteByte(System.Byte)

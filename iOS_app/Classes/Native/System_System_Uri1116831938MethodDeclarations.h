@@ -137,3 +137,5 @@ extern "C"  String_t* Uri_EscapeDataString_m3238747918 (Il2CppObject * __this /*
 extern "C"  void Uri_EnsureAbsoluteUri_m3407571844 (Uri_t1116831938 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Uri::op_Equality(System.Uri,System.Uri)
 extern "C"  bool Uri_op_Equality_m877019543 (Il2CppObject * __this /* static, unused */, Uri_t1116831938 * ___u10, Uri_t1116831938 * ___u21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Uri::op_Inequality(System.Uri,System.Uri)
+extern "C"  bool Uri_op_Inequality_m2899852498 (Il2CppObject * __this /* static, unused */, Uri_t1116831938 * ___u10, Uri_t1116831938 * ___u21, const MethodInfo* method) IL2CPP_METHOD_ATTR;

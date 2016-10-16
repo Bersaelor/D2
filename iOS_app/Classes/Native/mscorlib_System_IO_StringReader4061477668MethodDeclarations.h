@@ -24,6 +24,8 @@ struct CharU5BU5D_t3324145743;
 
 // System.Void System.IO.StringReader::.ctor(System.String)
 extern "C"  void StringReader__ctor_m1181104909 (StringReader_t4061477668 * __this, String_t* ___s0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.IO.StringReader::Close()
+extern "C"  void StringReader_Close_m160518955 (StringReader_t4061477668 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.StringReader::Dispose(System.Boolean)
 extern "C"  void StringReader_Dispose_m3317487369 (StringReader_t4061477668 * __this, bool ___disposing0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.StringReader::Peek()

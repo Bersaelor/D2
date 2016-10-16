@@ -28,6 +28,8 @@ struct Vector3U5BU5D_t215400611;
 struct Vector4U5BU5D_t701588350;
 // UnityEngine.Vector2[]
 struct Vector2U5BU5D_t4024180168;
+// UnityEngine.Color[]
+struct ColorU5BU5D_t2441545636;
 // UnityEngine.Color32[]
 struct Color32U5BU5D_t2960766953;
 // System.Collections.Generic.List`1<UnityEngine.Vector3>
@@ -90,8 +92,14 @@ extern "C"  void Mesh_SetTriangles_m456382467 (Mesh_t4241756145 * __this, List_1
 extern "C"  void Mesh_SetTriangles_m2073498906 (Mesh_t4241756145 * __this, List_1_t2522024052 * ___triangles0, int32_t ___submesh1, bool ___calculateBounds2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Mesh::RecalculateBounds()
 extern "C"  void Mesh_RecalculateBounds_m3754336742 (Mesh_t4241756145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Mesh::RecalculateNormals()
+extern "C"  void Mesh_RecalculateNormals_m1806625021 (Mesh_t4241756145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Mesh::Optimize()
+extern "C"  void Mesh_Optimize_m386784321 (Mesh_t4241756145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Mesh::get_subMeshCount()
 extern "C"  int32_t Mesh_get_subMeshCount_m4159827535 (Mesh_t4241756145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Mesh::UploadMeshData(System.Boolean)
+extern "C"  void Mesh_UploadMeshData_m3515607347 (Mesh_t4241756145 * __this, bool ___markNoLogerReadable0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Mesh/InternalShaderChannel UnityEngine.Mesh::GetUVChannel(System.Int32)
 extern "C"  int32_t Mesh_GetUVChannel_m584432922 (Mesh_t4241756145 * __this, int32_t ___uvIndex0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Mesh::DefaultDimensionForChannel(UnityEngine.Mesh/InternalShaderChannel)
@@ -118,6 +126,8 @@ extern "C"  void Mesh_set_uv_m498907190 (Mesh_t4241756145 * __this, Vector2U5BU5
 extern "C"  Vector2U5BU5D_t4024180168* Mesh_get_uv2_m118417421 (Mesh_t4241756145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Mesh::set_uv2(UnityEngine.Vector2[])
 extern "C"  void Mesh_set_uv2_m1515914022 (Mesh_t4241756145 * __this, Vector2U5BU5D_t4024180168* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Mesh::set_colors(UnityEngine.Color[])
+extern "C"  void Mesh_set_colors_m1701609395 (Mesh_t4241756145 * __this, ColorU5BU5D_t2441545636* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color32[] UnityEngine.Mesh::get_colors32()
 extern "C"  Color32U5BU5D_t2960766953* Mesh_get_colors32_m192356802 (Mesh_t4241756145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Mesh::SetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3>)

@@ -21,6 +21,7 @@ ExportedObj/
 
 # IOS libraries
 libiPhone-lib.a
+iOS_app/Data/
 
 # Unity3D generated meta files
 *.pidb.meta
